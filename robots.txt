@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: 
+
+User-agent: Yahoo! Slurp
+
+Sitemap: https://www.webstac.in/sitemap.xml

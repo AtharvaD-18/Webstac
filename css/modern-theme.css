@@ -1,0 +1,34 @@
+/* --- GLOBAL MODERNIZATION RESET --- */
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #FAFAFC !important; /* Soft, modern off-white */
+    color: #4A5568 !important; /* Softer text color for readability */
+}
+
+h1, h2, h3, h4, h5, h6, .page-title h1, .fusion-title h2 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    color: #1A202C !important; /* Deep navy/black for high contrast */
+    letter-spacing: -0.5px;
+}
+
+/* Remove the legacy Avada 1px borders globally */
+.fusion-accordian .fusion-panel,
+.project-content .project-info .project-info-box,
+.grid-layout .post .post-wrapper {
+    border: none !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 8px !important; /* Modern rounded corners */
+}
+
+/* Modernize the primary corporate blue color (replacing the old green #a0ce4e) */
+a {
+    color: #0056b3 !important; /* Professional EHS Blue */
+    text-decoration: none !important;
+}
+
+/* Increase Global Spacing (Breathing Room) */
+#main {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
