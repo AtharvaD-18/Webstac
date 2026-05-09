@@ -31,7 +31,21 @@
 	
 					<div class="header-wrapper">
 				<div class="header-v1">
-	<header id="header">
+	
+<div class="top-contact-bar" style="background-color: #013953; color: white; padding: 8px 0; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="display: flex; justify-content: flex-end; align-items: center; padding: 0 50px;">
+        <div style="margin-right: 25px; display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-phone" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="tel:+918108664360" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">+91 81086 64360</a>
+        </div>
+        <div style="display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
+        </div>
+    </div>
+</div>
+
+<header id="header">
 		<div class="avada-row" style="padding-top:0px;padding-bottom:0px;" data-padding-top="0px" data-padding-bottom="0px">
 			<div class="logo" data-margin-right="0px" data-margin-left="0px" data-margin-top="23px" data-margin-bottom="23px" style="margin-right:0px;margin-top:23px;margin-left:0px;margin-bottom:23px;">
 				<a href="index.php">
@@ -102,7 +116,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/legal_hero.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
@@ -111,14 +125,22 @@
 				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>Legal Assessment</li></ul>			</div>
 		</div>
 	</div>
+    <div class="blue-contact-banner-container">
+        <div class="blue-contact-banner">
+            <h4>FOR MORE INFORMATION GET IN TOUCH WITH US</h4>
+            <a href="contactus.php" class="btn-orange">Quick Enquiry</a>
+        </div>
+    </div>
+
 	
 
 	<div class='clearfix' style='margin:0 auto; width:90%'>
 	
-	
-	<div class="modern-card" style="width:100%; box-sizing: border-box;">
+	<!-- Two column layout -->
+	<div style="display:flex; gap:30px; align-items:flex-start; flex-wrap:wrap; margin-top:20px;">
+
+	<div class="modern-card" style="flex:1; min-width:55%; box-sizing: border-box;">
 	    <br>
-		<br>
 		<strong style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;"> 
 		DUE DILIGENCE OF COMPLIANCE</strong>
 		<p><span style="color: #000000;">
@@ -162,7 +184,69 @@
 		<li><strong><span style="color: #013953;">Safety, Occupational Health & Environment</span></strong></li>
 		</ul>
 	</div>
+
+	<!-- Image Column -->
+	<div style="flex:0 0 35%; min-width:300px; position:sticky; top:100px;">
+		<img src="images/legal_compliance.png" alt="Legal Compliance Assessment" style="width:100%; border-radius:16px; box-shadow: 0 12px 40px rgba(0,0,0,0.12); display:block;">
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:24px; margin-top:20px;">
+			<h4 style="color:white; font-family:'Poppins',sans-serif; font-size:16px; margin:0 0 12px;"><i class="fa fa-phone" style="color:#10b981; margin-right:8px;"></i>Need a Consultation?</h4>
+			<p style="color:#94a3b8; font-size:13px; margin:0 0 16px; line-height:1.6;">Our legal compliance experts are ready to help your organisation.</p>
+			<a href="contactus.php" style="background:#10b981; color:white; padding:10px 24px; border-radius:6px; font-weight:600; text-decoration:none; font-family:'Inter',sans-serif; font-size:13px; display:inline-block;">Contact Us &rarr;</a>
+		</div>
+	</div>
+
+	</div><!-- End flex wrapper -->
 	
+	<!-- Highlight Stats Section -->
+	<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:24px; margin:30px 0;">
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:30px; text-align:center; color:white;">
+			<div style="font-size:36px; font-weight:800; color:#10b981;">14+</div>
+			<div style="font-size:14px; color:#94a3b8; margin-top:6px;">Industry Leaders Served</div>
+		</div>
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:30px; text-align:center; color:white;">
+			<div style="font-size:36px; font-weight:800; color:#10b981;">5+</div>
+			<div style="font-size:14px; color:#94a3b8; margin-top:6px;">Legal Segments Covered</div>
+		</div>
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:30px; text-align:center; color:white;">
+			<div style="font-size:36px; font-weight:800; color:#10b981;">20+</div>
+			<div style="font-size:14px; color:#94a3b8; margin-top:6px;">Years of Expertise</div>
+		</div>
+	</div>
+
+	<!-- Why Choose Us Section -->
+	<div style="background: linear-gradient(135deg, rgba(2,114,167,0.05), rgba(16,185,129,0.05)); border-radius:16px; padding:40px; margin:30px 0;">
+		<h2 style="color:#0f172a; font-family:'Poppins',sans-serif; font-size:24px; margin-bottom:24px;"><span style="color:#0272a7 !important; font-size:24px !important;">Why Choose Our Legal Assessment?</span></h2>
+		<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
+			<div style="display:flex; align-items:flex-start; gap:14px; background:white; padding:20px; border-radius:10px; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="min-width:44px; height:44px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:10px; display:flex; align-items:center; justify-content:center;"><i class="fa fa-shield" style="color:white; font-size:18px;"></i></div>
+				<div><strong style="color:#0f172a; font-size:15px;">Compliance Assurance</strong><p style="color:#64748b; font-size:13px; margin:6px 0 0; line-height:1.6;">Systematic identification & correction of regulatory gaps under Companies Act 2013.</p></div>
+			</div>
+			<div style="display:flex; align-items:flex-start; gap:14px; background:white; padding:20px; border-radius:10px; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="min-width:44px; height:44px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:10px; display:flex; align-items:center; justify-content:center;"><i class="fa fa-gavel" style="color:white; font-size:18px;"></i></div>
+				<div><strong style="color:#0f172a; font-size:15px;">Reduced Legal Liability</strong><p style="color:#64748b; font-size:13px; margin:6px 0 0; line-height:1.6;">Proactive risk mitigation through expert-led due diligence assessments.</p></div>
+			</div>
+			<div style="display:flex; align-items:flex-start; gap:14px; background:white; padding:20px; border-radius:10px; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="min-width:44px; height:44px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:10px; display:flex; align-items:center; justify-content:center;"><i class="fa fa-building" style="color:white; font-size:18px;"></i></div>
+				<div><strong style="color:#0f172a; font-size:15px;">Corporate Image</strong><p style="color:#64748b; font-size:13px; margin:6px 0 0; line-height:1.6;">Demonstrate law-abiding operations to stakeholders, partners & regulators.</p></div>
+			</div>
+			<div style="display:flex; align-items:flex-start; gap:14px; background:white; padding:20px; border-radius:10px; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="min-width:44px; height:44px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:10px; display:flex; align-items:center; justify-content:center;"><i class="fa fa-users" style="color:white; font-size:18px;"></i></div>
+				<div><strong style="color:#0f172a; font-size:15px;">Expert Panel</strong><p style="color:#64748b; font-size:13px; margin:6px 0 0; line-height:1.6;">Specialists across Labour, Taxation, Import/Export, Safety & Environment law.</p></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CTA Panel -->
+	<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:16px; padding:40px; margin:20px 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+		<div>
+			<h3 style="color:white; font-family:'Poppins',sans-serif; font-size:22px; margin:0 0 8px;">Ready to ensure your organisation is fully compliant?</h3>
+			<p style="color:#94a3b8; font-size:14px; margin:0;">Our team of legal compliance experts is ready to assist you.</p>
+		</div>
+		<a href="contactus.php" style="background:#10b981; color:white; padding:14px 32px; border-radius:8px; font-weight:600; text-decoration:none; font-family:'Inter',sans-serif; font-size:15px; white-space:nowrap; box-shadow: 0 4px 15px rgba(16,185,129,0.3);">Get in Touch &rarr;</a>
+	</div>
+
+	</div>
+
 	<!--<div  style="float:left;width:40%">			
 
 		</div> -->

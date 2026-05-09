@@ -186,7 +186,7 @@ body {
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    background: linear-gradient(135deg, #a3e635 0%, #14b8a6 100%);
+    background: #0f172a;
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
     min-height: 480px; /* Made slightly taller */
     margin-top: 60px; /* Pushed down to align perfectly with the h1 heading, ignoring the badge */
@@ -198,8 +198,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.4;
-    mix-blend-mode: multiply;
+    opacity: 1;
+    mix-blend-mode: normal;
 }
 .hero-image-overlay {
     position: absolute;
@@ -378,7 +378,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
                     <div class="header-wrapper">
                 <div class="header-v1">
-    <header id="header">
+    
+<div class="top-contact-bar" style="background-color: #013953; color: white; padding: 8px 0; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="display: flex; justify-content: flex-end; align-items: center; padding: 0 50px;">
+        <div style="margin-right: 25px; display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-phone" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="tel:+918108664360" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">+91 81086 64360</a>
+        </div>
+        <div style="display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
+        </div>
+    </div>
+</div>
+
+<header id="header">
         <div class="avada-row" style="padding-top:0px;padding-bottom:0px;" data-padding-top="0px" data-padding-bottom="0px">
             <div class="logo" data-margin-right="0px" data-margin-left="0px" data-margin-top="0px" data-margin-bottom="23px" style="margin-right:0px;margin-top:5px;margin-left:0px;margin-bottom:23px;">
                 <a href="index.php">
@@ -469,36 +483,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 
-                <div class="hero-image-card">
+                <div class="hero-image-card" style="border-radius:16px; overflow:hidden; aspect-ratio:4/3; position:relative; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
                     <style>
-                        @keyframes heroCrossfade {
-                            0% { opacity: 0; }
-                            10% { opacity: 0.4; }
-                            25% { opacity: 0.4; }
-                            35% { opacity: 0; }
-                            100% { opacity: 0; }
-                        }
                         .hero-image-card img.slider-img {
-                            animation: heroCrossfade 16s infinite;
+                            position: absolute;
+                            top: 0; left: 0;
+                            width: 100%; height: 100%;
+                            object-fit: cover;
                             opacity: 0;
+                            animation: heroCleanFade 24s infinite;
+                        }
+                        @keyframes heroCleanFade {
+                            0%   { opacity: 0; }
+                            4%   { opacity: 1; }
+                            16%  { opacity: 1; }
+                            20%  { opacity: 0; }
+                            100% { opacity: 0; }
                         }
                         .hero-image-card img.img1 { animation-delay: 0s; }
                         .hero-image-card img.img2 { animation-delay: 4s; }
                         .hero-image-card img.img3 { animation-delay: 8s; }
                         .hero-image-card img.img4 { animation-delay: 12s; }
+                        .hero-image-card img.img5 { animation-delay: 16s; }
+                        .hero-image-card img.img6 { animation-delay: 20s; }
                     </style>
-                    <img src="images/senselegal.jpg" class="slider-img img1" alt="SEnSE Legal">
-                    <img src="images/compliancebanner.png" class="slider-img img2" alt="Compliance">
-                    <img src="images/infoincibanner.jpg" class="slider-img img3" alt="Infoinci">
-                    <img src="images/Hazop.jpg" class="slider-img img4" alt="Hazop">
-                    <div class="hero-image-overlay">
-                        <h3>On-ground HSE Excellence</h3>
-                        <ul>
-                            <li>OSH code-aligned workflows</li>
-                            <li>Real-time incident reporting</li>
-                            <li>Empowering safety leaders on the floor</li>
-                        </ul>
-                    </div>
+                    <img src="images/hero_slide1.png" class="slider-img img1" alt="Compliance Dashboard">
+                    <img src="images/hero_slide2.png" class="slider-img img2" alt="Industrial Safety">
+                    <img src="images/hero_slide3.png" class="slider-img img3" alt="Legal Compliance Review">
+                    <img src="images/hero_slide4.png" class="slider-img img4" alt="Chemical Plant">
+                    <img src="images/hero_slide5.png" class="slider-img img5" alt="Safety Audit Meeting">
+                    <img src="images/hero_slide6.png" class="slider-img img6" alt="Environmental Sustainability">
                 </div>
             </div>
         </div>

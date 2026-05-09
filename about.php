@@ -30,7 +30,21 @@
 	
 					<div class="header-wrapper">
 				<div class="header-v1">
-	<header id="header">
+	
+<div class="top-contact-bar" style="background-color: #013953; color: white; padding: 8px 0; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="display: flex; justify-content: flex-end; align-items: center; padding: 0 50px;">
+        <div style="margin-right: 25px; display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-phone" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="tel:+918108664360" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">+91 81086 64360</a>
+        </div>
+        <div style="display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
+        </div>
+    </div>
+</div>
+
+<header id="header">
 		<div class="avada-row" style="padding-top:0px;padding-bottom:0px;" data-padding-top="0px" data-padding-bottom="0px">
 			<div class="logo" data-margin-right="0px" data-margin-left="0px" data-margin-top="23px" data-margin-bottom="23px" style="margin-right:0px;margin-top:23px;margin-left:0px;margin-bottom:23px;">
 				<a href="index.php">
@@ -102,7 +116,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1920&q=80');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
@@ -111,6 +125,13 @@
 				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>About Us</li></ul>			</div>
 		</div>
 	</div>
+    <div class="blue-contact-banner-container">
+        <div class="blue-contact-banner">
+            <h4>FOR MORE INFORMATION GET IN TOUCH WITH US</h4>
+            <a href="contactus.php" class="btn-orange">Quick Enquiry</a>
+        </div>
+    </div>
+
 	
 
 	<div class='clearfix' style='margin:0 auto; width:90%'>
@@ -165,14 +186,65 @@
 		</span></p>
 		
 		
-		
-		
+			</div>
+	
+	<!-- Highlight Stats Section -->
+	<div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:20px; margin:30px 0;">
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
+			<div style="font-size:32px; font-weight:800; color:#10b981;">100+</div>
+			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Companies Served</div>
+		</div>
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
+			<div style="font-size:32px; font-weight:800; color:#10b981;">2003</div>
+			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Founded</div>
+		</div>
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
+			<div style="font-size:32px; font-weight:800; color:#10b981;">4</div>
+			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Software Packages</div>
+		</div>
+		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
+			<div style="font-size:32px; font-weight:800; color:#10b981;">ICC</div>
+			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Ex-Director, Indian Chemical Council</div>
+		</div>
+	</div>
+
+	<!-- Why Webstac Section -->
+	<div style="background: linear-gradient(135deg, rgba(2,114,167,0.05), rgba(16,185,129,0.05)); border-radius:16px; padding:40px; margin:30px 0;">
+		<h2 style="color:#0f172a; font-family:'Poppins',sans-serif; font-size:24px; margin-bottom:24px;"><span style="color:#0272a7 !important; font-size:24px !important;">Why Choose Webstac?</span></h2>
+		<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px;">
+			<div style="background:white; padding:24px; border-radius:12px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-laptop" style="color:white; font-size:22px;"></i></div>
+				<strong style="color:#0f172a; font-size:16px; display:block; margin-bottom:8px;">User-Friendly Software</strong>
+				<p style="color:#64748b; font-size:13px; line-height:1.6; margin:0;">Intuitive, web-based tools built for Indian compliance procedures and workflows.</p>
+			</div>
+			<div style="background:white; padding:24px; border-radius:12px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-trophy" style="color:white; font-size:22px;"></i></div>
+				<strong style="color:#0f172a; font-size:16px; display:block; margin-bottom:8px;">Industry Expertise</strong>
+				<p style="color:#64748b; font-size:13px; line-height:1.6; margin:0;">Led by a retired Joint Director of Industrial Safety with decades of field experience.</p>
+			</div>
+			<div style="background:white; padding:24px; border-radius:12px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
+				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-handshake-o" style="color:white; font-size:22px;"></i></div>
+				<strong style="color:#0f172a; font-size:16px; display:block; margin-bottom:8px;">Trusted by MNCs</strong>
+				<p style="color:#64748b; font-size:13px; line-height:1.6; margin:0;">Reliance, Tata Power, Clariant, Lanxess, BASF and many more trust Webstac solutions.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- CTA Panel -->
+	<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:16px; padding:40px; margin:20px 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+		<div>
+			<h3 style="color:white; font-family:'Poppins',sans-serif; font-size:22px; margin:0 0 8px;">Partner with India's leading HSE compliance experts</h3>
+			<p style="color:#94a3b8; font-size:14px; margin:0;">Value-for-money, robust and reliable solutions tailored to Indian regulations.</p>
+		</div>
+		<a href="contactus.php" style="background:#10b981; color:white; padding:14px 32px; border-radius:8px; font-weight:600; text-decoration:none; font-family:'Inter',sans-serif; font-size:15px; white-space:nowrap; box-shadow: 0 4px 15px rgba(16,185,129,0.3);">Contact Us &rarr;</a>
+	</div>
+
 	</div>
 	
 	<!--<div  style="float:left;width:40%">			
 <aside style='padding:0 0 0 30px' class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope="" >
 	<section>
-				
+			
 			<ul style='list-style:none'>
 			<li style="color:#0aafd8"><h2 style='margin:10px;color: #0aafd8; font-weight:normal;'>CONTACT US</h2></li>
 			<li style="color:#0aafd8"><img src="images/mobile_icon.png"  margin="8px" padding-top="5px"> +91(222) 533-7774</li>

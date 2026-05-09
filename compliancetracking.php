@@ -33,7 +33,21 @@
 	
 					<div class="header-wrapper">
 				<div class="header-v1">
-	<header id="header">
+	
+<div class="top-contact-bar" style="background-color: #013953; color: white; padding: 8px 0; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="display: flex; justify-content: flex-end; align-items: center; padding: 0 50px;">
+        <div style="margin-right: 25px; display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-phone" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="tel:+918108664360" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">+91 81086 64360</a>
+        </div>
+        <div style="display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
+            <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
+            <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
+        </div>
+    </div>
+</div>
+
+<header id="header">
 		<div class="avada-row" style="padding-top:0px;padding-bottom:0px;" data-padding-top="0px" data-padding-bottom="0px">
 			<div class="logo" data-margin-right="0px" data-margin-left="0px" data-margin-top="23px" data-margin-bottom="23px" style="margin-right:0px;margin-top:23px;margin-left:0px;margin-bottom:23px;">
 				<a href="index.php">
@@ -104,7 +118,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
@@ -113,6 +127,13 @@
 				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>3 S</li></ul>			</div>
 		</div>
 	</div>
+    <div class="blue-contact-banner-container">
+        <div class="blue-contact-banner">
+            <h4>FOR MORE INFORMATION GET IN TOUCH WITH US</h4>
+            <a href="contactus.php" class="btn-orange">Quick Enquiry</a>
+        </div>
+    </div>
+
 	
 
 	<div class='clearfix' style='margin:0 auto; width:90%'>
@@ -198,9 +219,9 @@
 			<li style="color:#0aafd8"></li>
 			<li style='margin:20px'>
 			<a style='color:#fff; border-radius: 6px;font-weight: 400;padding: 7px 10px 7px 10px;border: solid #0066cc 1px;'
-			class="button" href="images/3S-(Safety_Support_System).pdf">Download Brochure</a>
+			class="button" href="images/3S_(Safety_Support_System).pdf">Download Brochure</a>
 			</li>
-			<li style='margin:30px 20px 30px 20px'><img src="images/3S_Safety_Support_System.jpg" width="300"></li>
+			<li style='margin:30px 20px 30px 20px'><img src="images/3S_Safety_Support_System.jpg" alt="3S Safety Support System Brochure Cover" style="width:100%; max-width:400px; border-radius:8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);"></li>
 
 			<li style='margin:20px'>		
 			</li>
