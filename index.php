@@ -628,6 +628,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="avada-row">
 
 
+<p style="text-align:center; color:#6b7280; font-size:15px; margin-bottom:6px; margin-top:10px;">Trusted by leading businesses across India</p>
+<h1 style="text-align:center; margin-bottom:10px; margin-top:0; font-size:2rem;"><span style="color:#0272a7;"><strong>Our Clients</strong></span></h1>
+
 <div class="fusion-clients-slider clientslider-container picture-size-auto">
 <div class="es-carousel-wrapper fusion-carousel-small clients-carousel">
 <div class="es-carousel"><ul>

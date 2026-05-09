@@ -127,15 +127,14 @@
 	<div class="modern-card" style="float:left; width:60%; box-sizing: border-box;">
 	    <br>
 		<br>
-		<strong><span style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;"> 
-		SEnSE (Safety and Environment Super Encyclopaedia)_Legal Package</span></strong><br><br>
+		<strong style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;">
+		SEnSE (Safety and Environment Super Encyclopaedia)_Legal Package</strong><br><br>
 		<p><span style="color: #000000;">
 		SEnSE is an intelligently hyperlinked Wikipedia on Indian Health, Safety & Environment Legislations, running in to around 40000+ pages. It comes with a Commentary, in lucid English for Factories Act and State Factories Rules. 
 		It has many other features.  
 		</span></p>
-		<strong><span style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;">
-		Main features - 
-		</span></strong>
+		
+		Main features -
 		<p></p>
 		<ul>
 		<li><strong><span style="color: #013953;">Web Library – HSE legislation across the country, hyper linked in user friendly manner.</span></strong></li>

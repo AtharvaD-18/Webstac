@@ -284,6 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav.nav-holder {
   margin-top: 0 !important;
+  margin-left: 50px !important;
 }
 
 .navigation.menu {
@@ -316,16 +317,37 @@ nav.nav-holder {
   color: var(--color-brand-green) !important;
 }
 
-/* Green Demo Button in Nav (if added) */
-.nav-demo-btn {
-  background: var(--color-brand-green) !important;
-  color: var(--text-white) !important;
-  border-radius: 50px !important;
-  padding: 8px 20px !important;
-  margin-left: 15px;
+/* Request Demo button in nav */
+li:has(.nav-demo-btn) {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
 }
+.navigation.menu li a.nav-demo-btn,
+.nav-demo-btn {
+  background: #0272a7 !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 9px 24px !important;
+  margin-left: 10px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.4px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  line-height: normal !important;
+  height: auto !important;
+  width: auto !important;
+  transition: all 0.25s ease !important;
+  white-space: nowrap !important;
+  box-shadow: none !important;
+}
+.navigation.menu li a.nav-demo-btn:hover,
 .nav-demo-btn:hover {
-  background: var(--color-brand-green-hover) !important;
+  background: #025f8e !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
 }
 
 /* Modern Hero Section - Lovable Dark Theme */
@@ -611,6 +633,24 @@ div[id="main"] {
   background: rgba(255, 255, 255, 0.97) !important;
 }
 
+/* --- Card heading gradient underline --- */
+.modern-card > strong {
+  position: relative !important;
+  display: inline-block !important;
+  padding-bottom: 12px !important;
+}
+
+.modern-card > strong::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 50px !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #0272a7, #10b981) !important;
+  border-radius: 2px !important;
+}
+
 .modern-card:hover {
   transform: translateY(-3px) !important;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08) !important;
@@ -756,6 +796,12 @@ p[style*="font-style:italic"] {
 /* --- Navigation hover underline effect --- */
 .navigation.menu > li > a {
   position: relative !important;
+  border-top: none !important;
+}
+
+#nav ul .current-menu-item > a,
+#sticky-nav ul .current-menu-item > a {
+  border-color: transparent !important;
 }
 
 .navigation.menu > li > a::after {
@@ -802,14 +848,6 @@ p[style*="font-style:italic"] {
   width: 8px !important;
 }
 
-/* --- Header thin accent gradient line at the very top --- */
-.header-wrapper::before {
-  content: "" !important;
-  display: block !important;
-  width: 100% !important;
-  height: 3px !important;
-  background: linear-gradient(90deg, #0272a7, #10b981, #0272a7) !important;
-}
 
 /* --- Page title h1 text-shadow for depth --- */
 .page-title-container h1.entry-title {
@@ -1138,16 +1176,18 @@ img[alt="farmson"],
   font-size: 12px !important;
 }
 
+
 /* --- Gradient accent on inner page content strong headings --- */
 strong[style*="color: #0272a7"] {
   position: relative !important;
-  padding-bottom: 8px !important;
+  display: inline-block !important;
+  padding-bottom: 16px !important;
 }
 
 strong[style*="color: #0272a7"]::after {
   content: "" !important;
   position: absolute !important;
-  bottom: 0 !important;
+  bottom: 4px !important;
   left: 0 !important;
   width: 40px !important;
   height: 2px !important;
@@ -2086,4 +2126,61 @@ a.to-top:hover {
   .blue-contact-banner::after {
     display: none !important;
   }
+}
+
+/* ==========================================================================
+   BACKGROUND CONTINUITY — subtle brand-tinted fills for white-space gaps
+   ========================================================================== */
+
+/* Body: richer fixed background — low-opacity blue/green ellipses over a
+   cool-grey base. Increases from the previous ~4% to ~6-7% opacity so the
+   tint is perceptible without being garish. */
+body {
+  background-color: #eef3f9 !important;
+  background-image:
+    radial-gradient(ellipse at 10% 25%, rgba(2, 114, 167, 0.07) 0%, transparent 45%),
+    radial-gradient(ellipse at 88% 12%, rgba(16, 185, 129, 0.06) 0%, transparent 45%),
+    radial-gradient(ellipse at 55% 75%, rgba(2, 114, 167, 0.05) 0%, transparent 50%),
+    linear-gradient(175deg, #e8f0f8 0%, #f5f9fc 100%) !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/* Wrapper: a continuous top-to-bottom branded cool-blue wash */
+#wrapper {
+  background: linear-gradient(180deg,
+    #e8f2f9 0%,
+    #f0f7fc 8%,
+    #f5fbf9 30%,
+    #f8fcf9 55%,
+    #f3f8fc 80%,
+    #eef4fa 100%
+  ) !important;
+}
+
+/* Reduce the 60 px top/bottom gap in #main to a modest 28 px —
+   those large gaps are the most visible plain-white stretches. */
+#main,
+div[id="main"] {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+/* Our Packages / Our Services section:
+   Give it an explicit light blue-green wash instead of transparent
+   (which fell back to the plain body colour). */
+.section-radial-bg {
+  background: linear-gradient(160deg, #edf5fb 0%, #f3fbf7 50%, #edf5fb 100%) !important;
+  position: relative !important;
+}
+
+/* Expand the radial glow overlay to cover the full section height
+   (was capped at 700 px — both "Packages" + "Services" cards needed more). */
+.section-radial-bg::before {
+  height: 100% !important;
+  max-width: 100% !important;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(2, 114, 167, 0.07) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 50% 10%, rgba(23, 187, 125, 0.06) 0%, transparent 55%) !important;
 }
