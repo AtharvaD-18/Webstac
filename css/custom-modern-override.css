@@ -290,7 +290,6 @@ nav.nav-holder {
 .navigation.menu {
   display: flex !important;
   align-items: center !important;
-  margin: 0 !important;
 }
 
 .navigation.menu li a {
@@ -299,7 +298,7 @@ nav.nav-holder {
   font-weight: 500 !important;
   color: var(--text-main) !important;
   transition: all var(--transition-fast);
-  padding: 8px 10px !important;
+  padding: 8px 6px !important;
   white-space: nowrap !important;
 }
 
