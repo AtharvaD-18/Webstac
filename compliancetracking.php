@@ -83,34 +83,19 @@
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="3spackage.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="sense.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE_L</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="infoinci.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BBS(Behaviour Based Safety)</a></li>
+	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BEST (Behaviour Ensuring Safety with Tracker)</a></li>
 	</ul>
 </li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item fusion-dropdown-menu"><a style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Services <span class="caret"></span></a>
 <ul class="sub-menu">
-	
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="hseaudit.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">HSE Audit and Improvement in Safety Culture</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="legalassessment.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a></li>
+	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
 	</ul>
 </li>
-
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item fusion-dropdown-menu"><a style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Download Brochure<span class="caret"></span></a>
-<ul class="sub-menu">
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">All Packages</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE Legal</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-
-</ul>
-</li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials </a>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us </a>
-<!--<ul class="sub-menu">
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="contactus.php">Location</a></li>
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="buisnesspartner.php">Business Partner / Consultant</a></li>
-</ul>-->
-</li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 					</ul>		</nav>
 				<div class="mobile-nav-holder"></div>
 			</div>
@@ -222,8 +207,27 @@
 			class="button" href="images/3S_(Safety_Support_System).pdf">Download Brochure</a>
 			</li>
 			<li style='margin:30px 20px 30px 20px'><img src="images/3S_Safety_Support_System.jpg" alt="3S Safety Support System Brochure Cover" style="width:100%; max-width:400px; border-radius:8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);"></li>
-
-			<li style='margin:20px'>		
+			<li style='margin:16px 0 20px 0'>
+			<div style="background: linear-gradient(160deg, #0d1117 0%, #161b27 60%, #1a2035 100%); border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08);">
+				<div style="padding: 20px 22px 16px 22px; display: flex; align-items: center; gap: 14px; background: linear-gradient(90deg, rgba(255,0,0,0.08) 0%, transparent 100%); border-bottom: 1px solid rgba(255,255,255,0.07);">
+					<div style="width: 52px; height: 52px; background: linear-gradient(135deg, #ff2222 0%, #cc0000 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 8px 24px rgba(255,0,0,0.4);">
+						<i class="fa fa-play" style="color: white; font-size: 20px; margin-left: 4px;"></i>
+					</div>
+					<div>
+						<div style="color: #ffffff; font-weight: 700; font-size: 17px; font-family: 'Inter', sans-serif; letter-spacing: 0.2px; line-height: 1.2;">Watch 3S in Action</div>
+						<div style="color: #64748b; font-size: 12px; font-family: 'Inter', sans-serif; margin-top: 4px;">Product Demo Video</div>
+					</div>
+				</div>
+				<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+					<iframe src="https://www.youtube.com/embed/L5liNzSMQCU" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				</div>
+				<div style="padding: 13px 22px; background: rgba(255,0,0,0.05); border-top: 1px solid rgba(255,255,255,0.06); display:flex; align-items:center; gap:8px;">
+					<i class="fa fa-youtube-play" style="color: #ff4444; font-size: 15px;"></i>
+					<span style="color: #94a3b8; font-size: 12px; font-family: 'Inter', sans-serif; font-weight: 500;">Click to watch the full product demo</span>
+				</div>
+			</div>
+			</li>
+			<li style='margin:20px'>
 			</li>
 
 			</ul></a><br>

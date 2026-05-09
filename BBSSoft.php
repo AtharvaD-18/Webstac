@@ -83,34 +83,19 @@
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="3spackage.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="sense.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE_L</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="infoinci.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BBS(Behaviour Based Safety)</a></li>
+	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BEST (Behaviour Ensuring Safety with Tracker)</a></li>
 	</ul>
 </li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item fusion-dropdown-menu"><a style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Services <span class="caret"></span></a>
 <ul class="sub-menu">
-	
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="hseaudit.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">HSE Audit and Improvement in Safety Culture</a></li>
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="legalassessment.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a></li>
+	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
 	</ul>
 </li>
-
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item fusion-dropdown-menu"><a style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Download Brochure<span class="caret"></span></a>
-<ul class="sub-menu">
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">All Packages</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE Legal</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item fusion-dropdown-submenu"  ><a href="" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-
-</ul>
-</li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials </a>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us </a>
-<!--<ul class="sub-menu">
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="contactus.php">Location</a></li>
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="buisnesspartner.php">Business Partner / Consultant</a></li>
-</ul>-->
-</li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 					</ul>		</nav>
 				<div class="mobile-nav-holder"></div>
 			</div>
@@ -122,9 +107,9 @@
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
-											<h1 class="entry-title">BBS (Behaviour Based Safety)</h1>
+											<h1 class="entry-title">BEST (Behaviour Ensuring Safety with Tracker)</h1>
 																				</div>
-				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>BBS</li></ul>			</div>
+				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>BEST</li></ul>			</div>
 		</div>
 	</div>
     <div class="blue-contact-banner-container">
@@ -142,23 +127,23 @@
 	<div class="modern-card" style="float:left; width:60%; box-sizing: border-box;">
 	    <br>
 		<br>
-		<strong style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;"> 
-		BBS (Behaviour Based Safety) Software</strong>
+		<strong style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;">
+		BEST (Behaviour Ensuring Safety with Tracker) Software</strong>
 		<p><strong><span style="color: #013953;">
-		Complete solution for organizations enhance safety culture by tracking observations, identifying risk patterns, and driving proactive safety improvements through data-driven insights.
+		Complete solution for organizations to enhance safety culture by tracking observations, identifying risk patterns, and driving proactive safety improvements through data-driven insights.
 		</span></strong></p>
 		<p><strong><span style="color: #013953;">
 		Main features -
 		</span></strong></p>
 		<p></p>
 		<ul>
-		<li><strong><span style="color: #013953;">Ready Menu for BBS observations
-(For unsafe behavior & situations)
+		<li><strong><span style="color: #013953;">Ready Menu for BEST observations
+(For unsafe behavior &amp; situations)
 followed by Spot-correction as per menu.</span></strong></li>
 		<li><strong><span style="color: #013953;">Realtime Dashboard to show count of Safe,
-At-Risk behaviors & Spot-Corrections.</span></strong></li>
+At-Risk behaviors &amp; Spot-Corrections.</span></strong></li>
 		<li><strong><span style="color: #013953;">Configurable target setting.</span></strong></li>
-		<li><strong><span style="color: #013953;">For SENIORS reports of BBS in graphical form.</span></strong></li>
+		<li><strong><span style="color: #013953;">For SENIORS reports of BEST in graphical form.</span></strong></li>
 		<li><strong><span style="color: #013953;">Comparison across company/sites/plants,
 possible easily.</span></strong></li>
 		
@@ -175,9 +160,9 @@ possible easily.</span></strong></li>
 			<li style="color:#0aafd8"></li>
 			<li style='margin:20px'>
 			<a style='color:#fff; border-radius: 6px;font-weight: 400;padding: 7px 10px 7px 10px;border: solid #0066cc 1px;'
-			class="button" href="images/Final_BBS_flyer.pdf">Download Brochure</a>
+			class="button" href="images/BEST_flyer.pdf">Download Brochure</a>
 			</li>
-			<li style='margin:30px 20px 30px 20px'><img src="images/Final_BBS_flyer.jpg" width="500"></li>
+			<li style='margin:30px 20px 30px 20px'><img src="images/BEST_flyer.png" width="500"></li>
 
 			<li style='margin:20px'>		
 			</li>

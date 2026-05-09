@@ -42,46 +42,6 @@ body {
     background-color: #f7fbf8; 
 }
 
-/* Base Styles */
-#popupOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 99999;
-}
-
-#popupBox {
-    position: relative;
-    background: #fff;
-    padding: 10px;
-    border-radius: 8px;
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#popupBox img {
-    max-width: 900px;   
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
-#closePopup {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #000;
-}
 
 /* NEW RADIAL BACKGROUND */
 .section-radial-bg {
@@ -105,14 +65,14 @@ body {
 /* MODERN HERO SECTION ALIGNMENT & STYLING */
 .modern-hero {
     background-color: #0f172a; /* Dark blue/teal from reference */
-    padding: 80px 0;
+    padding: 40px 0;
     color: #ffffff;
 }
 .hero-grid {
     display: flex !important;
-    flex-direction: row !important; /* Forces side-by-side layout */
-    flex-wrap: nowrap !important; /* Strictly prevents elements from stacking */
-    align-items: flex-start;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
@@ -180,16 +140,15 @@ body {
 
 /* Picture Introduction / Card Layout */
 .hero-image-card {
-    width: 44% !important; /* Made slightly bigger */
+    width: 44% !important;
     flex: 0 0 44% !important;
-    min-width: unset !important; /* Stops theme from forcing a wrap */
+    min-width: unset !important;
     position: relative;
     border-radius: 16px;
     overflow: hidden;
     background: #0f172a;
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-    min-height: 480px; /* Made slightly taller */
-    margin-top: 60px; /* Pushed down to align perfectly with the h1 heading, ignoring the badge */
+    margin-top: 0;
 }
 .hero-image-card img {
     width: 100%;
@@ -429,23 +388,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="compliancetracking.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
     <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="sense.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE_L</a></li>
     <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="incidentmanagement.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-    <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BBS(Behaviour Based Safety)</a></li>
+    <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BEST (Behaviour Ensuring Safety with Tracker)</a></li>
     </ul>
 </li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item fusion-dropdown-menu"  ><a style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Services <span class="caret"></span></a>
 <ul class="sub-menu">
-    
-    <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="hseaudit.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">HSE Audit and Improvment</a></li>
+    <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="hseaudit.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">HSE Audit and Improvement in Safety Culture</a></li>
     <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="legalassessment.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a></li>
+    <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
     </ul>
 </li>
-
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials </a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us </a>
-</li>
-
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
-
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
                     </ul>       </nav>
                 <div class="mobile-nav-holder"></div>
             </div>
@@ -462,10 +417,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h1>Web-based <span class="highlight">statutory compliance</span>, simplified.</h1>
                     <p>Manage SHE compliance, OSH codes, audits, incidents and the full HSE legal landscape from one elegant platform &mdash; built by safety experts, for safety leaders.</p>
                     
-                    <div class="hero-buttons">
+                    <!-- <div class="hero-buttons">
                         <a href="contactus.php" class="btn-primary">Request a Demo &rarr;</a>
                         <a href="compliancetracking.php" class="btn-outline">Explore Packages</a>
-                    </div>
+                    </div> -->
                     
                     <div class="hero-stats">
                         <div class="stat-item">
@@ -483,37 +438,182 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 
-                <div class="hero-image-card" style="border-radius:16px; overflow:hidden; aspect-ratio:4/3; position:relative; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+                <div class="hero-image-card" id="heroSlider" style="border-radius:16px; overflow:hidden; position:relative; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
                     <style>
-                        .hero-image-card img.slider-img {
+                        .hero-slide-item {
+                            display: block;
+                            position: absolute;
+                            top: 0; left: 0;
+                            width: 100%; height: 100%;
+                            opacity: 0;
+                            transition: opacity 0.9s ease-in-out;
+                            pointer-events: none;
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                        .hero-slide-item.active {
+                            opacity: 1;
+                            pointer-events: auto;
+                        }
+                        .hero-slide-item img {
                             position: absolute;
                             top: 0; left: 0;
                             width: 100%; height: 100%;
                             object-fit: cover;
-                            opacity: 0;
-                            animation: heroCleanFade 24s infinite;
+                            opacity: 0.55;
                         }
-                        @keyframes heroCleanFade {
-                            0%   { opacity: 0; }
-                            4%   { opacity: 1; }
-                            16%  { opacity: 1; }
-                            20%  { opacity: 0; }
-                            100% { opacity: 0; }
+                        .hero-slide-label {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            padding: 28px 24px 22px;
+                            box-sizing: border-box;
+                            background: linear-gradient(to top, rgba(10,18,36,0.88) 0%, transparent 100%);
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
                         }
-                        .hero-image-card img.img1 { animation-delay: 0s; }
-                        .hero-image-card img.img2 { animation-delay: 4s; }
-                        .hero-image-card img.img3 { animation-delay: 8s; }
-                        .hero-image-card img.img4 { animation-delay: 12s; }
-                        .hero-image-card img.img5 { animation-delay: 16s; }
-                        .hero-image-card img.img6 { animation-delay: 20s; }
+                        .hero-slide-badge {
+                            display: inline-block;
+                            padding: 5px 16px;
+                            border-radius: 20px;
+                            font-size: 13px;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            width: fit-content;
+                        }
+                        .hero-slide-badge.badge-package {
+                            background-color: #17bb7d;
+                            color: #ffffff;
+                        }
+                        .hero-slide-badge.badge-service {
+                            background-color: #0272a7;
+                            color: #ffffff;
+                        }
+                        .hero-slide-name {
+                            color: #ffffff;
+                            font-size: 1.65rem;
+                            font-weight: 800;
+                            line-height: 1.25;
+                            text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+                            margin: 0;
+                            letter-spacing: 0.01em;
+                        }
+                        /* Dot indicators */
+                        .hero-slide-dots {
+                            position: absolute;
+                            top: 14px;
+                            right: 16px;
+                            display: flex;
+                            gap: 7px;
+                            z-index: 10;
+                        }
+                        .hero-slide-dot {
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background: rgba(255,255,255,0.35);
+                            cursor: pointer;
+                            transition: background 0.3s, transform 0.3s;
+                        }
+                        .hero-slide-dot.active {
+                            background: #17bb7d;
+                            transform: scale(1.3);
+                        }
                     </style>
-                    <img src="images/hero_slide1.png" class="slider-img img1" alt="Compliance Dashboard">
-                    <img src="images/hero_slide2.png" class="slider-img img2" alt="Industrial Safety">
-                    <img src="images/hero_slide3.png" class="slider-img img3" alt="Legal Compliance Review">
-                    <img src="images/hero_slide4.png" class="slider-img img4" alt="Chemical Plant">
-                    <img src="images/hero_slide5.png" class="slider-img img5" alt="Safety Audit Meeting">
-                    <img src="images/hero_slide6.png" class="slider-img img6" alt="Environmental Sustainability">
+
+                    <!-- Slide 1: 3S Safety Support System -->
+                    <a href="compliancetracking.php" class="hero-slide-item active">
+                        <img src="images/hero_slide1.png" alt="Compliance Dashboard">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-package">Package</span>
+                            <p class="hero-slide-name">3S — Safety Support System</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 2: HSE Audit -->
+                    <a href="hseaudit.php" class="hero-slide-item">
+                        <img src="images/hero_slide2.png" alt="Industrial Safety">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-service">Service</span>
+                            <p class="hero-slide-name">HSE Audit &amp; Improvement in Safety Culture</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 3: SEnSE_L -->
+                    <a href="sense.php" class="hero-slide-item">
+                        <img src="images/hero_slide3.png" alt="Legal Compliance Review">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-package">Package</span>
+                            <p class="hero-slide-name">SEnSE_L</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 4: Responsible Care -->
+                    <a href="responsiblecare.php" class="hero-slide-item">
+                        <img src="images/hero_slide4.png" alt="Chemical Plant">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-service">Service</span>
+                            <p class="hero-slide-name">Responsible Care</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 5: Infoinci -->
+                    <a href="incidentmanagement.php" class="hero-slide-item">
+                        <img src="images/hero_slide5.png" alt="Safety Audit Meeting">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-package">Package</span>
+                            <p class="hero-slide-name">Infoinci — Incident Management</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 6: Legal Assessment -->
+                    <a href="legalassessment.php" class="hero-slide-item">
+                        <img src="images/hero_slide6.png" alt="Environmental Sustainability">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-service">Service</span>
+                            <p class="hero-slide-name">Legal Assessment</p>
+                        </div>
+                    </a>
+
+                    <!-- Dot nav -->
+                    <div class="hero-slide-dots" id="heroSliderDots"></div>
                 </div>
+                <script>
+                (function() {
+                    var slides = document.querySelectorAll('#heroSlider .hero-slide-item');
+                    var dotsContainer = document.getElementById('heroSliderDots');
+                    var current = 0;
+                    var timer;
+
+                    // Build dots
+                    slides.forEach(function(_, i) {
+                        var dot = document.createElement('div');
+                        dot.className = 'hero-slide-dot' + (i === 0 ? ' active' : '');
+                        dot.addEventListener('click', function() { goTo(i); restart(); });
+                        dotsContainer.appendChild(dot);
+                    });
+
+                    function goTo(n) {
+                        slides[current].classList.remove('active');
+                        dotsContainer.children[current].classList.remove('active');
+                        current = (n + slides.length) % slides.length;
+                        slides[current].classList.add('active');
+                        dotsContainer.children[current].classList.add('active');
+                    }
+
+                    function next() { goTo(current + 1); }
+
+                    function restart() {
+                        clearInterval(timer);
+                        timer = setInterval(next, 4000);
+                    }
+
+                    restart();
+                })();
+                </script>
             </div>
         </div>
     </div>
@@ -526,6 +626,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
 <div class="fusion-fullwidth fullwidth-box" style="background-attachment:scroll;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:0px;padding-right:0px;padding-top:10px;">
 <div class="avada-row">
+
 
 <div class="fusion-clients-slider clientslider-container picture-size-auto">
 <div class="es-carousel-wrapper fusion-carousel-small clients-carousel">
@@ -641,74 +742,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;
     border-bottom-style: solid;border-top-style: solid;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:1px;">
     <div class="avada-row">
-<div id="senselogin">
-<br>
+<div id="senselogin" style="display:flex; gap:28px; padding:20px 0 28px;">
 
-<div class="fusion-one-third one_third fusion-layout-column fusion-column spacing-yes">
-<h3 class="title-heading-left" style="margin-top:0px; margin-bottom: 20px;"><span style="color: #0272a7; text-shadow: 0px 1px 1px #ffffff; font-size: 20px; font-family: Humnst777 BlkCn BT; font-weight:bold;">SEnSEL Login</span></h3>
-<div style='border:1px solid #0272a7 ; padding:20px 15px; border-radius: 10px; background-color: #f8f9fa;'>
-<div class="fusion-column-wrapper" >
-<div class="fusion-slider-sc flexslider" style="max-width:100%;height:100%;">
+  <!-- SEnSEL Login — card is the direct flex child, so align-items:stretch reaches it -->
+  <div style="flex:0 0 30%; min-width:0; border:1.5px solid #e2e8f0; border-radius:14px; background:white; box-shadow:0 4px 20px rgba(0,0,0,0.06); box-sizing:border-box; padding:24px 22px;">
+    <h3 style="margin:0 0 18px; font-family:'Poppins',sans-serif; font-size:18px; font-weight:700; color:#0272a7;">SEnSEL Login</h3>
+    <form method="post" name="senselFrm" action="https://www.webstac.in/sensel/login.i2e">
+      <input type="hidden" name="action" value="indexPage"/>
+      <input type="hidden" name="act" value="" />
+      <input type="hidden" name="username" value=""/>
+      <input type="hidden" name="password" value=""/>
+    </form>
+    <form method="post" name="basicFrm" action="https://www.webstac.in/webstac_portal/servlet/login">
+      <input type="hidden" name="action" value="login"/>
+      <input type="hidden" name="act" value="" />
+      <input type="hidden" name="username" value=""/>
+      <input type="hidden" name="pass" value=""/>
+    </form>
+    <form action='https://www.webstac.in/sensel/login.i2e' name="frm" class="wpcf7-form" method="post">
+      <input type="hidden" name="action" value="indexPage"/>
+      <input type='text' name='username1' placeholder='Enter Your Name' onkeypress="return submitenter1(this,event)" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155;"/>
+      <input type='password' name='pass1' placeholder='Enter Your Password' onkeypress="return submitenter1(this,event)" style="display:block; width:100%; padding:11px 14px; margin:0 0 18px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155;"/>
+      <input type="button" value="Login" name="B1" onclick="loginuser();" style="display:block; width:100%; padding:12px; background:linear-gradient(135deg,#0272a7,#10b981); color:white; border:none; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(2,114,167,0.3);"/>
+      <p style="margin:14px 0 0;"><a href='#' onclick="forgotpassword()" style="color:#0272a7; font-family:'Inter',sans-serif; font-size:13px; font-weight:600; text-decoration:none;">Forgot Password?</a></p>
+    </form>
+  </div>
 
-<div>
-<form method="post" name="senselFrm" action="https://www.webstac.in/sensel/login.i2e">
-<input type="hidden" name="action" value="indexPage"/>
-<input type="hidden" name="act" value="" />
-<input type="hidden" name="username" value=""/>
-<input type="hidden" name="password" value=""/>
-</form>
+  <!-- What We Are — card is the direct flex child -->
+  <div style="flex:1; min-width:0; border:1.5px solid #e2e8f0; border-radius:14px; background:white; box-shadow:0 4px 20px rgba(0,0,0,0.06); box-sizing:border-box; padding:24px 22px;">
+    <h3 style="margin:0 0 16px; font-family:'Poppins',sans-serif; font-size:18px; font-weight:700; color:#0f172a;">What We Are</h3>
+    <div class="fusion-tabs fusion-tabs-1 classic horizontal-tabs">
+      <style type="text/css">.fusion-tabs.fusion-tabs-1 .nav-tabs li a{border-top-color:#ebeaea;background-color:#ebeaea;}.fusion-tabs.fusion-tabs-1 .nav-tabs{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:focus{border-right-color:#ffffff;background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li a:hover{background-color:#ffffff;border-top-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .tab-pane{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav,.fusion-tabs.fusion-tabs-1 .nav-tabs,.fusion-tabs.fusion-tabs-1 .tab-content .tab-pane{border-color:#b7b7b7;}</style>
+      <div class="nav"><ul class="nav-tabs nav-justified">
+        <li class="active"><a class="tab-link" id="aboutus" href="#bf3e607d81ae86798" data-toggle="tab"><i class="fa fontawesome-icon fa-user"></i>Webstac Software Pvt Ltd</a></li>
+      </ul></div>
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="bf3e607d81ae86798" style="font-family:'Inter',sans-serif; font-size:14px; line-height:1.85; color:#475569; padding:16px;">
+          <i class="fa fontawesome-icon fa-user size-medium medium circle-yes"></i>
+          WEBSTAC offers a range of packages. 3S (Safety Support System) is designed to free you from the hassles of compliance across the entire range of legislations — useful in planning meetings, audits, inspections, and tracking compliance.
+          SEnSE Legal is an online Encyclopedia covering the entire range of HSE Legislations, with unique features like Round &amp; About to create your Legal Compliance Register instantly.
+          InfoInci is a unique tool for building a database for accidents and incidents, with a built-in menu to identify Root Causes.
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-<form method="post" name="basicFrm" action="https://www.webstac.in/webstac_portal/servlet/login">
-<input type="hidden" name="action" value="login"/>
-<input type="hidden" name="act" value="" />
-<input type="hidden" name="username" value=""/>
-<input type="hidden" name="pass" value=""/>
-</form>
-<form action='https://www.webstac.in/sensel/login.i2e' name="frm" class="wpcf7-form" method="post">
-<input type="hidden" name="action" value="indexPage"/>
-
-    <input type='text' name='username1' placeholder='Enter Your Name' style='margin: 10px 0 15px 0' onkeypress="return submitenter1(this,event)"/>
-    <input type='password' name='pass1' placeholder='Enter Your Password' style='margin: 10px 0 15px 0' onkeypress="return submitenter1(this,event)"/>
-
-    <p><input type="button" value="Login" name="B1" onclick="loginuser();" /></p>
-    <p><b><a href='#' onclick="forgotpassword()">Forgot Password ?</a>&nbsp;&nbsp;</b></p>  
-    
-</form>
-</div>
-
-</div></div>
-
-</div>
-</div>
-</div>
-
-<div class="fusion-two-third two_third fusion-layout-column fusion-column last spacing-yes">
-<div class="fusion-column-wrapper">
-
-<h3 class="title-heading-left" style="margin-top:0px; margin-bottom: 20px;"><span style="color: #013953; font-size: 20px; font-family: Humnst777 BlkCn BT; font-weight:bold;">What We Are</span></h3>
-
-<div class="fusion-tabs fusion-tabs-1 classic horizontal-tabs">
-<style type="text/css">.fusion-tabs.fusion-tabs-1 .nav-tabs li a{border-top-color:#ebeaea;background-color:#ebeaea;}.fusion-tabs.fusion-tabs-1 .nav-tabs{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:focus{border-right-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:focus{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li a:hover{background-color:#ffffff;border-top-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .tab-pane{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav,.fusion-tabs.fusion-tabs-1 .nav-tabs,.fusion-tabs.fusion-tabs-1 .tab-content .tab-pane{border-color:#b7b7b7;}</style>
-<div class="nav"><ul class="nav-tabs nav-justified">
-<li class="active"><a class="tab-link" id="aboutus" href="#bf3e607d81ae86798" data-toggle="tab">
-<i class="fa fontawesome-icon fa-user"></i>Webstac Software Pvt Ltd</a>
-</li>
-
-</ul></div>
-<div class="tab-content"><div class="tab-pane fade in active" id="bf3e607d81ae86798">
-<i class="fa fontawesome-icon fa-user size-medium medium circle-yes"></i> 
-WEBSTAC offers a range of  packages. 3S(Safety Support System)is the one to free from hassles of the compliance, 
-for entire range of legislations. What's more it is equally useful in planning meetings, audits and inspections
-and tracking the compliance and operational compliances under them.
-SEnSE Legal is an online Encyclopedia for entire range of Health, Safety and Environmental 
-(HSE) Legislations.It has many unique features. one is Round & About that can create your Legal Compliance
-Register in a jiffy Package InfoInci is unique tool for building data base for accidents and incidents. It also comes with
-a menu that helps to identify the Root Causes.
-</div>
-
-</div></div></div></div>
-<div class="fusion-clearfix"></div></div></div><div class="fusion-sep-clear"></div>
+</div></div></div><div class="fusion-sep-clear"></div>
         
 <div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;margin-bottom:50px;">
 <span class="icon-wrapper" style="border-color:#020202;"><i class="fa fa-thumbs-up" style="color:#020202;"></i></span></div>
@@ -731,14 +810,13 @@ a menu that helps to identify the Root Causes.
                     <a href="compliancetracking.php" class="card-read-more">Learn More &rarr;</a>
                 </div>
 
-                <div class="feature-card feature-card-highlighted">
-                    <div class="badge-popular">Most Popular</div>
+                <div class="feature-card">
                     <div class="feature-icon-wrapper">
                         <i class="fa fa-search"></i>
                     </div>
                     <h3>INFOINCI_e</h3>
                     <p>Menu-driven incident management with built-in RCA to track, analyze and prevent recurrence.</p>
-                    <a href="incidentmanagement.php" class="card-read-more btn-highlighted">Request Demo &rarr;</a>
+                    <a href="incidentmanagement.php" class="card-read-more">Request Demo &rarr;</a> 
                 </div>
 
                 <div class="feature-card">
@@ -765,14 +843,13 @@ a menu that helps to identify the Root Causes.
                     <a href="responsiblecare.php" class="card-read-more">Learn more &rarr;</a>
                 </div>
 
-                <div class="feature-card feature-card-highlighted">
-                    <div class="badge-popular">Most Popular</div>
+                <div class="feature-card">
                     <div class="feature-icon-wrapper">
                         <i class="fa fa-chart-line"></i>
                     </div>
                     <h3>HSE Audit and Improvement</h3>
                     <p>Consultancy by experienced professionals to drastically improve your organizational safety culture and compliance.</p>
-                    <a href="hseaudit.php" class="card-read-more btn-highlighted">Learn more &rarr;</a>
+                    <a href="hseaudit.php" class="card-read-more">Learn more &rarr;</a>
                 </div>
 
                 <div class="feature-card">
@@ -806,104 +883,43 @@ a menu that helps to identify the Root Causes.
 <div class="fusion-fullwidth fullwidth-box" style="background:#f2f2f2 ; background-attachment:fixed;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:10px;padding-left:0px;padding-right:0px;padding-top:10px;">
 <div class="avada-row">
 
-<div style='float:left; background_:#fff'> 
+<div class="modern-features-section">
 
-<marquee   behavior="scroll" direction="up" scrolldelay="100" height="300px" style='border:1px solid g  ray; margin:10px 20px 10px 0; border-radius:10px; padding:10px; overflow:hidden; width:600px'>
+  <!-- Key Features scrolling ticker -->
+  <div class="modern-features-ticker">
+    <h3>Key Features of Our Packages</h3>
+    <marquee behavior="scroll" direction="up" scrolldelay="90" height="320px">
+      <p><span class="yellow_bg_text">Web Library</span> – All HSE Acts, Rules &amp; Notifications hyperlinked in a user-friendly manner. <strong><a href="services/basic.html#wl">See More</a></strong></p>
+      <p><span class="yellow_bg_text">Commentary</span> – Simple English commentary for Factories Act and State Rules. Easy to understand is easy to follow.</p>
+      <p><span class="yellow_bg_text">FAQ's</span> – Bank of FAQs for Acts &amp; Rules enforced by Factory Inspectorate, PESO, State PCBs, Electrical Inspectorate etc. <strong><a href="services/basic.html#faq">…more</a></strong></p>
+      <p><span class="yellow_bg_text">Case Laws</span> – Indexed major cases decided by High Court and Supreme Court under all important HSE Legislations. <strong><a href="services/basic.html#cl">…more</a></strong></p>
+      <p><span class="yellow_bg_text">Round &amp; About</span> – A novel tool to create your Legal Compliance Register on HSE in a jiffy.</p>
+      <p><span class="yellow_bg_text">Search</span> – Key-in 3–4 keywords to bring out all applicable Sections and Rules at one go.</p>
+      <p><span class="yellow_bg_text">Amendments</span> – Gazette notifications about amendments in HSE legislations, updated continuously.</p>
+      <p><span class="yellow_bg_text">HSE News</span> – All that is happening across the globe on HSE, updated daily.</p>
+      <p><span class="yellow_bg_text">3S</span> – Reminds you to complete submissions, testing and examinations well in advance as per Acts &amp; Rules. <strong><a href="services/sect_e.html#cm">…more</a></strong></p>
+      <p><span class="yellow_bg_text">InfoInci_e</span> – Menu-driven Root Cause Analysis for tracking, analyzing and preventing all types of incidents. <strong><a href="services/sect_e.html#Infol">…more</a></strong></p>
+    </marquee>
+  </div>
 
-<p>Features of SEnSE</p>
-<p>
-<span class = "yellow_bg_text">Web Library</span> – Contains all the HSE Acts,  Rules &amp; Notifications 
-<span class="style1">hyperlinked in a user friendly manner.</span> 
-<strong><a href="services/basic.html#wl">See More</a></strong>
-<p>
-<p>
-<span class="yellow_bg_text">Commentary</span>- It is in simple English  for Factories Act and State  Rules. We strongly believe that whatever is easy to understand is easy to  follow. 
-</p>
-<p>
-<span class="yellow_bg_text">FAQ's</span>- Bank of FAQs for Acts &amp; Rules enforced  by <span class="style1">Factory Inspectorate, Petroleum &amp;  Explosives Safety Organisation, State Pollution Control Boards, Electrical  Inspectorate</span> etc.<strong><a href="services/basic.html#faq">…more&gt;&gt;</a></strong>
-</p>
-
-<p>
-<span class="yellow_bg_text">Case Laws </span> - <span class="style1">Indexed Case Laws-</span> Major Cases decided by High Court and Supremeall important HSE Legislations<strong><a href="services/basic.html#cl">…more&gt;&gt;</a></strong>
-</p>
-
-<p>
-<span class="yellow_bg_text">Round &amp; About</span>- It is a novel tool to create your LCR on HSE in a jiffy.
-</p>
-
-<p>
-<span class="yellow_bg_text">Search</span> –<span class="style1"> Key-in 3/4 keywords, like google, to   bring out all the applicable Sections,  Rules</span>, making it easy to refer all of them, at one go.
-</p>
-
-<p>
-<span class="yellow_bg_text">Amendments</span>- Gazette notifications about amendments in legislations on HSE. 
-</p>
-
-<p>
-<span class="yellow_bg_text">HSE News</span>- All that is happening across the globe on HSE being updated, daily
-</p>
-
-<p>
-<span class="yellow_bg_text">Guidance material</span>- Free to use/download <span class="style1">presentations,  articles, photographs</span> etc.<strong><a href="services/basic.html#gm">…more&gt;&gt;</a></strong> 
-</p>
-
-<p>
-Features of 3S 
-</p>
-
-<p>
-<span class="yellow_bg_text">3S</span><span class="style1">  reminds you   to complete your submissions / testing / examinations etc. well in advance  as per the requirement of Acts &amp; Rules, for  timely compliance. </span>Tasks like renewal of licence, submission of returns, testing and examination of equipments, etc. will have reminders to plan these activities in advance <strong><a href="services/sect_e.html#cm">…more&gt;&gt;</a></strong>
-</p>
-
-<p>
-Features of InfoInci_e
-</p>
-
-<p>
-<span class="yellow_bg_text">InfoInci_e</span> (Information package for Incident) data management tool for  <span class="style1">providing  menu driven, Root Cause  Analysis for tracking, analyzing and evolving the recommendations </span>for all types of incident/accident <strong><a href="services/sect_e.html#Infol">…more&gt;&gt;</a></strong>
-</p>
-
-</marquee>
-
-</div>
-
-
-
-<div style='float:left'>
-
-<div style='border:1px solid gray; margin-left:20px; margin-top:10px; padding:10px; border-radius: 10px; width:350px'>
-<form action='#' name="frmenquiry" method='post'>
-     <h2><a name="demo">Request for Demo/ Enquiry Form</a></h2>
-   
-        <p>
-            <input name="name" type="text" id="name" placeholder="Your name" onfocus="this.value=''">
-        </p>
-        <p>
-        <textarea placeholder='Type your remarks here' name="remarks" id="remarks" style="width:328px; padding:5px 5px 5px 15px; height:40px; border:1px solid #d2d2d2" ></textarea>
-        </p>
-        
-        <p>
-        <input name="contact" type="text" id="contact" placeholder="Contact Number" onfocus="this.value=''">
-        </p>
-        
-       <p>
-       <input name="email" type="text" id="email" placeholder="Email ID" onfocus="this.value=''">
-       </p>
-       
-       <p>
-         <select name="query_for" id="query_for" style='border:1px solid gray; padding:5px; float:float'>
-            <option value="Taalc">Select Package</option>
-           <option value="3ssafety">3S(Safety Support System)</option>
-            <option value="Infoinci">InfoInci_e</option>
-            <option value="Sense">SEnSE_L</option>
-            
-          </select>
-          
-          <span style='float:right'><input type="submit" value="Submit">
-       </p>
-      
-      </form>
-</div>
+  <!-- Request Demo form card -->
+  <div class="modern-form-card">
+    <form action='#' name="frmenquiry" method='post'>
+      <h2 style="margin:0 0 20px; font-family:'Poppins',sans-serif; font-size:18px; font-weight:700; color:#0272a7;">Request a Demo / Enquiry</h2>
+      <a name="demo"></a>
+      <input name="name" type="text" id="name" placeholder="Your full name" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <textarea name="remarks" id="remarks" placeholder="Your message or remarks" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; resize:none; height:56px; outline:none;"></textarea>
+      <input name="contact" type="text" id="contact" placeholder="Contact number" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <input name="email" type="text" id="email" placeholder="Email address" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <select name="query_for" id="query_for" style="display:block; width:100%; padding:11px 14px; margin:0 0 16px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none; appearance:none; -webkit-appearance:none; cursor:pointer;">
+        <option value="Taalc">Select Package</option>
+        <option value="3ssafety">3S (Safety Support System)</option>
+        <option value="Infoinci">InfoInci_e</option>
+        <option value="Sense">SEnSE_L</option>
+      </select>
+      <input type="submit" value="Submit Request" style="display:block; width:100%; padding:13px; background:linear-gradient(135deg,#0272a7,#10b981); color:white; border:none; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(2,114,167,0.3);">
+    </form>
+  </div>
 
 </div>
 
@@ -923,37 +939,6 @@ Features of InfoInci_e
             </div><?php include_once('include/footer_script.php'); ?>    
 
 
-<div id="popupOverlay">
-    <div id="popupBox">
-        <span id="closePopup">&times;</span>
-        <img id="popupImage" src=" " alt="Popup Image">
-    </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    var images = [
-        "images/HazopandHira.jpg",
-        "images/HazopandHira.jpg"
-    ];
-
-    var lastIndex = localStorage.getItem("popupIndex");
-    var nextIndex = (lastIndex === null || lastIndex === "1") ? 0 : 1;
-    document.getElementById("popupImage").src = images[nextIndex];
-
-    localStorage.setItem("popupIndex", nextIndex);
-
-    setTimeout(function () {
-        document.getElementById("popupOverlay").style.display = "flex";
-    }, 3000);
-
-    document.getElementById("closePopup").onclick = function () {
-        document.getElementById("popupOverlay").style.display = "none";
-    };
-
-});
-</script>
 
 
 

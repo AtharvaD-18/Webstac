@@ -25,7 +25,7 @@ function get_active($link)
 			<li <?php echo get_active('compliancetracking') ?>><a href="compliancetracking.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">3S(Safety Support System)</a></li>
 		<li <?php echo get_active('sense') ?>><a href="sense.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">SEnSE_L</a></li>
 		<li <?php echo get_active('incidentmanagement') ?>><a href="incidentmanagement.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a></li>
-		<li <?php echo get_active('BBSSoft') ?>><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BBS (Behaviour Based Safety)</a></li>	
+		<li <?php echo get_active('BBSSoft') ?>><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BEST (Behaviour Ensuring Safety with Tracker)</a></li>
 			
 		</ul>
 	</li>
@@ -33,8 +33,8 @@ function get_active($link)
 		<ul class="sub-menu">
 			
 			<li <?php echo get_active('hseaudit') ?>><a href="hseaudit.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">HSE Audit and Improvement in Safety Culture</a></li>
-			<li <?php echo get_active('incidentmanagement') ?>><a href="incidentmanagement.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a></li>
-			
+			<li <?php echo get_active('legalassessment') ?>><a href="legalassessment.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a></li>
+			<li <?php echo get_active('responsiblecare') ?>><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
 		</ul>
 	</li>
 	
@@ -49,9 +49,9 @@ function get_active($link)
 		
 		</ul>
 	</li>-->
-	<li <?php echo get_active('testimonial') ?>><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials<span class="caret"></span></a>
-	<li <?php echo get_active('contactus') ?>><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us <span class="caret"></span></a>
-	<li <?php echo get_active('responsiblecare') ?>><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
+	<li <?php echo get_active('testimonial') ?>><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
+	<li <?php echo get_active('happenings') ?>><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+	<li <?php echo get_active('contactus') ?>><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 	<li><a href="contactus.php" class="nav-demo-btn">Request Demo</a></li>
 		
 </ul>

@@ -1,4 +1,4 @@
-<!DOCTYPE html
+﻿<!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -132,7 +132,7 @@
 										<a href="incidentmanagement.php"
 											style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Infoinci</a>
 									</li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BBS(Behaviour Based Safety)</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="BBSSoft.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">BEST (Behaviour Ensuring Safety with Tracker)</a></li>
 								</ul>
 							</li>
 							<li id="sticky-menu-item"
@@ -150,8 +150,12 @@
 									<li id="sticky-menu-item"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu">
 										<a href="legalassessment.php"
-											style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal
-											Assessment</a>
+											style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Legal Assessment</a>
+									</li>
+									<li id="sticky-menu-item"
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu">
+										<a href="Responsiblecareglimpses.php"
+											style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a>
 									</li>
 								</ul>
 							</li>
@@ -187,28 +191,9 @@
 
 								</ul>
 							</li>
-							<li id="sticky-menu-item"
-								class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a
-									href="testimonial.php"
-									style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials
-								</a>
-							<li id="sticky-menu-item"
-								class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a
-									href="contactus.php"
-									style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact
-									Us </a>
-								<!--<ul class="sub-menu">
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="contactus.php">Location</a></li>
-	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="buisnesspartner.php">Business Partner / Consultant</a></li>
-</ul>-->
-							</li>
-
-						<li id="sticky-menu-item"
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu">
-										<a href="Responsiblecareglimpses.php"
-											style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible
-											Care</a>
-									</li>
+							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
+							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 						</ul>
 					</nav>
 					<div class="mobile-nav-holder"></div>
@@ -236,117 +221,108 @@
 				<a href="contactus.php" class="btn-orange">Quick Enquiry</a>
 			</div>
 		</div>
-		<div id="main" class="clearfix width-100" style="padding-left:30px;padding-right:30px">
-			<div class="avada-row" style="max-width:100%;">
-				<div id="content" class="full-width">
-					<div id="post-10887" class="post-10887 page type-page status-publish hentry">
-						<span class="entry-title" style="display: none;">Contact Us</span>
-						<div class="post-content modern-card">
-							<div class="fusion-fullwidth fullwidth-box"
-								style="background-color:#ffffff;background-attachment:fixed;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:30px;padding-left:0px;padding-right:0px;padding-top:30px;">
-								<div class="avada-row">
-									<div
-										class="fusion-one-half one_half fusion-layout-column fusion-column spacing-yes">
-										<div class="fusion-column-wrapper">
-											<div class="imageframe-align-center"><span
-													class="fusion-imageframe imageframe imageframe-none imageframe-1 fusion-animated"
-													data-animationType="fadeInUp" data-animationDuration="1">
-													<img src="images/contact.jpg" alt=""
-														class="img-responsive" /></span></div>
-											<div class="fusion-sep-clear"></div>
-											<div class="fusion-separator fusion-full-width-sep sep-single"
-												style="border-color:#e0e0e0;margin-top:5px;margin-bottom:20px;"></div>
-											<p style="text-align: center;"><strong>Main Office :</strong>  501, Ruchi
-												Tower, Sant Dnyaneshwar Road,
-												Panchpakhadi, Thane-400602.<br />
-												<strong>Email : </strong><a href="#"
-													target="_top">contact@webstac.in</a> or <a href="#"
-													target="_top">help@webstac.in</a>
-											</p>
-											<p style="text-align: center;"><strong>Phone : 022-25337774 </strong>
-												Shailesh Parab - 9870915170 - <a href="#"
-													target="_top">shailesh@webstac.in</a>,<br>
-												Reshma Sonawane - 8108664360 - <a href="#"
-													target="_top">reshma@webstac.in</a> ,<br>
-												Vijay Bukkawar - 9820503444 - <a href="#"
-													target="_top">vijay@webstac.in</a> </p>
-										</div>
-									</div>
-									<div
-										class="fusion-one-half one_half fusion-layout-column fusion-column last spacing-yes">
-										<div class="fusion-column-wrapper">
-											<div class="wpcf7" id="wpcf7-f8-p10887-o1" lang="en-US" dir="ltr">
-												<div class="screen-reader-response"></div>
+		<div id="main" style="background:#f1f5f9; padding:60px 0;">
+		<div style="max-width:1160px; margin:0 auto; padding:0 40px; display:flex; gap:44px; align-items:flex-start; flex-wrap:wrap;">
 
-												<form method="post" class="wpcf7-form" action="">
-													<div class="fusion-one-half one_half fusion-column"><span
-															class="wpcf7-form-control-wrap your-name">
-															<input type="text" name="your-name" value="" size="40"
-																class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																required="true" placeholder="Full Name"
-																id="name" /></span></div>
-													<div class="fusion-one-half one_half fusion-column last">
-														<span class="wpcf7-form-control-wrap your-mobile">
-															<input type="text" name="your-mobile" value="" size="40"
-																class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																required="true" placeholder="Mobile No."
-																id="mobile" /></span>
-													</div>
-													<p><span class="wpcf7-form-control-wrap your-company">
-															<input type="text" name="your-company" value="" size="40"
-																class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-field user"
-																id="company" required="true"
-																placeholder="Company Name" /></span> </p>
-													<div class="fusion-one-half one_half fusion-column">
-														<span class="wpcf7-form-control-wrap your-email">
-															<input type="email" name="your-email" value="" size="40"
-																class="wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-																required="true" placeholder="Email Id."
-																id="email" /></span>
-													</div>
-													<div class="fusion-one-half one_half fusion-column last">
-														<span class="wpcf7-form-control-wrap your-subject">
-															<input type="text" name="your-subject" value="" size="40"
-																class="" placeholder="Subject" id="subject" /></span>
-													</div>
+			<!-- Left: Info Card -->
+			<div style="flex:0 0 340px; background:linear-gradient(160deg,#0d1f35 0%,#0272a7 100%); border-radius:16px; padding:44px 36px; color:white; box-shadow:0 20px 60px rgba(2,114,167,0.28);">
+				<h2 style="font-family:'Inter',sans-serif; font-size:1.5rem; font-weight:700; margin:0 0 6px; color:white;">Get In Touch</h2>
+				<p style="color:rgba(255,255,255,0.6); font-family:'Inter',sans-serif; font-size:0.85rem; margin:0 0 36px; line-height:1.6;">We'd love to hear from you. Our team is always here to help.</p>
 
-													<p></p>
-													<p><span>
-															<textarea name="your-message" cols="40" rows="10"
-																class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required input-field user"
-																id="message" required="true" placeholder="your-message">
-															</textarea>
-														</span>
-													</p>
+				<!-- Office -->
+				<div style="display:flex; gap:14px; margin-bottom:26px; align-items:flex-start;">
+					<div style="width:38px; height:38px; background:rgba(255,255,255,0.12); border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+						<i class="fa fa-map-marker" style="color:#0aafd8; font-size:15px;"></i>
+					</div>
+					<div>
+						<p style="margin:0 0 4px; font-family:'Inter',sans-serif; font-size:0.72rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1.2px;">Main Office</p>
+						<p style="margin:0; font-family:'Inter',sans-serif; font-size:0.84rem; color:white; line-height:1.6;">501, Ruchi Tower, Sant Dnyaneshwar Road, Panchpakhadi, Thane-400602.</p>
+					</div>
+				</div>
 
-													<div class="g-recaptcha"
-														data-sitekey="6LcKxp4pAAAAAN4QniZ1sMT4fpPqkWrL2IMMM1X8"></div>
-													<br>
-													<!--<p><input type="submit" value="Send" name="send" sendMail.php /></p>-->
+				<!-- Email -->
+				<div style="display:flex; gap:14px; margin-bottom:26px; align-items:flex-start;">
+					<div style="width:38px; height:38px; background:rgba(255,255,255,0.12); border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+						<i class="fa fa-envelope" style="color:#0aafd8; font-size:13px;"></i>
+					</div>
+					<div>
+						<p style="margin:0 0 4px; font-family:'Inter',sans-serif; font-size:0.72rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1.2px;">Email</p>
+						<p style="margin:0; font-family:'Inter',sans-serif; font-size:0.84rem; line-height:1.8;">
+							<a href="mailto:contact@webstac.in" style="color:#0aafd8; text-decoration:none;">contact@webstac.in</a><br>
+							<a href="mailto:help@webstac.in" style="color:#0aafd8; text-decoration:none;">help@webstac.in</a>
+						</p>
+					</div>
+				</div>
 
-
-												</form>
-												<?php
-												if (isset ($flag) && $flag == "true") {
-													?>
-													<span><br />Thank you for contacting us. We will be in touch with you
-														very soon.<br /><br /></span>
-												<?php } ?>
-
-											</div>
-										</div>
-									</div>
-									<div class="fusion-clearfix"></div>
-								</div>
-							</div>
-						</div>
+				<!-- Phone -->
+				<div style="display:flex; gap:14px; align-items:flex-start;">
+					<div style="width:38px; height:38px; background:rgba(255,255,255,0.12); border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+						<i class="fa fa-phone" style="color:#0aafd8; font-size:14px;"></i>
+					</div>
+					<div>
+						<p style="margin:0 0 4px; font-family:'Inter',sans-serif; font-size:0.72rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1.2px;">Phone</p>
+						<p style="margin:0; font-family:'Inter',sans-serif; font-size:0.82rem; color:rgba(255,255,255,0.85); line-height:2;">
+							022-25337774<br>
+							Shailesh Parab &mdash; <a href="tel:9870915170" style="color:#0aafd8;text-decoration:none;">9870915170</a><br>
+							Reshma Sonawane &mdash; <a href="tel:8108664360" style="color:#0aafd8;text-decoration:none;">8108664360</a><br>
+							Vijay Bukkawar &mdash; <a href="tel:9820503444" style="color:#0aafd8;text-decoration:none;">9820503444</a>
+						</p>
 					</div>
 				</div>
 			</div>
+
+			<!-- Right: Form Card -->
+			<div style="flex:1; min-width:320px; background:white; border-radius:16px; padding:44px 40px; box-shadow:0 10px 40px rgba(0,0,0,0.07);">
+				<h2 style="font-family:'Inter',sans-serif; font-size:1.4rem; font-weight:700; color:#0d1f35; margin:0 0 6px;">Send Us a Message</h2>
+				<p style="font-family:'Inter',sans-serif; font-size:0.85rem; color:#64748b; margin:0 0 28px;">Fill out the form and we'll get back to you shortly.</p>
+
+				<form method="post" action="" style="display:flex; flex-direction:column; gap:14px;">
+					<div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+						<input type="text" name="your-name" id="name" required placeholder="Full Name"
+							style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box;"
+							onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'">
+						<input type="text" name="your-mobile" id="mobile" required placeholder="Mobile No."
+							style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box;"
+							onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'">
+					</div>
+					<input type="text" name="your-company" id="company" required placeholder="Company Name"
+						style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box;"
+						onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'">
+					<div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+						<input type="email" name="your-email" id="email" required placeholder="Email Id."
+							style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box;"
+							onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'">
+						<input type="text" name="your-subject" id="subject" placeholder="Subject"
+							style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box;"
+							onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'">
+					</div>
+					<textarea name="your-message" id="message" required placeholder="Your message..." rows="5"
+						style="padding:12px 15px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#0d1f35; outline:none; width:100%; box-sizing:border-box; resize:vertical;"
+						onfocus="this.style.borderColor='#0272a7'" onblur="this.style.borderColor='#e2e8f0'"></textarea>
+
+					<div class="g-recaptcha" data-sitekey="6LcKxp4pAAAAAN4QniZ1sMT4fpPqkWrL2IMMM1X8"></div>
+
+					<div>
+						<button type="submit" name="send"
+							style="background:linear-gradient(135deg,#0272a7,#0aafd8); color:white; border:none; padding:13px 38px; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.88rem; font-weight:600; cursor:pointer; letter-spacing:0.5px; box-shadow:0 4px 15px rgba(2,114,167,0.3); transition:all 0.3s;"
+							onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 25px rgba(2,114,167,0.4)'"
+							onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 15px rgba(2,114,167,0.3)'">
+							Send Message &nbsp;&rarr;
+						</button>
+					</div>
+				</form>
+
+				<?php if (isset($flag) && $flag == "true") { ?>
+					<div style="margin-top:18px; padding:13px 16px; background:#ecfdf5; border:1px solid #6ee7b7; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; color:#065f46;">
+						&#10003; &nbsp;Thank you for contacting us. We will be in touch with you very soon.
+					</div>
+				<?php } ?>
+			</div>
+
 		</div>
+	</div>
 
-
-		<?php include_once ('include/footer.php') ?>
+	<?php include_once ('include/footer.php') ?>
 
 
 	</div><!-- wrapper -->

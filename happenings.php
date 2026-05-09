@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Responsible Care Consultancy| Leading consultant in RC : Webstac Software Pvt Ltd</title>
-<meta name="description" itemprop="description" content="Webstac is most sucessful pioneer Responsible care consultant in india.Most reputed names from the industry are already using our best RC cosultancy services." />
-<meta name="keywords" itemprop="keywords" content="consultant for RC in India,Responsible Care In India" />
-<?php include_once('include/head_links.php') ?>  
-<!-- Google tag (gtag.js) -->
+<title>Happenings at Webstac | Webstac Software Pvt Ltd</title>
+<?php include_once('include/head_links.php') ?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'AW-11006925921');
 </script>
 <script>
@@ -20,19 +16,17 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-77036548-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </head>
 
 <body>
 			<div id="wrapper" class="">
-	
+
 					<div class="header-wrapper">
 				<div class="header-v1">
-	
+
 <div class="top-contact-bar" style="background-color: #013953; color: white; padding: 8px 0; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1);">
     <div style="display: flex; justify-content: flex-end; align-items: center; padding: 0 50px;">
         <div style="margin-right: 25px; display: flex; align-items: center; font-family: 'Inter', sans-serif; font-weight: 500;">
@@ -53,18 +47,18 @@
 					<img src="images/webstac-logo.png" alt="Webstac Software" class="normal_logo" />
 									</a>
 			</div>
-						
+
 <?php include_once('include/navigation.php') ?>
-						
+
 						<div class="mobile-menu-icons">
 				<a href="#" class="fusionicon fusionicon-bars"></a>
 							</div>
 								</div>
 	</header>
 		<div class="mobile-nav-holder main-menu"></div>
-	</div>				<div class="init-sticky-header"></div>		
+	</div>				<div class="init-sticky-header"></div>
 			</div>
-			
+
 <header id="header-sticky" class="sticky-header">
 <div class="sticky-shadow">
 	<div class="avada-row">
@@ -102,13 +96,13 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1920&q=80');">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/testimonials_hero.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
-											<h1 class="entry-title">Responsible Care: Historical Glimpses</h1>
+											<h1 class="entry-title">Happenings at Webstac</h1>
 																				</div>
-				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>Responsible Care Historical Glimpses</li></ul>			</div>
+				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>Happenings</li></ul>			</div>
 		</div>
 	</div>
     <div class="blue-contact-banner-container">
@@ -118,50 +112,78 @@
         </div>
     </div>
 
-	
+
 
 	<div class='clearfix' style='margin:0 auto; width:90%'>
-	
-	
-	<div class="modern-card" style="width:100%; box-sizing: border-box;">
-	    <br>
-		<br>
-		<strong style="color: #013953; font-size: 24px; font-family: Humnst777 BlkCn BT;"> 
-		Responsible Care: Historical Glimpses</strong>
-		<p><strong><span style="color: #0272a7;">
-		May be, it is difficult to believe now; but fact was that Responsible Care was in hibernation for a decade from 1993 to 2003 in erstwhile <span style="background-color: #66FF00;"><b>Indian Chemical Manufacturers Association (ICMA)</b></span> and now <span style="background-color: #66FF00;"><b>Indian Chemical Council (ICC)</b></span> for certain reasons. 
-		</span></strong></p>
-		
-		<p><strong><span style="color: #0272a7;">
-		On specific invitation by Mr. Rajiv Pandya, then President of ICC, our <span style="background-color: #66FF00;"><b>Founder, Director Mr. Vijay Bukkawar,</b></span> on his retirement from DISH (Directorate of Industrial Safety & Health) Maharashtra, was invited to join ICC as an Advisor with a specific agenda to resurrect the Responsible Care.  
-		
-		</span></strong></p>
-		
-		<p><strong><span style="color: #0272a7;">
-		After diagnosing the causes for this failure, he lead a team to come out with first ever country specific <span style="background-color: #66FF00;"><b>Guidance Manual for Responsible Care</b></span>. In the process he indigenised this most revered standard without any compromise with fundamentals and convinced Indian chemical industry that it is possible for them to have a Responsible Care Logo, if we can put certain extra efforts.   
-		
-		</span></strong></p>
-		
-		<p><strong><span style="color: #0272a7;">
-		And then onwards ICC never looked back. Second Edition of this Guidance Manual for Responsible Care was also taken out under his leadership. 		
-		</span></strong></p>
-		
-		<p><strong><span style="color: #0272a7;">
-		Major change in this edition was of a inclusion of a separate code titled as <span style="background-color: #66FF00;"><b>“Top Management – Commitment and Action”. </b></span>
-		This inclusion was found necessary to emphasise the “Role” of Top Management. Responsible Care is a standard that is strongly based on the Safety Culture of the company and world over it is seen that unless the Top Management is involved, Safety Culture related initiative never take off or sustain, in the manner those are expected. 
-		There is one more addition. In this code a proper position is given to <span style="background-color: #66FF00;"><b>CSR (Corporate Social Responsibility)</b></span> activities, as a tool to harmonise relations with the communities around manufacturing facilities to share the risk and concerns. However this CSR is now legal requirement and helping this endeavour. 
-		
-		</span></strong></p>
-		<p>
-		<strong><span style="color: #013953;">Present THIRD EDITION is a just reprint of the Second, with an addition of Security Code. </span></strong>
-		</p>
-		
-	</div>
-	
-	<!--<div  style="float:left;width:40%">			
 
-		</div> -->
+
+	<div class="modern-card" style="width:100%; box-sizing: border-box;">
+
+		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Latest Happenings at Webstac –</span></h1>
+
+		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:10px;">
+  <span class="icon-wrapper" style="border-color:#020202;">
+  <i class="fa fa-star" style="color:#020202;"></i></span></div>
+		<br>
+		<p style="font-size:16px; padding:0 10px 10px 0"><strong>Webstac Annual Safety Conference 2024</strong>
+		<br>
+		<span style="color: #666; font-size: 14px;">December 2024 &bull; Mumbai</span>
+		</p>
+		<p style="font-style:italic; padding:0 10px 10px 0; font-size:15px">
+		"Webstac hosted its Annual Safety Conference in December 2024 in Mumbai, bringing together over 150 HSE professionals from leading chemical and manufacturing companies across India. The event featured keynote sessions on digital safety management, live demonstrations of the BEST (Behaviour Ensuring Safety with Tracker) software, and panel discussions on evolving OSH Code compliance. Attendees appreciated the real-world case studies presented by our clients on how the 3S Safety Support System has transformed their compliance tracking."
+		</p>
+
 		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;">
+<span class="icon-wrapper" style="border-color:#020202;">
+<i class="fa fa-star" style="color:#020202;"></i></span></div>
+		<br>
+		<p style="font-size:16px; padding:0 10px 10px 0"><strong>Webstac at CHEMTECH World Expo 2024</strong>
+		<br>
+		<span style="color: #666; font-size: 14px;">October 2024 &bull; Mumbai</span>
+		</p>
+		<p style="font-style:italic; padding:0 10px 10px 0; font-size:15px">
+		"Webstac Software Pvt. Ltd. participated in the prestigious CHEMTECH World Expo 2024, showcasing its full suite of HSE software solutions including SEnSE Legal, BEST, InfoInci, and the 3S Safety Support System. Our booth attracted significant interest from EHS professionals seeking digital transformation of their compliance and safety processes. Mr. Vijay Bukkawar delivered an insightful talk on 'The Future of Behaviour-Based Safety in the Digital Age.'"
+		</p>
+
+		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;">
+<span class="icon-wrapper" style="border-color:#020202;">
+<i class="fa fa-star" style="color:#020202;"></i></span></div>
+		<br>
+		<p style="font-size:16px; padding:0 10px 10px 0"><strong>Responsible Care Logo Certification — New Client Achievement</strong>
+		<br>
+		<span style="color: #666; font-size: 14px;">September 2024 &bull; Thane</span>
+		</p>
+		<p style="font-style:italic; padding:0 10px 10px 0; font-size:15px">
+		"We are proud to announce that three of our long-standing clients successfully achieved the Responsible Care Logo Certification from the Indian Chemical Council in September 2024. This milestone reflects our commitment to guiding organizations through the full journey of Responsible Care implementation — from gap assessments to audit readiness. Congratulations to all teams involved!"
+		</p>
+
+		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;">
+<span class="icon-wrapper" style="border-color:#020202;">
+<i class="fa fa-star" style="color:#020202;"></i></span></div>
+		<br>
+		<p style="font-size:16px; padding:0 10px 10px 0"><strong>Webstac Launches BEST Software — New Version</strong>
+		<br>
+		<span style="color: #666; font-size: 14px;">July 2024 &bull; Thane</span>
+		</p>
+		<p style="font-style:italic; padding:0 10px 10px 0; font-size:15px">
+		"Webstac Software is excited to announce the launch of BEST (Behaviour Ensuring Safety with Tracker), the next evolution in Behaviour-Based Safety software. BEST features a real-time dashboard, configurable observation menus, multi-site comparison, and senior-level graphical reports. The new version has been deployed at pilot sites and has already shown measurable improvement in at-risk behaviour identification and spot-correction rates."
+		</p>
+
+		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;">
+<span class="icon-wrapper" style="border-color:#020202;">
+<i class="fa fa-star" style="color:#020202;"></i></span></div>
+		<br>
+		<p style="font-size:16px; padding:0 10px 10px 0"><strong>HSE Awareness Workshop at Pune Industrial Belt</strong>
+		<br>
+		<span style="color: #666; font-size: 14px;">May 2024 &bull; Pune</span>
+		</p>
+		<p style="font-style:italic; padding:0 10px 10px 0; font-size:15px">
+		"Webstac conducted a half-day HSE awareness workshop for plant managers and safety officers at multiple companies in the Pune industrial corridor. The workshop covered the latest amendments to the Factories Act, OSH Code 2020 compliance requirements, and hands-on demonstrations of the SEnSE Legal encyclopedia. More than 80 participants attended across two batches, and the feedback was overwhelmingly positive."
+		</p>
+
+	</div>
+
+	<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:-1px;">
 	<span class="icon-wrapper" style="border-color:#020202;"><i class="fa fa-chevron-down" style="color:#020202;"></i></span></div>
 
 	<div class="fusion-fullwidth fullwidth-box" style="background-attachment:scroll;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:0px;padding-right:0px;padding-top:10px;">
@@ -184,85 +206,20 @@
 <li><div class="image"><img src="images/DFPCL.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Dow.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/DSCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/emc.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Excel.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Firmenich.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/heubach.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Hikal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hincol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/HP.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Huntsman.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/ILFS.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/India_Glycols_Ltd.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Johnson_Matthey.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Kansai.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Karam.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/L&T.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Lanxess.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Laxmi_Organic.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Lubrizol.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Mahindra.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nagarjuna.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nocil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novartis.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/NPL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Oronite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Owens_Corning.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Privi_Organics.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Rallis_India.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/RCF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rhodia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SI_Group.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Siemens.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/SRF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Styrolution.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudarshan.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudchemie.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Perkins.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sulzer.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tagros.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/Tata_Power.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Technova.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Transparent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/United.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Watson.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Anshul.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Indofil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Fosroc.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Man_Trucks.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jindal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sigma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Abbott.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Poclain.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Smartchemtechnologies.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Inventia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Apcotex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/colourtex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dharamsi_Morarji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jubliant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/megafine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Shiva_Pharma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BKT.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Divislab.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Paushak.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Covestro.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/cl12.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Zoetis.png" alt="" /></div></li>
-<li><div class="image"><img src="images/virajprofile.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/sequent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novomet.png" alt="" /></div></li>
-<li><div class="image"><img src="images/Meghmani.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Masterbuilders.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahanagargas.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/LTHeavyEng.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/JFEShoji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/godrejIndustries.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Finolex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/epsilon.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DCMShriram.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Cardolite.jpg" alt="" /></div></li>
 <li><div class="image"><img src="images/AsianPaints.jpg" alt="" /></div></li>
 	</ul>
 	</div><div class="es-nav">
@@ -270,19 +227,18 @@
 	<span class="es-nav-next"></span></div></div>
 	</div></div>
 	<div class="fusion-sep-clear"></div>
-	</div>	
-		
 	</div>
-	
-	
-	
+	</div>
+
+
+
 <div style='clear:both'></div>
 <?php include_once('include/footer.php') ?>
-	
+
 			</div><!-- wrapper -->
-	
-		
-<?php include_once('include/footer_script.php'); ?>		
+
+
+<?php include_once('include/footer_script.php'); ?>
 
 </body>
 </html>

@@ -564,8 +564,9 @@ nav.nav-holder {
 #footer {
   background-color: var(--color-dark-bg) !important;
   color: var(--text-muted) !important;
-  padding: 60px 0 20px !important;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 22px 0 !important;
+  position: relative !important;
+  border-top: none !important;
 }
 
 #footer h3 {
@@ -593,6 +594,14 @@ nav.nav-holder {
 #main,
 div[id="main"] {
   background: linear-gradient(135deg, rgba(2, 114, 167, 0.02) 0%, rgba(16, 185, 129, 0.02) 100%) !important;
+}
+
+/* Ensure top contact bar phone/email links are always white */
+.top-contact-bar a {
+  color: white !important;
+}
+.top-contact-bar a:hover {
+  color: #0aafd8 !important;
 }
 
 /* --- Enhanced Modern Card with left accent border + hover lift --- */
@@ -632,7 +641,8 @@ div[id="main"] {
 
 .fusion-fullwidth .avada-row > h1 {
   position: relative;
-  display: inline-block;
+  display: block !important;
+  text-align: center !important;
   padding-bottom: 12px !important;
 }
 
@@ -640,7 +650,8 @@ div[id="main"] {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 60px;
   height: 4px;
   background: linear-gradient(90deg, #0272a7, #10b981);
@@ -892,7 +903,9 @@ iframe[src*="youtube"]:hover {
 
 #footer::before {
   content: "" !important;
-  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
   width: 100% !important;
   height: 3px !important;
   background: linear-gradient(90deg, #0272a7, #10b981, #0272a7) !important;
@@ -1432,6 +1445,322 @@ a[style*="background:#10b981"]:hover {
   box-shadow: 0 0 6px rgba(16, 185, 129, 0.3) !important;
 }
 
+/* ==========================================================================
+   COMPREHENSIVE POLISH v2 — Tints, Bigger Logos, Tight Sections, Forms
+   Applied: all pages via CSS; no behavioural changes.
+   ========================================================================== */
+
+/* --- 1. Eliminate dated thumbs-up / chevron separator icons --- */
+.fusion-separator .icon-wrapper { display: none !important; }
+.fusion-separator.sep-single    { border: none !important; height: 0 !important; margin: 0 !important; }
+.fusion-sep-clear               { margin: 0 !important; padding: 0 !important; }
+
+/* --- 2. Section padding: tighter (no big empty gaps) --- */
+.fusion-fullwidth.fullwidth-box {
+  padding-top: 44px !important;
+  padding-bottom: 44px !important;
+}
+
+/* --- 3. Color tint on gray-background sections (SEnSEL, Marquee, Clients) ---
+   Replaces the plain #f2f2f2 with a branded blue-green tint + subtle dot grid.
+   The ::before pseudo-element adds a translucent dot pattern over the gradient. */
+.fusion-fullwidth.fullwidth-box[style*="background-color:#f2f2f2"],
+.fusion-fullwidth.fullwidth-box[style*="background:#f2f2f2"],
+.fusion-fullwidth.fullwidth-box[style*="background: #f2f2f2"] {
+  background: linear-gradient(160deg, #e9f4fb 0%, #f4fbf8 50%, #edf5fb 100%) !important;
+  position: relative !important;
+}
+.fusion-fullwidth.fullwidth-box[style*="background-color:#f2f2f2"]::before,
+.fusion-fullwidth.fullwidth-box[style*="background:#f2f2f2"]::before,
+.fusion-fullwidth.fullwidth-box[style*="background: #f2f2f2"]::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-image: radial-gradient(circle, rgba(2,114,167,0.045) 1px, transparent 1px) !important;
+  background-size: 22px 22px !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+}
+/* Ensure content inside sits above the dot overlay */
+.fusion-fullwidth.fullwidth-box[style*="background-color:#f2f2f2"] .avada-row,
+.fusion-fullwidth.fullwidth-box[style*="background:#f2f2f2"] .avada-row,
+.fusion-fullwidth.fullwidth-box[style*="background: #f2f2f2"] .avada-row {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Tint for the clients carousel section (no background-color set — uses body) */
+.fusion-clients-slider {
+  background: transparent !important;
+}
+.fusion-fullwidth.fullwidth-box:not([style*="#f2f2f2"]):not([style*="transparent"]) {
+  background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 40%, #f5fbf8 100%) !important;
+}
+
+/* --- 4. Client logo cards — bigger, white card, lift on hover --- */
+.es-carousel .image {
+  background: white !important;
+  border-radius: 14px !important;
+  padding: 16px 20px !important;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.08) !important;
+  border: 1px solid rgba(0,0,0,0.06) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 100px !important;
+  transition: box-shadow 0.3s ease, transform 0.3s ease !important;
+}
+.es-carousel .image:hover {
+  box-shadow: 0 10px 30px rgba(2,114,167,0.15) !important;
+  transform: translateY(-4px) !important;
+}
+.es-carousel .image img {
+  max-height: 76px !important;
+  max-width: 150px !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+/* --- 5. SEnSEL login section — stretch both cards to equal height --- */
+#senselogin {
+  display: flex !important;
+  align-items: stretch !important;  /* stretch = equal height for direct children */
+  gap: 28px !important;
+  padding: 20px 0 28px !important;
+  flex-wrap: nowrap !important;
+}
+/* Login form inputs */
+#senselogin form input[type="text"],
+#senselogin form input[type="password"] {
+  border: 1.5px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 11px 15px !important;
+  width: 100% !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  background: #f8fafc !important;
+  box-sizing: border-box !important;
+  color: #334155 !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+  margin: 10px 0 14px 0 !important;
+  display: block !important;
+}
+#senselogin form input[type="text"]:focus,
+#senselogin form input[type="password"]:focus {
+  border-color: #0272a7 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(2,114,167,0.1) !important;
+}
+/* Login button */
+#senselogin form input[type="button"] {
+  background: linear-gradient(135deg, #0272a7, #10b981) !important;
+  color: white !important;
+  padding: 11px 0 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  box-shadow: 0 4px 15px rgba(2,114,167,0.3) !important;
+  transition: all 0.3s ease !important;
+  width: 100% !important;
+}
+#senselogin form input[type="button"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(2,114,167,0.4) !important;
+}
+/* "Forgot Password" link */
+#senselogin form p a {
+  color: #0272a7 !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+/* Section heading polish */
+#senselogin .title-heading-left span {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #0272a7 !important;
+}
+/* "What We Are" heading */
+#senselogin .fusion-two-third .title-heading-left span {
+  color: #0f172a !important;
+}
+/* Tab content typography */
+.fusion-tabs .tab-content .tab-pane {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.85 !important;
+  color: #475569 !important;
+  padding: 16px !important;
+}
+
+/* --- 6. "Our Packages" / "Our Services" headings — centred + gradient underline --- */
+.section-radial-bg .avada-row > h1 {
+  position: relative !important;
+  display: block !important;
+  text-align: center !important;
+  padding-bottom: 18px !important;
+  margin-bottom: 36px !important;
+}
+.section-radial-bg .avada-row > h1::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 60px !important;
+  height: 4px !important;
+  background: linear-gradient(90deg, #0272a7, #10b981) !important;
+  border-radius: 2px !important;
+}
+
+/* --- 7. Feature card "Learn More / Request Demo" links --- */
+.card-read-more {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin-top: 16px !important;
+  color: #0272a7 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: color 0.2s ease !important;
+  font-family: 'Inter', sans-serif !important;
+}
+.card-read-more:hover { color: #10b981 !important; border-bottom: none !important; }
+
+/* --- 8. Request Demo / Enquiry Form — modern professional inputs --- */
+#frmenquiry h2 a {
+  color: #0f172a !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 18px !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+#frmenquiry input[type="text"],
+#frmenquiry textarea,
+#frmenquiry select {
+  width: 100% !important;
+  padding: 11px 15px !important;
+  border: 1.5px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  color: #334155 !important;
+  background: #f8fafc !important;
+  box-sizing: border-box !important;
+  margin-bottom: 12px !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+  display: block !important;
+}
+#frmenquiry input[type="text"]:focus,
+#frmenquiry textarea:focus,
+#frmenquiry select:focus {
+  border-color: #0272a7 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(2,114,167,0.08) !important;
+}
+#frmenquiry input[type="submit"] {
+  background: linear-gradient(135deg, #0272a7, #10b981) !important;
+  color: white !important;
+  padding: 12px 32px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 15px rgba(2,114,167,0.3) !important;
+  transition: all 0.3s ease !important;
+}
+#frmenquiry input[type="submit"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(2,114,167,0.4) !important;
+}
+
+/* --- 9. Marquee text + branded yellow-tag labels --- */
+.yellow_bg_text {
+  background: rgba(2,114,167,0.09) !important;
+  color: #0272a7 !important;
+  padding: 2px 9px !important;
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+}
+marquee {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  color: #334155 !important;
+  line-height: 1.95 !important;
+}
+
+/* --- 10. Modern flex layout — features ticker + form card, equal height --- */
+.modern-features-section {
+  display: flex !important;
+  gap: 28px !important;
+  padding: 10px 24px 30px !important;
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  align-items: stretch !important;  /* equal height — both cards grow to tallest */
+  flex-wrap: nowrap !important;
+}
+.modern-features-ticker {
+  flex: 1 !important;
+  min-width: 0 !important;
+  background: linear-gradient(150deg, #edf5fb 0%, #f4fbf8 100%) !important;
+  border-radius: 16px !important;
+  padding: 22px !important;
+  box-shadow: 0 4px 20px rgba(2,114,167,0.08) !important;
+  border: 1px solid rgba(2,114,167,0.12) !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  max-height: 440px !important;  /* cap both cards at same height */
+}
+.modern-features-ticker h3 {
+  color: #0f172a !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px !important;
+  margin: 0 0 12px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid rgba(2,114,167,0.12) !important;
+  font-weight: 600 !important;
+  flex-shrink: 0 !important;
+}
+/* Marquee fills remaining height inside ticker card */
+.modern-features-ticker marquee {
+  flex: 1 !important;
+  display: block !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+.modern-form-card {
+  width: 380px !important;
+  flex-shrink: 0 !important;
+  background: white !important;
+  border-radius: 16px !important;
+  padding: 24px 28px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07) !important;
+  border: 1px solid rgba(0,0,0,0.05) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  max-height: 440px !important;  /* match ticker cap — equal height */
+  overflow: hidden !important;
+}
+.modern-form-card form {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+@media (max-width: 860px) {
+  .modern-features-section { flex-direction: column !important; padding: 0 16px 20px !important; }
+  .modern-form-card { width: 100% !important; }
+}
+
+/* --- 11. "Our Clients" heading — centred (rules merged above) --- */
+
 /* --- Carousel navigation arrows: styled --- */
 .es-nav span {
   background: linear-gradient(135deg, #0272a7, #10b981) !important;
@@ -1624,4 +1953,137 @@ a.to-top:hover {
   font-weight: 700 !important;
   color: #0f172a !important;
   letter-spacing: 0.5px !important;
+}
+
+/* ==========================================================================
+   CONTACT PAGE INFO CARD — force text colors over global overrides
+   ========================================================================== */
+
+#main div[style*="linear-gradient(160deg"] h2,
+#main div[style*="linear-gradient(160deg"] p,
+#main div[style*="linear-gradient(160deg"] span {
+  color: white !important;
+}
+
+#main div[style*="linear-gradient(160deg"] a {
+  color: #0aafd8 !important;
+}
+
+/* ==========================================================================
+   REDESIGNED CTA BANNER — modern full-width strip
+   ========================================================================== */
+
+/* Reset container to block, full-width */
+.blue-contact-banner-container {
+  display: block !important;
+  background: transparent !important;
+  position: relative !important;
+  margin-top: 0 !important;
+  animation: none !important;
+}
+
+/* Override all previous banner background/animation */
+.blue-contact-banner {
+  background: linear-gradient(120deg, #0d1f35 0%, #0272a7 55%, #0aafd8 100%) !important;
+  background-size: 100% 100% !important;
+  animation: none !important;
+  width: 100% !important;
+  padding: 14px 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 60px !important;
+  clip-path: none !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border-top: none !important;
+  box-shadow: 0 -4px 0 rgba(10, 175, 216, 0.5), 0 8px 40px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Left radial glow accent */
+.blue-contact-banner::before {
+  content: "" !important;
+  position: absolute !important;
+  left: -60px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 320px !important;
+  height: 320px !important;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 65%) !important;
+  border-radius: 50% !important;
+  pointer-events: none !important;
+  animation: none !important;
+}
+
+/* Right warm glow accent */
+.blue-contact-banner::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 4% !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 260px !important;
+  height: 260px !important;
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.18) 0%, transparent 65%) !important;
+  border-radius: 50% !important;
+  pointer-events: none !important;
+  animation: none !important;
+}
+
+/* Heading — clean, uppercase with subtle glow */
+.blue-contact-banner h4 {
+  color: white !important;
+  margin: 0 !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  font-family: 'Inter', sans-serif !important;
+  text-transform: uppercase !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3) !important;
+  opacity: 0.95 !important;
+  line-height: 1.4 !important;
+}
+
+/* Ghost / outline pill button */
+.blue-contact-banner .btn-orange {
+  background: transparent !important;
+  color: white !important;
+  padding: 10px 32px !important;
+  border-radius: 50px !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  text-decoration: none !important;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease !important;
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  box-shadow: none !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  position: relative !important;
+  z-index: 1 !important;
+  white-space: nowrap !important;
+  animation: none !important;
+  flex-shrink: 0 !important;
+}
+
+.blue-contact-banner .btn-orange:hover {
+  background: white !important;
+  color: #0272a7 !important;
+  border-color: white !important;
+  transform: translateY(-3px) scale(1.03) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22) !important;
+  animation: none !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .blue-contact-banner {
+    padding: 20px 30px !important;
+    gap: 28px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .blue-contact-banner::before,
+  .blue-contact-banner::after {
+    display: none !important;
+  }
 }
