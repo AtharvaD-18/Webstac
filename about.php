@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -41,6 +41,7 @@
             <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
             <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
         </div>
+        <a href="https://www.linkedin.com/company/webstac-software-private-limited/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background-color:#0077b5;border-radius:6px;color:white;text-decoration:none;margin-left:20px;flex-shrink:0;transition:background-color 0.3s;" onmouseover="this.style.backgroundColor='#005885'" onmouseout="this.style.backgroundColor='#0077b5'"><i class="fa-brands fa-linkedin" style="font-size:18px;"></i></a>
     </div>
 </div>
 
@@ -163,6 +164,9 @@
 		<li> 
 		<strong><span style="color: #013953;">3S (Safety Support System)</span></strong>
 		</li>
+		<li> 
+		<strong><span style="color: #013953;">BEST (Behaviour Ensuring Safety with Tracker)</span></strong>
+		</li>
 		</ul>
 		<p><span style="color: #000000;">
 		Our moto and emphasis is on providing solutions those are user-friendly and relevant to Indian situation without ignoring the global context. 
@@ -207,7 +211,7 @@
 				<p style="color:#64748b; font-size:13px; line-height:1.6; margin:0;">Led by a retired Joint Director of Industrial Safety with decades of field experience.</p>
 			</div>
 			<div style="background:white; padding:24px; border-radius:12px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
-				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-handshake-o" style="color:white; font-size:22px;"></i></div>
+				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-handshake" style="color:white; font-size:22px;"></i></div>
 				<strong style="color:#0f172a; font-size:16px; display:block; margin-bottom:8px;">Trusted by MNCs</strong>
 				<p style="color:#64748b; font-size:13px; line-height:1.6; margin:0;">Reliance, Tata Power, Clariant, Lanxess, BASF and many more trust Webstac solutions.</p>
 			</div>

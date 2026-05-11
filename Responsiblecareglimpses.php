@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -43,6 +43,7 @@
             <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
             <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
         </div>
+        <a href="https://www.linkedin.com/company/webstac-software-private-limited/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background-color:#0077b5;border-radius:6px;color:white;text-decoration:none;margin-left:20px;flex-shrink:0;transition:background-color 0.3s;" onmouseover="this.style.backgroundColor='#005885'" onmouseout="this.style.backgroundColor='#0077b5'"><i class="fa-brands fa-linkedin" style="font-size:18px;"></i></a>
     </div>
 </div>
 

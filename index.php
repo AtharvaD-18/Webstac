@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head> 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -348,6 +348,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
             <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
         </div>
+        <a href="https://www.linkedin.com/company/webstac-software-private-limited/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background-color:#0077b5;border-radius:6px;color:white;text-decoration:none;margin-left:20px;flex-shrink:0;transition:background-color 0.3s;" onmouseover="this.style.backgroundColor='#005885'" onmouseout="this.style.backgroundColor='#0077b5'"><i class="fa-brands fa-linkedin" style="font-size:18px;"></i></a>
     </div>
 </div>
 
@@ -547,7 +548,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <img src="images/hero_slide3.png" alt="Legal Compliance Review">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-package">Package</span>
-                            <p class="hero-slide-name">SEnSE_L</p>
+                            <p class="hero-slide-name">SEnSE_L — Safety &amp; Environment Super Encyclopedia Legal</p>
                         </div>
                     </a>
 
@@ -575,6 +576,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-service">Service</span>
                             <p class="hero-slide-name">Legal Assessment</p>
+                        </div>
+                    </a>
+
+                    <!-- Slide 7: BEST -->
+                    <a href="BBSSoft.php" class="hero-slide-item">
+                        <img src="images/BEST_flyer.png" alt="Behaviour Ensuring Safety with Tracker">
+                        <div class="hero-slide-label">
+                            <span class="hero-slide-badge badge-package">Package</span>
+                            <p class="hero-slide-name">BEST — Behaviour Ensuring Safety with Tracker</p>
                         </div>
                     </a>
 

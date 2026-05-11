@@ -629,25 +629,18 @@ div[id="main"] {
 .modern-card {
   border-left: 4px solid #0272a7 !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-  background: rgba(255, 255, 255, 0.97) !important;
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.55) 0%, rgba(240, 249, 255, 0.45) 55%, rgba(224, 242, 254, 0.50) 100%) !important;
 }
 
 /* --- Card heading gradient underline --- */
 .modern-card > strong {
   position: relative !important;
   display: inline-block !important;
-  padding-bottom: 12px !important;
+  padding-bottom: 0 !important;
 }
 
 .modern-card > strong::after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  width: 50px !important;
-  height: 3px !important;
-  background: linear-gradient(90deg, #0272a7, #10b981) !important;
-  border-radius: 2px !important;
+  display: none !important;
 }
 
 .modern-card:hover {
@@ -679,22 +672,12 @@ div[id="main"] {
 }
 
 .fusion-fullwidth .avada-row > h1 {
-  position: relative;
   display: block !important;
   text-align: center !important;
-  padding-bottom: 12px !important;
 }
 
 .fusion-fullwidth .avada-row > h1::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(90deg, #0272a7, #10b981);
-  border-radius: 2px;
+  display: none !important;
 }
 
 /* --- Client logo images: full colour with hover effect --- */
@@ -716,7 +699,9 @@ aside.sidebar {
   border-radius: 12px !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
   border: 1px solid rgba(0, 0, 0, 0.04) !important;
-  padding: 20px !important;
+  padding: 28px 16px 16px 16px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* --- Download Brochure button polish --- */
@@ -1068,13 +1053,7 @@ body {
 
 /* --- Sidebar: top accent bar --- */
 aside.sidebar::before {
-  content: "" !important;
-  display: block !important;
-  width: 50px !important;
-  height: 3px !important;
-  background: linear-gradient(90deg, #0272a7, #10b981) !important;
-  border-radius: 2px !important;
-  margin-bottom: 16px !important;
+  display: none !important;
 }
 
 /* --- Page content sections: alternating subtle tint bands --- */
@@ -1537,16 +1516,24 @@ a[style*="background:#10b981"]:hover {
 }
 
 /* --- 4. Client logo cards — bigger, white card, lift on hover --- */
+.clients-carousel .es-carousel li,
+.es-carousel-wrapper.fusion-carousel-small .es-carousel ul li {
+  width: 220px !important;
+  line-height: normal !important;
+}
 .es-carousel .image {
   background: white !important;
   border-radius: 14px !important;
-  padding: 16px 20px !important;
+  padding: 18px 24px !important;
   box-shadow: 0 3px 16px rgba(0,0,0,0.08) !important;
   border: 1px solid rgba(0,0,0,0.06) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  min-height: 100px !important;
+  min-height: 140px !important;
+  width: 220px !important;
+  height: auto !important;
+  line-height: normal !important;
   transition: box-shadow 0.3s ease, transform 0.3s ease !important;
 }
 .es-carousel .image:hover {
@@ -1554,9 +1541,10 @@ a[style*="background:#10b981"]:hover {
   transform: translateY(-4px) !important;
 }
 .es-carousel .image img {
-  max-height: 76px !important;
-  max-width: 150px !important;
+  max-height: 120px !important;
+  max-width: 200px !important;
   width: auto !important;
+  height: auto !important;
   object-fit: contain !important;
 }
 
@@ -1947,7 +1935,7 @@ a.to-top:hover {
   color: #ffffff !important;
 }
 
-/* Brochure image: bigger, properly fitted */
+/* Brochure image: fill the full sidebar width, no max-width cap */
 .sidebar img[src*="SenSE"],
 .sidebar img[src*="Infolnci"],
 .sidebar img[src*="3S-"],
@@ -1957,7 +1945,7 @@ a.to-top:hover {
 .sidebar img[src*="Webstac"],
 .sidebar section ul li img {
   width: 100% !important;
-  max-width: 380px !important;
+  max-width: 100% !important;
   height: auto !important;
   border-radius: 12px !important;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important;
@@ -1970,9 +1958,28 @@ a.to-top:hover {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18) !important;
 }
 
-/* Sidebar container: better spacing & alignment */
+/* Sidebar outer div: 37% */
+div[style="float:left;width:40%"] {
+  width: 37% !important;
+  box-sizing: border-box !important;
+  padding-left: 24px !important;
+  margin-top: 20px !important;
+}
+.modern-card[style*="width:60%"] {
+  width: 63% !important;
+}
+
+/* Sidebar aside: top padding matches modern-card padding so button aligns with heading */
 .sidebar.sidebar-primary {
-  padding: 20px 20px 20px 30px !important;
+  padding: 28px 16px 16px 16px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Hide the two leading <br> elements in the left card that push the heading down */
+.modern-card > br:first-child,
+.modern-card > br:nth-child(2) {
+  display: none !important;
 }
 
 .sidebar.sidebar-primary ul {
@@ -1981,8 +1988,32 @@ a.to-top:hover {
 }
 
 .sidebar.sidebar-primary ul li {
-  margin: 15px 0 !important;
+  margin: 12px 0 !important;
   list-style: none !important;
+}
+
+/* Remove all blank space above the Download Brochure button */
+/* Targets the exact placeholder <li style="color:#0aafd8"> elements in the HTML */
+.sidebar.sidebar-primary ul > li[style="color:#0aafd8"] {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+/* Also reset <section> default margin inside aside */
+.sidebar.sidebar-primary section {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 860px) {
+  div[style="float:left;width:40%"],
+  .modern-card[style*="width:60%"] {
+    width: 100% !important;
+    float: none !important;
+  }
 }
 
 /* "DOWNLOAD APP FOR" heading in sidebar */
@@ -2183,3 +2214,6 @@ div[id="main"] {
     radial-gradient(ellipse at 85% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
     radial-gradient(circle at 50% 10%, rgba(23, 187, 125, 0.06) 0%, transparent 55%) !important;
 }
+
+/* Hide reCAPTCHA badge (localhost key error) */
+.grecaptcha-badge { display: none !important; }

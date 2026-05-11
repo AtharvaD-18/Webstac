@@ -65,6 +65,7 @@
             <i class="fa fa-envelope" style="color: #0aafd8; margin-right: 8px;"></i>
             <a href="mailto:contact@webstac.in" style="color: white; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#0aafd8'" onmouseout="this.style.color='white'">contact@webstac.in</a>
         </div>
+        <a href="https://www.linkedin.com/company/webstac-software-private-limited/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background-color:#0077b5;border-radius:6px;color:white;text-decoration:none;margin-left:20px;flex-shrink:0;transition:background-color 0.3s;" onmouseover="this.style.backgroundColor='#005885'" onmouseout="this.style.backgroundColor='#0077b5'"><i class="fa-brands fa-linkedin" style="font-size:18px;"></i></a>
     </div>
 </div>
 
@@ -249,7 +250,7 @@
 						<p style="margin:0 0 4px; font-family:'Inter',sans-serif; font-size:0.72rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1.2px;">Email</p>
 						<p style="margin:0; font-family:'Inter',sans-serif; font-size:0.84rem; line-height:1.8;">
 							<a href="mailto:contact@webstac.in" style="color:#0aafd8; text-decoration:none;">contact@webstac.in</a><br>
-							<a href="mailto:help@webstac.in" style="color:#0aafd8; text-decoration:none;">help@webstac.in</a>
+							<!-- <a href="mailto:help@webstac.in" style="color:#0aafd8; text-decoration:none;">help@webstac.in</a> -->
 						</p>
 					</div>
 				</div>
@@ -261,10 +262,11 @@
 					</div>
 					<div>
 						<p style="margin:0 0 4px; font-family:'Inter',sans-serif; font-size:0.72rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1.2px;">Phone</p>
-						<p style="margin:0; font-family:'Inter',sans-serif; font-size:0.82rem; color:rgba(255,255,255,0.85); line-height:2;">
-							022-25337774<br>
+						<!-- <p style="margin:0; font-family:'Inter',sans-serif; font-size:0.82rem; color:rgba(255,255,255,0.85); line-height:2;">
+							022-25337774<br> -->
 							Shailesh Parab &mdash; <a href="tel:9870915170" style="color:#0aafd8;text-decoration:none;">9870915170</a><br>
 							Reshma Sonawane &mdash; <a href="tel:8108664360" style="color:#0aafd8;text-decoration:none;">8108664360</a><br>
+							Sarika Bukkawar &mdash; <a href="tel:9819669962" style="color:#0aafd8;text-decoration:none;">9819669962</a><br>
 							Vijay Bukkawar &mdash; <a href="tel:9820503444" style="color:#0aafd8;text-decoration:none;">9820503444</a>
 						</p>
 					</div>
