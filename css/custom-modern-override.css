@@ -504,7 +504,7 @@ li:has(.nav-demo-btn) {
 }
 
 .feature-card {
-  background: var(--text-white);
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.50) 0%, rgba(240, 249, 255, 0.40) 55%, rgba(224, 242, 254, 0.45) 100%);
   border-radius: var(--radius-lg);
   padding: 30px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.04);
@@ -2217,3 +2217,206 @@ div[id="main"] {
 
 /* Hide reCAPTCHA badge (localhost key error) */
 .grecaptcha-badge { display: none !important; }
+
+/* ==========================================================================
+   LIGHT BLUE TINT — fill remaining white-space areas to match modern-card
+   ========================================================================== */
+
+/* Feature cards (Our Packages / Our Services on index.php) — exclude the dark highlighted card */
+.feature-card:not(.feature-card-highlighted) {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.50) 0%, rgba(240, 249, 255, 0.40) 55%, rgba(224, 242, 254, 0.45) 100%) !important;
+}
+
+/* Request Demo form card (right of key-features ticker on index.php) */
+.modern-form-card {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.55) 0%, rgba(240, 249, 255, 0.45) 55%, rgba(224, 242, 254, 0.50) 100%) !important;
+}
+
+/* Sidebar aside card */
+aside.sidebar {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.50) 0%, rgba(240, 249, 255, 0.40) 55%, rgba(224, 242, 254, 0.45) 100%) !important;
+}
+
+/* "Why Choose" white mini-cards on about.php and service pages */
+.avada-row div[style*="background:white"],
+.avada-row div[style*="background: white"],
+.clearfix div[style*="background:white"],
+.clearfix div[style*="background: white"] {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.45) 0%, rgba(240, 249, 255, 0.35) 55%, rgba(224, 242, 254, 0.40) 100%) !important;
+}
+
+/* SEnSEL login card and similar inline white cards */
+div[style*="border:1.5px solid #e2e8f0"],
+div[style*="border: 1.5px solid #e2e8f0"] {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.45) 0%, rgba(240, 249, 255, 0.35) 55%, rgba(224, 242, 254, 0.40) 100%) !important;
+}
+
+/* Client logo carousel cards — very subtle so logos stay readable */
+.es-carousel .image {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.35) 0%, rgba(240, 249, 255, 0.25) 55%, rgba(224, 242, 254, 0.30) 100%) !important;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY SYSTEM — consistent, bold, readable across all pages
+   ========================================================================== */
+
+/* Global heading weight bump: all h tags bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Avada / clearfix section headings */
+.avada-row h1 strong,
+.clearfix h1 strong,
+.fusion-fullwidth h1 strong {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* -- Product page main title (<strong> at top of modern-card) -- */
+.modern-card > strong:first-child {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
+  color: #0272a7 !important;
+  display: block !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* -- Intro / lead paragraph (right below the title) -- */
+.modern-card > p:first-of-type,
+.modern-card > p:first-of-type span {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #334155 !important;
+  line-height: 1.8 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* -- All other descriptive paragraphs in content cards -- */
+.modern-card p,
+.modern-card p span {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 15.5px !important;
+  line-height: 1.82 !important;
+  color: #475569 !important;
+  font-weight: 400 !important;
+}
+
+/* -- Section sub-headings ("Main features -", "Contributors:-") -- */
+.modern-card > p > strong:only-child,
+.modern-card p > strong:only-child {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* -- List items: medium weight, clearly readable -- */
+.modern-card ul li,
+.modern-card ol li {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.82 !important;
+  color: #334155 !important;
+  font-weight: 500 !important;
+}
+
+/* Span inside list items */
+.modern-card ul li span,
+.modern-card ol li span {
+  color: #334155 !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+/* Strong inside list items — clearly bold, dark */
+.modern-card ul li strong,
+.modern-card ul li strong span,
+.modern-card ol li strong,
+.modern-card ol li strong span {
+  font-weight: 700 !important;
+  color: #1e293b !important;
+}
+
+/* -- Feature card titles (Our Packages / Our Services) -- */
+.feature-card h3 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  color: #0f172a !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.35 !important;
+}
+
+/* -- Feature card description text -- */
+.feature-card p {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #475569 !important;
+  line-height: 1.72 !important;
+}
+
+/* -- About / Why Choose mini-card labels -- */
+.avada-row div[style*="rgba(2,114,167,0.05)"] strong,
+.clearfix div[style*="rgba(2,114,167,0.05)"] strong {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+}
+.avada-row div[style*="rgba(2,114,167,0.05)"] p,
+.clearfix div[style*="rgba(2,114,167,0.05)"] p {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #475569 !important;
+  line-height: 1.7 !important;
+}
+
+/* ==========================================================================
+   FONT SIZE FIXES — override all under-sized inline font-size declarations
+   ========================================================================== */
+
+/* Sticky nav + all nav links — 14px keeps them readable without overflowing */
+#sticky-nav li a,
+.sticky-header .navigation.menu li a,
+.navigation.menu li a {
+  font-size: 14px !important;
+}
+
+/* All 13px text in main content, about stats, why-choose cards */
+#main p[style*="font-size:13px"],
+#main div[style*="font-size:13px"],
+#main span[style*="font-size:13px"],
+.avada-row p[style*="font-size:13px"],
+.avada-row div[style*="font-size:13px"],
+.avada-row span[style*="font-size:13px"],
+.clearfix p[style*="font-size:13px"],
+.clearfix div[style*="font-size:13px"],
+.clearfix span[style*="font-size:13px"] {
+  font-size: 15px !important;
+}
+
+/* 12px video box labels ("Product Demo Video", "Click to watch...") */
+div[style*="font-size: 12px"],
+span[style*="font-size: 12px"],
+div[style*="font-size:12px"],
+span[style*="font-size:12px"] {
+  font-size: 14px !important;
+}
+
+/* Hero slide name text */
+.hero-slide-name {
+  font-size: 1.5rem !important;
+}
+
+/* Hero slide badge */
+.hero-slide-badge {
+  font-size: 0.78rem !important;
+  letter-spacing: 0.08em !important;
+}
