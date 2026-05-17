@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Happenings at Webstac | Webstac Software Pvt Ltd</title>
+<title>Happening at Webstac | Webstac Software Pvt Ltd</title>
 <?php include_once('include/head_links.php') ?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
@@ -87,8 +87,8 @@
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
 	</ul>
 </li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonial</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happening at Webstac</a></li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 					</ul>		</nav>
 				<div class="mobile-nav-holder"></div>
@@ -97,11 +97,11 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/testimonials_hero.png');">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/Testimonial_hero.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
-											<h1 class="entry-title">Happenings at Webstac</h1>
+											<h1 class="entry-title">Happening at Webstac</h1>
 																				</div>
 				<ul class="breadcrumbs"><li> <a href="index.php">Home</a></li><li>Happenings</li></ul>			</div>
 		</div>
@@ -120,7 +120,7 @@
 
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">
 
-		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Latest Happenings at Webstac –</span></h1>
+		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Latest Happening at Webstac –</span></h1>
 
 		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:10px;">
   <span class="icon-wrapper" style="border-color:#020202;">

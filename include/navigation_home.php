@@ -49,8 +49,8 @@ function get_active($link)
 		
 		</ul>
 	</li>-->
-	<li <?php echo get_active('testimonial') ?>><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
-	<li <?php echo get_active('happenings') ?>><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+	<li <?php echo get_active('testimonial') ?>><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonial</a></li>
+	<li <?php echo get_active('happenings') ?>><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happening at Webstac</a></li>
 	<li <?php echo get_active('contactus') ?>><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 	<li><a href="contactus.php" class="nav-demo-btn">Request Demo</a></li>
 		

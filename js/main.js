@@ -1222,7 +1222,7 @@ jQuery(window).load(function() { // start window_load_1
 		jQuery( this ).fusion_calc_flip_boxes_height();
 	});
 
-	// Testimonials
+	// Testimonial
 	function onBefore( curr, next, opts, fwd ) {
 	  var $ht = jQuery( this ).height();
 
@@ -1247,13 +1247,13 @@ jQuery(window).load(function() { // start window_load_1
 			delay: 0
 		};
 
-		if ( js_local_vars.testimonials_speed ) {
-			reviews_cycle_args.timeout = parseInt(js_local_vars.testimonials_speed);
+		if ( js_local_vars.Testimonial_speed ) {
+			reviews_cycle_args.timeout = parseInt(js_local_vars.Testimonial_speed);
 		}
 
 		reviews_cycle_args.pager = '.testimonial-pagination';
 
-		jQuery( '.fusion-testimonials .reviews' ).each( function() {
+		jQuery( '.fusion-Testimonial .reviews' ).each( function() {
 			if( jQuery( this ).children().length == 1 ) {
 				jQuery( this ).children().fadeIn();
 			}
@@ -1263,7 +1263,7 @@ jQuery(window).load(function() { // start window_load_1
 		});
 
 		jQuery(window).resize(function() {
-			jQuery( '.fusion-testimonials .reviews' ).each( function() {
+			jQuery( '.fusion-Testimonial .reviews' ).each( function() {
 				jQuery( this ).css( 'height', jQuery( this ).children( '.active-testimonial' ).height() );
 			});
 		});

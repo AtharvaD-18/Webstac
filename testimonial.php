@@ -2,7 +2,7 @@
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Testimonials</title>
+<title>Testimonial</title>
 <?php include_once('include/head_links.php') ?>  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
@@ -91,8 +91,8 @@
 	<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
 	</ul>
 </li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonial</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happening at Webstac</a></li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 					</ul>		</nav>
 				<div class="mobile-nav-holder"></div>
@@ -101,7 +101,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/testimonials_hero.png');">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/Testimonial_hero.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
@@ -124,7 +124,7 @@
 	
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">
 		
-		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Following are some of our video testimonials on Responsible Care & Safety Consultancy –</span></h1>
+		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Following are some of our video Testimonial on Responsible Care & Safety Consultancy –</span></h1>
 		<iframe width="400" height="250" src="https://www.youtube.com/embed/AR_HOacFfWM?ecver=1" frameborder="0" allowfullscreen></iframe>
 		<iframe width="400" height="250" src="https://www.youtube.com/embed/NsRAqtvIvwk?ecver=1" frameborder="0" allowfullscreen></iframe>
 		<iframe width="400" height="250" src="https://www.youtube.com/embed/XOzN029Pe_w?ecver=1" frameborder="0" allowfullscreen></iframe>

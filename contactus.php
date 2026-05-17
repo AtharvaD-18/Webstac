@@ -192,8 +192,8 @@
 
 								</ul>
 							</li>
-							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
-							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonial</a></li>
+							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happening at Webstac</a></li>
 							<li id="sticky-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
 						</ul>
 					</nav>

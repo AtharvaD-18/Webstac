@@ -399,8 +399,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item fusion-dropdown-submenu"  ><a href="Responsiblecareglimpses.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Responsible Care</a></li>
     </ul>
 </li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonials</a></li>
-<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happenings at Webstac</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="testimonial.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Testimonial</a></li>
+<li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="happenings.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Happening at Webstac</a></li>
 <li  id="sticky-menu-item"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="contactus.php" style="color:#0272A7;text-decoration:none;font-weight:bold;font-size:13px;">Contact Us</a></li>
                     </ul>       </nav>
                 <div class="mobile-nav-holder"></div>
@@ -536,7 +536,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 2: HSE Audit -->
                     <a href="hseaudit.php" class="hero-slide-item">
-                        <img src="images/hero_slide2.png" alt="Industrial Safety">
+                        <img src="images/novapor_hse.jpg" alt="HSE Audit - Novapor Visit" style="object-fit:cover; object-position:center center; opacity:0.78;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-service">Service</span>
                             <p class="hero-slide-name">HSE Audit &amp; Improvement in Safety Culture</p>
@@ -554,7 +554,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 4: Responsible Care -->
                     <a href="responsiblecare.php" class="hero-slide-item">
-                        <img src="images/hero_slide4.png" alt="Chemical Plant">
+                        <img src="images/baerlocher_rc.jpg" alt="Responsible Care - Baerlocher Visit" style="object-fit:cover; object-position:center center; opacity:0.78;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-service">Service</span>
                             <p class="hero-slide-name">Responsible Care</p>
@@ -572,7 +572,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 6: Legal Assessment -->
                     <a href="legalassessment.php" class="hero-slide-item">
-                        <img src="images/hero_slide6.png" alt="Environmental Sustainability">
+                        <img src="images/IMG_4715.JPG.jpeg" alt="Legal Assessment Training Session" style="object-fit:cover; object-position:center 30%; opacity:0.82;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-service">Service</span>
                             <p class="hero-slide-name">Legal Assessment</p>
