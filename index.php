@@ -527,7 +527,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 1: 3S Safety Support System -->
                     <a href="compliancetracking.php" class="hero-slide-item active">
-                        <img src="images/hero_slide1.png" alt="Compliance Dashboard">
+                        <img src="images/3S.jpeg" alt="3S Safety Support System" style="object-fit:cover; object-position:center 20%; opacity:0.82;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-package">Package</span>
                             <p class="hero-slide-name">3S — Safety Support System</p>
@@ -545,7 +545,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 3: SEnSE_L -->
                     <a href="sense.php" class="hero-slide-item">
-                        <img src="images/hero_slide3.png" alt="Legal Compliance Review">
+                        <img src="images/Sense_L.jpeg" alt="SEnSE_L Training Session" style="object-fit:cover; object-position:center 25%; opacity:0.82;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-package">Package</span>
                             <p class="hero-slide-name">SEnSE_L — Safety &amp; Environment Super Encyclopedia Legal</p>
@@ -563,7 +563,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <!-- Slide 5: Infoinci -->
                     <a href="incidentmanagement.php" class="hero-slide-item">
-                        <img src="images/hero_slide5.png" alt="Safety Audit Meeting">
+                        <img src="images/Infoci.jpeg" alt="Infoinci Incident Management Session" style="object-fit:cover; object-position:center 30%; opacity:0.82;">
                         <div class="hero-slide-label">
                             <span class="hero-slide-badge badge-package">Package</span>
                             <p class="hero-slide-name">Infoinci — Incident Management</p>

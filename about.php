@@ -183,7 +183,7 @@
 			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Companies Served</div>
 		</div>
 		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
-			<div style="font-size:32px; font-weight:800; color:#10b981;">2003</div>
+			<div style="font-size:32px; font-weight:800; color:#10b981;">2009</div>
 			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Founded</div>
 		</div>
 		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
