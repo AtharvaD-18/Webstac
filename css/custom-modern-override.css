@@ -2251,6 +2251,159 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   background: linear-gradient(145deg, rgba(219, 234, 254, 0.45) 0%, rgba(240, 249, 255, 0.35) 55%, rgba(224, 242, 254, 0.40) 100%) !important;
 }
 
+/* ==========================================================================
+   RESPONSIVE — Full site, all breakpoints
+   ========================================================================== */
+
+/* --- Tablet landscape: ≤ 1024px --- */
+@media (max-width: 1024px) {
+  .modern-hero { padding: 70px 24px 50px !important; }
+  .hero-content h1 { font-size: 2.8rem !important; }
+  .hero-grid { gap: 30px !important; }
+}
+
+/* --- Tablet portrait / large mobile: ≤ 992px --- */
+@media (max-width: 992px) {
+  .modern-hero { padding: 56px 20px 40px !important; }
+
+  /* Stack hero two-column into single column */
+  .hero-grid {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .hero-content {
+    flex: unset !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* Carousel card: override the 44% width set in the page <style> block */
+  #heroSlider {
+    width: 100% !important;
+    flex: unset !important;
+    min-width: unset !important;
+    height: 360px !important;
+    margin-top: 24px !important;
+  }
+
+  .hero-content h1 { font-size: 2.4rem !important; }
+  .hero-content p  { max-width: 100% !important; }
+}
+
+/* --- Mobile: ≤ 768px --- */
+@media (max-width: 768px) {
+  /* Top contact bar — hide email, keep phone + LinkedIn centred */
+  .top-contact-bar > div > div:nth-child(2) { display: none !important; }
+  .top-contact-bar > div { padding: 0 16px !important; justify-content: center !important; }
+
+  /* Hero */
+  .modern-hero { padding: 48px 16px 32px !important; }
+  .hero-content h1 { font-size: 2rem !important; line-height: 1.15 !important; }
+  .hero-content p  { font-size: 0.95rem !important; }
+  .hero-stats { gap: 20px !important; flex-wrap: wrap !important; }
+  .stat-item h3 { font-size: 1.6rem !important; }
+  #heroSlider { height: 300px !important; }
+  .hero-slide-name { font-size: 1.3rem !important; }
+
+  /* Feature cards — override the 32% max-width set via inline style */
+  .feature-card {
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    min-width: unset !important;
+  }
+  .features-grid {
+    grid-template-columns: 1fr !important;
+    padding: 0 16px !important;
+    gap: 20px !important;
+    margin-bottom: 30px !important;
+  }
+  .feature-card-highlighted { transform: scale(1) !important; }
+
+  /* SEnSEL login section — stack cards vertically */
+  #senselogin {
+    flex-direction: column !important;
+    gap: 16px !important;
+    padding: 16px 0 20px !important;
+  }
+  #senselogin > div {
+    flex: unset !important;
+    width: 100% !important;
+    min-width: unset !important;
+  }
+
+  /* Page title */
+  .page-title-container { padding: 60px 20px 40px !important; }
+  .page-title-container h1 { font-size: 1.9rem !important; }
+
+  /* Avada row padding */
+  .avada-row { padding-left: 16px !important; padding-right: 16px !important; }
+
+  /* CTA banner */
+  .blue-contact-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 20px !important;
+    padding: 20px 20px !important;
+  }
+
+  /* Modern features section */
+  .modern-features-section {
+    flex-direction: column !important;
+    padding: 0 16px 20px !important;
+  }
+  .modern-form-card { width: 100% !important; max-height: none !important; }
+  .modern-features-ticker { max-height: 300px !important; }
+
+  /* Sidebar float layout — stack on mobile */
+  div[style*="float:left;width:40%"],
+  .modern-card[style*="width:60%"] {
+    width: 100% !important;
+    float: none !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* --- Small mobile: ≤ 576px --- */
+@media (max-width: 576px) {
+  /* Hide top contact bar entirely */
+  .top-contact-bar { display: none !important; }
+
+  /* Hero */
+  .modern-hero { padding: 36px 12px 24px !important; }
+  .hero-content h1 { font-size: 1.7rem !important; }
+  .hero-stats { gap: 14px !important; }
+  .stat-item h3 { font-size: 1.3rem !important; }
+  .stat-item p  { font-size: 0.8rem !important; }
+  #heroSlider { height: 240px !important; }
+  .hero-slide-name { font-size: 1.1rem !important; }
+  .hero-slide-label { padding: 18px 14px 14px !important; }
+
+  /* Logo */
+  .logo img { max-height: 50px !important; }
+
+  /* Page title */
+  .page-title-container { padding: 48px 14px 28px !important; }
+  .page-title-container h1 { font-size: 1.5rem !important; }
+
+  /* Feature cards */
+  .feature-card { padding: 20px 16px !important; }
+  .features-grid { gap: 14px !important; }
+
+  /* Buttons */
+  .hero-buttons { flex-direction: column !important; gap: 10px !important; }
+  .hero-buttons a { text-align: center !important; }
+
+  /* Stat items: allow wrapping into 2 columns */
+  .hero-stats { justify-content: flex-start !important; }
+  .stat-item { flex: 0 0 calc(50% - 7px) !important; }
+
+  /* Modern form card */
+  .modern-form-card { padding: 16px !important; }
+
+  /* Tables / marquee */
+  .modern-features-ticker { max-height: 240px !important; }
+}
+
 /* Client logo carousel cards — very subtle so logos stay readable */
 .es-carousel .image {
   background: linear-gradient(145deg, rgba(219, 234, 254, 0.35) 0%, rgba(240, 249, 255, 0.25) 55%, rgba(224, 242, 254, 0.30) 100%) !important;
