@@ -58,7 +58,7 @@
 <?php include_once('include/navigation.php') ?>
 						
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -121,7 +121,7 @@
 
 	
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix page-content-wrap' style='margin:0 auto; width:90%'>
 	
 	
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">

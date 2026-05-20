@@ -21,6 +21,44 @@ var js_local_vars = {"protocol":"","theme_url":"","dropdown_goto":"Go to...","mo
 </script>
 <script type='text/javascript' src='js/main.js?ver=4.0.1'></script>
 
+<script type='text/javascript'>
+jQuery(document).ready(function($) {
+    var $holder = $('.header-wrapper .mobile-nav-holder');
+
+    // Ensure #mobile-nav exists (main.js may or may not have built it)
+    function ensureMenu() {
+        if ($holder.find('#mobile-nav').length === 0) {
+            var $clone = $('.header-wrapper .nav-holder .fusion-navbar-nav').clone()
+                .attr('id', 'mobile-nav')
+                .removeClass('fusion-navbar-nav');
+            $holder.append($clone);
+        }
+        return $holder.find('#mobile-nav');
+    }
+
+    // Bind hamburger — use $(document).on for reliable delegation
+    $(document).on('click', '.mobile-menu-icons .mobile-menu-btn', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        var $menu = ensureMenu();
+
+        // Force inline style — overrides any CSS !important
+        if ($menu.is(':visible')) {
+            $menu[0].style.setProperty('display', 'none', 'important');
+        } else {
+            $menu[0].style.setProperty('display', 'block', 'important');
+        }
+    });
+
+    // Close menu when a nav link is tapped
+    $(document).on('click', '.header-wrapper .mobile-nav-holder #mobile-nav a', function() {
+        var $menu = $holder.find('#mobile-nav');
+        $menu[0].style.setProperty('display', 'none', 'important');
+    });
+});
+</script>
+
 	
 	<!--[if lte IE 8]>
 	<script type="text/javascript" src="js/respond.js"></script>

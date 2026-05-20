@@ -57,7 +57,7 @@
 <?php include_once('include/navigation.php') ?>
 						
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -120,7 +120,7 @@
 
 	
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix page-content-wrap' style='margin:0 auto; width:90%'>
 	
 	<!-- Two column layout -->
 	<div style="display:flex; gap:30px; align-items:flex-start; flex-wrap:wrap; margin-top:20px;">
@@ -184,7 +184,7 @@
 	</div><!-- End flex wrapper -->
 	
 	<!-- Highlight Stats Section -->
-	<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:24px; margin:30px 0;">
+	<div class="about-stats-grid" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:24px; margin:30px 0;">
 		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:30px; text-align:center; color:white;">
 			<div style="font-size:36px; font-weight:800; color:#10b981;">14+</div>
 			<div style="font-size:14px; color:#94a3b8; margin-top:6px;">Industry Leaders Served</div>
@@ -202,7 +202,7 @@
 	<!-- Why Choose Us Section -->
 	<div style="background: linear-gradient(135deg, rgba(2,114,167,0.05), rgba(16,185,129,0.05)); border-radius:16px; padding:40px; margin:30px 0;">
 		<h2 style="color:#0f172a; font-family:'Poppins',sans-serif; font-size:24px; margin-bottom:24px;"><span style="color:#0272a7 !important; font-size:24px !important;">Why Choose Our Legal Assessment?</span></h2>
-		<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
+		<div class="about-why-grid" style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
 			<div style="display:flex; align-items:flex-start; gap:14px; background:white; padding:20px; border-radius:10px; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
 				<div style="min-width:44px; height:44px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:10px; display:flex; align-items:center; justify-content:center;"><i class="fa fa-shield" style="color:white; font-size:18px;"></i></div>
 				<div><strong style="color:#0f172a; font-size:15px;">Compliance Assurance</strong><p style="color:#64748b; font-size:13px; margin:6px 0 0; line-height:1.6;">Systematic identification & correction of regulatory gaps under Companies Act 2013.</p></div>

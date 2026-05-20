@@ -59,7 +59,7 @@
 <?php include_once('include/navigation.php') ?>
 						
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -122,10 +122,10 @@
 
 	
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix pkg-layout page-content-wrap' style='margin:0 auto; width:90%'>
 	
 	
-	<div class="modern-card" style="float:left; width:60%; box-sizing: border-box;">
+	<div class="modern-card pkg-card" style="box-sizing: border-box;">
 	    <br>
 		<br>
 		<strong style="color: #0272a7; font-size: 24px; font-family: Humnst777 BlkCn BT;"> 
@@ -195,7 +195,7 @@
 		
 	</div>
 	
-	<div  style="float:left;width:40%">			
+	<div class="pkg-sidebar">			
 <aside style='padding:0 0 0 30px' class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope="" >
 	<section>
 				

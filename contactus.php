@@ -83,7 +83,7 @@
 						<?php include_once ('include/navigation.php') ?>
 
 						<div class="mobile-menu-icons">
-							<a href="#" class="fusionicon fusionicon-bars"></a>
+							<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 						</div>
 					</div>
 				</header>

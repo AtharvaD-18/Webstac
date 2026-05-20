@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Happening at Webstac | Webstac Software Pvt Ltd</title>
+<meta name="description" content="Latest news, events and happenings at Webstac Software – stay updated on our HSE compliance workshops, seminars and industry activities." />
 <?php include_once('include/head_links.php') ?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
@@ -52,7 +53,7 @@
 <?php include_once('include/navigation.php') ?>
 
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -115,7 +116,7 @@
 
 
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix page-content-wrap' style='margin:0 auto; width:90%'>
 
 
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">

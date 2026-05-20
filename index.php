@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head> 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -13,7 +13,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="keywords" itemprop="keywords" content="consultant for RC in India,Compliance Monitoring Software,Safety compliance Audit" />
 <meta name="google-site-verification" content="grW5r4Bg4vbLKCj5qn7M56VhvuDq18qnU4Y37szHHMc" />
 <?php include_once('include/head_links.php'); ?>
-<script src="js/AC_RunActiveContent.js" type="text/javascript"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -326,6 +325,103 @@ body {
     background: linear-gradient(135deg, #37e3a3, #1ac786) !important;
 }
 
+/* ============================================================
+   RESPONSIVE — index.php overrides (must live here to beat
+   the !important rules above)
+   ============================================================ */
+
+/* Prevent horizontal overflow + fill full width */
+@media (max-width: 1024px) {
+    html, body, #wrapper, #sliders-container {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    .modern-hero {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+        box-sizing: border-box !important;
+    }
+    .hero-grid {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
+
+/* Tablet landscape */
+@media (max-width: 1024px) {
+    .modern-hero { padding: 70px 20px 50px !important; }
+    .hero-content h1 { font-size: 2.6rem !important; }
+}
+
+/* Tablet portrait / large mobile */
+@media (max-width: 992px) {
+    .modern-hero { padding: 56px 20px 40px !important; }
+    .hero-grid {
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        gap: 24px !important;
+    }
+    .hero-content {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+    .hero-image-card {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        min-width: unset !important;
+        height: 360px !important;
+        margin-top: 0 !important;
+    }
+    .hero-content h1 { font-size: 2.2rem !important; }
+    .hero-content p  { max-width: 100% !important; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .modern-hero { padding: 44px 16px 30px !important; }
+    .hero-content h1 { font-size: 1.9rem !important; line-height: 1.2 !important; }
+    .hero-content p  { font-size: 0.95rem !important; }
+    .hero-image-card { height: 280px !important; }
+    .hero-stats { gap: 18px !important; flex-wrap: wrap !important; }
+    .stat-item h3 { font-size: 1.5rem !important; }
+    .feature-card {
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        min-width: unset !important;
+    }
+    .features-grid {
+        flex-direction: column !important;
+        gap: 16px !important;
+        margin-bottom: 24px !important;
+    }
+    .feature-card-highlighted { transform: scale(1) !important; }
+    #senselogin {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+    #senselogin > div {
+        flex: unset !important;
+        width: 100% !important;
+        min-width: unset !important;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 576px) {
+    .modern-hero { padding: 36px 12px 24px !important; }
+    .hero-content h1 { font-size: 1.55rem !important; }
+    .hero-image-card { height: 230px !important; }
+    .hero-stats { gap: 12px !important; }
+    .stat-item h3 { font-size: 1.25rem !important; }
+    .stat-item p  { font-size: 0.78rem !important; }
+    .hero-slide-name { font-size: 1.1rem !important; }
+    .hero-slide-label { padding: 16px 12px 12px !important; }
+}
 </style>
 
 </head>
@@ -363,7 +459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <?php include_once('include/navigation_home.php') ?>
                     
                         <div class="mobile-menu-icons">
-                <a href="#" class="fusionicon fusionicon-bars"></a>
+                <a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
                             </div>
                                 </div>
     </header>
@@ -639,105 +735,105 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <p style="text-align:center; color:#6b7280; font-size:15px; margin-bottom:6px; margin-top:10px;">Trusted by leading businesses across India</p>
-<h1 style="text-align:center; margin-bottom:10px; margin-top:0; font-size:2rem;"><span style="color:#0272a7;"><strong>Our Clients</strong></span></h1>
+<h2 style="text-align:center; margin-bottom:10px; margin-top:0; font-size:2rem;"><span style="color:#0272a7;"><strong>Our Clients</strong></span></h2>
 
 <div class="fusion-clients-slider clientslider-container picture-size-auto">
 <div class="es-carousel-wrapper fusion-carousel-small clients-carousel">
 <div class="es-carousel"><ul>
-<li><div class="image"><img src="images/Alembic.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AlfaLaval.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Allkyl.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Astec.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Aurobindo.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BASF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Chevron.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Clariant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Coromandel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Croda.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DFPCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dow.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DSCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/emc.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Excel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Firmenich.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/heubach.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hikal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hincol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/HP.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Huntsman.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/ILFS.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/India_Glycols_Ltd.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Johnson_Matthey.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Kansai.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Karam.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/L&T.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lanxess.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Laxmi_Organic.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lubrizol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahindra.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nagarjuna.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nocil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novartis.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/NPL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Oronite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Owens_Corning.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Privi_Organics.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rallis_India.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/RCF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rhodia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SI_Group.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Siemens.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SRF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Styrolution.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudarshan.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudchemie.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Perkins.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sulzer.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tagros.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tata_Power.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Technova.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Transparent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/United.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Watson.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Anshul.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Indofil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Fosroc.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Man_Trucks.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jindal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sigma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Abbott.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Poclain.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Smartchemtechnologies.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Inventia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Apcotex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/colourtex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dharamsi_Morarji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jubliant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/megafine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Shiva_Pharma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BKT.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Divislab.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Paushak.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Covestro.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/cl12.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Zoetis.png" alt="" /></div></li>
-<li><div class="image"><img src="images/virajprofile.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/sequent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novomet.png" alt="" /></div></li>
-<li><div class="image"><img src="images/Meghmani.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Masterbuilders.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahanagargas.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/LTHeavyEng.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/JFEShoji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/godrejIndustries.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Finolex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/epsilon.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DCMShriram.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Cardolite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AsianPaints.jpg" alt="" /></div></li>
+<li><div class="image"><img src="images/Alembic.jpg" alt="Alembic Pharmaceuticals - Webstac client" /></div></li>
+<li><div class="image"><img src="images/AlfaLaval.jpg" alt="Alfa Laval - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Allkyl.jpg" alt="Allkyl Amines Chemicals - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Astec.jpg" alt="Astec Life Sciences - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Aurobindo.jpg" alt="Aurobindo Pharma - Webstac client" /></div></li>
+<li><div class="image"><img src="images/BASF.jpg" alt="BASF India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Chevron.jpg" alt="Chevron - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Clariant.jpg" alt="Clariant Chemicals - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Coromandel.jpg" alt="Coromandel International - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Croda.jpg" alt="Croda India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="Deepak Nitrite - Webstac client" /></div></li>
+<li><div class="image"><img src="images/DFPCL.jpg" alt="Deepak Fertilizers - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Dow.jpg" alt="Dow Chemical - Webstac client" /></div></li>
+<li><div class="image"><img src="images/DSCL.jpg" alt="DCM Shriram - Webstac client" /></div></li>
+<li><div class="image"><img src="images/emc.jpg" alt="EMC - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Excel.jpg" alt="Excel Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Firmenich.jpg" alt="Firmenich - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="Forbes Marshall - Webstac client" /></div></li>
+<li><div class="image"><img src="images/heubach.jpg" alt="Heubach Colorants - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Hikal.jpg" alt="Hikal Ltd - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Hincol.jpg" alt="Hincol - Webstac client" /></div></li>
+<li><div class="image"><img src="images/HP.jpg" alt="HP India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Huntsman.jpg" alt="Huntsman Corporation - Webstac client" /></div></li>
+<li><div class="image"><img src="images/ILFS.jpg" alt="IL&FS - Webstac client" /></div></li>
+<li><div class="image"><img src="images/India_Glycols_Ltd.jpg" alt="India Glycols - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Johnson_Matthey.jpg" alt="Johnson Matthey - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Kansai.jpg" alt="Kansai Nerolac Paints - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Karam.jpg" alt="Karam Safety - Webstac client" /></div></li>
+<li><div class="image"><img src="images/L&T.jpg" alt="Larsen & Toubro - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Lanxess.jpg" alt="Lanxess India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Laxmi_Organic.jpg" alt="Laxmi Organic Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Lubrizol.jpg" alt="Lubrizol - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Mahindra.jpg" alt="Mahindra - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Nagarjuna.jpg" alt="Nagarjuna Fertilizers - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="Navin Fluorine International - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Nocil.jpg" alt="Nocil Ltd - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Novartis.jpg" alt="Novartis India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/NPL.jpg" alt="NPL - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Oronite.jpg" alt="Chevron Oronite - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Owens_Corning.jpg" alt="Owens Corning - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Privi_Organics.jpg" alt="Privi Organics - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Rallis_India.jpg" alt="Rallis India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/RCF.jpg" alt="Rashtriya Chemicals & Fertilizers - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Rhodia.jpg" alt="Rhodia Solvay - Webstac client" /></div></li>
+<li><div class="image"><img src="images/SI_Group.jpg" alt="SI Group - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Siemens.jpg" alt="Siemens India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/SRF.jpg" alt="SRF Limited - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Styrolution.jpg" alt="Ineos Styrolution - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Sudarshan.jpg" alt="Sudarshan Chemical - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Sudchemie.jpg" alt="Clariant Süd-Chemie - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Perkins.jpg" alt="Perkins India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Sulzer.jpg" alt="Sulzer India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Tagros.jpg" alt="Tagros Chemicals - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Tata_Power.jpg" alt="Tata Power - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Technova.jpg" alt="Technova - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Transparent.jpg" alt="Transparent Value - Webstac client" /></div></li>
+<li><div class="image"><img src="images/United.jpg" alt="United Phosphorus - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Watson.jpg" alt="Watson Pharma - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Anshul.jpg" alt="Anshul Life Sciences - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Indofil.jpg" alt="Indofil Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Fosroc.jpg" alt="Fosroc India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Man_Trucks.jpg" alt="MAN Trucks India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Jindal.jpg" alt="Jindal Steel & Power - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Sigma.jpg" alt="Sigma Aldrich - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Abbott.jpg" alt="Abbott India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Poclain.jpg" alt="Poclain Hydraulics - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Smartchemtechnologies.jpg" alt="Smart Chem Technologies - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Inventia.jpg" alt="Inventia Healthcare - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Apcotex.jpg" alt="Apcotex Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/colourtex.jpg" alt="Colourtex Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Dharamsi_Morarji.jpg" alt="Dharamsi Morarji Chemical - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Jubliant.jpg" alt="Jubilant Life Sciences - Webstac client" /></div></li>
+<li><div class="image"><img src="images/megafine.jpg" alt="Megafine Pharma - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Shiva_Pharma.jpg" alt="Shiva Pharmachem - Webstac client" /></div></li>
+<li><div class="image"><img src="images/BKT.jpg" alt="Balkrishna Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Divislab.jpg" alt="Divi Laboratories - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Paushak.jpg" alt="Paushak Ltd - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Covestro.jpg" alt="Covestro India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/cl12.jpg" alt="Client - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Zoetis.png" alt="Zoetis India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/virajprofile.jpg" alt="Viraj Profiles - Webstac client" /></div></li>
+<li><div class="image"><img src="images/sequent.jpg" alt="Sequent Scientific - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Novomet.png" alt="Novomet - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Meghmani.jpg" alt="Meghmani Organics - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Masterbuilders.jpg" alt="Master Builders Solutions - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Mahanagargas.jpg" alt="Mahanagar Gas - Webstac client" /></div></li>
+<li><div class="image"><img src="images/LTHeavyEng.jpg" alt="L&T Heavy Engineering - Webstac client" /></div></li>
+<li><div class="image"><img src="images/JFEShoji.jpg" alt="JFE Shoji India - Webstac client" /></div></li>
+<li><div class="image"><img src="images/godrejIndustries.jpg" alt="Godrej Industries - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Finolex.jpg" alt="Finolex Cables - Webstac client" /></div></li>
+<li><div class="image"><img src="images/epsilon.jpg" alt="Epsilon Carbon - Webstac client" /></div></li>
+<li><div class="image"><img src="images/DCMShriram.jpg" alt="DCM Shriram - Webstac client" /></div></li>
+<li><div class="image"><img src="images/Cardolite.jpg" alt="Cardolite - Webstac client" /></div></li>
+<li><div class="image"><img src="images/AsianPaints.jpg" alt="Asian Paints - Webstac client" /></div></li>
 
 </ul>
 </div><div class="es-nav">
@@ -810,8 +906,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="fusion-fullwidth fullwidth-box" style="background-color:transparent; padding-bottom:20px;padding-left:0px;padding-right:0px;padding-top:0px;">
         <div class="avada-row">
 
-            <h1 style="text-align: center; margin-bottom: 40px;"><span style="color: #0272a7;">
-            <strong style="padding-top: 00px;">Our Packages</strong></span></h1>
+            <h2 style="text-align: center; margin-bottom: 40px;"><span style="color: #0272a7;">
+            <strong style="padding-top: 00px;">Our Packages</strong></span></h2>
 
             <div class="features-grid" style="margin-bottom: 50px;">
                 <div class="feature-card">
@@ -843,8 +939,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <div class="fusion-clearfix"></div>
-            <h1 style="text-align: center; margin-bottom: 40px;"><span style="color: #0272a7;">
-            <strong style="padding-top: 00px;">Our Services</strong></span></h1>
+            <h2 style="text-align: center; margin-bottom: 40px;"><span style="color: #0272a7;">
+            <strong style="padding-top: 00px;">Our Services</strong></span></h2>
 
             <div class="features-grid">
                 <div class="feature-card">
@@ -920,11 +1016,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <form action='#' name="frmenquiry" method='post'>
       <h2 style="margin:0 0 20px; font-family:'Poppins',sans-serif; font-size:18px; font-weight:700; color:#0272a7;">Request a Demo / Enquiry</h2>
       <a name="demo"></a>
-      <input name="name" type="text" id="name" placeholder="Your full name" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
-      <textarea name="remarks" id="remarks" placeholder="Your message or remarks" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; resize:none; height:56px; outline:none;"></textarea>
-      <input name="contact" type="text" id="contact" placeholder="Contact number" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
-      <input name="email" type="text" id="email" placeholder="Email address" onfocus="this.value=''" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
-      <select name="query_for" id="query_for" style="display:block; width:100%; padding:11px 14px; margin:0 0 16px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none; appearance:none; -webkit-appearance:none; cursor:pointer;">
+      <label for="name" class="sr-only">Full Name</label>
+      <input name="name" type="text" id="name" placeholder="Your full name" onfocus="this.value=''" aria-label="Full Name" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <label for="remarks" class="sr-only">Message or Remarks</label>
+      <textarea name="remarks" id="remarks" placeholder="Your message or remarks" aria-label="Message or Remarks" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; resize:none; height:56px; outline:none;"></textarea>
+      <label for="contact" class="sr-only">Contact Number</label>
+      <input name="contact" type="tel" id="contact" placeholder="Contact number" onfocus="this.value=''" aria-label="Contact Number" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <label for="email" class="sr-only">Email Address</label>
+      <input name="email" type="email" id="email" placeholder="Email address" onfocus="this.value=''" aria-label="Email Address" style="display:block; width:100%; padding:11px 14px; margin:0 0 12px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none;">
+      <label for="query_for" class="sr-only">Select Package</label>
+      <select name="query_for" id="query_for" aria-label="Select Package" style="display:block; width:100%; padding:11px 14px; margin:0 0 16px; border:1.5px solid #e2e8f0; border-radius:10px; font-family:'Inter',sans-serif; font-size:14px; background:#f8fafc; box-sizing:border-box; color:#334155; outline:none; appearance:none; -webkit-appearance:none; cursor:pointer;">
         <option value="Taalc">Select Package</option>
         <option value="3ssafety">3S (Safety Support System)</option>
         <option value="Infoinci">InfoInci_e</option>

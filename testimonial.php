@@ -3,6 +3,7 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Testimonial</title>
+<meta name="description" content="Read client testimonials from industry leaders like Lanxess, Reliance and Tata Power about Webstac HSE compliance and Responsible Care consultancy services." />
 <?php include_once('include/head_links.php') ?>  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
@@ -56,7 +57,7 @@
 <?php include_once('include/navigation.php') ?>
 						
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -119,7 +120,7 @@
 
 	
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix page-content-wrap' style='margin:0 auto; width:90%'>
 	
 	
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">

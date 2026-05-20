@@ -56,7 +56,7 @@
 <?php include_once('include/navigation.php') ?>
 						
 						<div class="mobile-menu-icons">
-				<a href="#" class="fusionicon fusionicon-bars"></a>
+				<a href="#" class="mobile-menu-btn" aria-label="Menu"><i class="fa fa-bars"></i></a>
 							</div>
 								</div>
 	</header>
@@ -119,7 +119,7 @@
 
 	
 
-	<div class='clearfix' style='margin:0 auto; width:90%'>
+	<div class='clearfix page-content-wrap' style='margin:0 auto; width:90%'>
 	
 	
 	<div class="modern-card" style=" width:100%">
@@ -177,7 +177,7 @@
 			</div>
 	
 	<!-- Highlight Stats Section -->
-	<div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:20px; margin:30px 0;">
+	<div class="about-stats-grid" style="display:grid; grid-template-columns: repeat(4, 1fr); gap:20px; margin:30px 0;">
 		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:28px 20px; text-align:center; color:white;">
 			<div style="font-size:32px; font-weight:800; color:#10b981;">100+</div>
 			<div style="font-size:13px; color:#94a3b8; margin-top:6px;">Companies Served</div>
@@ -199,7 +199,7 @@
 	<!-- Why Webstac Section -->
 	<div style="background: linear-gradient(135deg, rgba(2,114,167,0.05), rgba(16,185,129,0.05)); border-radius:16px; padding:40px; margin:30px 0;">
 		<h2 style="color:#0f172a; font-family:'Poppins',sans-serif; font-size:24px; margin-bottom:24px;"><span style="color:#0272a7 !important; font-size:24px !important;">Why Choose Webstac?</span></h2>
-		<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px;">
+		<div class="about-why-grid" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px;">
 			<div style="background:white; padding:24px; border-radius:12px; text-align:center; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
 				<div style="width:56px; height:56px; background:linear-gradient(135deg,#0272a7,#10b981); border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;"><i class="fa fa-laptop" style="color:white; font-size:22px;"></i></div>
 				<strong style="color:#0f172a; font-size:16px; display:block; margin-bottom:8px;">User-Friendly Software</strong>
