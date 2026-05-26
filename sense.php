@@ -141,9 +141,8 @@
 		<li><strong><span style="color: #013953;">Web Library – HSE legislation across the country, hyper linked in user friendly manner.</span></strong></li>
 		<li><strong><span style="color: #013953;">Commentary –Commentary in simple English for</span></strong></li>
 		<ul>
-		<li><span style="color: #013953;">Factories Act, & State Factories Rules,</li>
-		<li><span style="color: #013953;">Manufacture,Storage & Import of Haz. chemicals (MSIHC) rules 1989,and</li>
-		<li><span style="color: #013953;">State (CIMAH) rules 2003</li>
+		<li><span style="color: #013953;">OSH Act & State Rules</li>
+		<li><span style="color: #013953;">On failure of Compliance Escalation mails to seniors</li>
 		</ul>
 		<li><strong><span style="color: #013953;">FAQ (Frequently Asked Questions) – Aroud 1000 FAQs answered in simple ENGLISH</span></strong></li>
 		<li><strong><span style="color: #013953;">Round & About – A novel ready reckoner that creates "Legal Compliance Register" in a jiffy.</span></strong></li>

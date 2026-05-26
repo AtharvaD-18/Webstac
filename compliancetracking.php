@@ -155,21 +155,18 @@
 		<li><span style="color: #013953;">Calibration</li>
 		</ul>
 		<li><strong><span style="color: #013953;">User friendly "Planner" for arranging Meetings, Audits, Inspection, etc., and monitoring activities under them</span></strong></li>
-		<li><strong><span style="color: #013953;">The Industrial Employment (Standing Orders) Act</span></strong></li>
 		<li><strong><span style="color: #013953;">Variety of Reports</span></strong></li>
 		<li><strong><span style="color: #013953;">All Information exportable to "Excel"</span></strong></li>
 		<li><strong><span style="color: #013953;">Testing and examination of</span></strong></li>
 		<ul>
 		<li><span style="color: #013953;">Fire Extinguishers, Hydrants</li>
 		</ul>
-		<li><strong><span style="color: #013953;">Calibration of</span></strong></li>
+		<li><strong><span style="color: #013953;">Calibration of Leak sensing devices</span></strong></li>
 		<ul>
-		<li><span style="color: #013953;">Leak sensing devices</li>
 		<li><span style="color: #013953;">Fire sensors</li>
 		</ul>
-		<li><strong><span style="color: #013953;">Monitoring Expiry of</span></strong></li>
+		<li><strong><span style="color: #013953;">Monitoring Expiry of Foam</span></strong></li>
 		<ul>
-		<li><span style="color: #013953;">Foam </li>
 		<li><span style="color: #013953;">Medicines in First Aid</li>
 		<li><span style="color: #013953;">Antidotes </li>
 		<li><span style="color: #013953;">Snake bite lancet</li>

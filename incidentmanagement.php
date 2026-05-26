@@ -205,7 +205,6 @@ No chance to miss any deficiency gaps – human failure, system failure, lack of
 		Reports and Analysis
 		</span></strong></p>
 		<ul>
-		<li><span style="color: #013953;">InfoInci Detail Report</span></li>
 		<li><span style="color: #013953;">Timewise Report</span></li>
 		<li><span style="color: #013953;">Age-wise Report</span></li>
 		<li><span style="color: #013953;">Department-wise Report</span></li>

@@ -131,7 +131,7 @@
 		SAFETY AUDIT</strong>
 		<p><span style="color: #000000;">
 		We at “Webstac” are in this business since 2003. 
-		Webstac has internatioally know partner to help in improving the Safety Culture. It comes with the software
+		Webstac has internationally known partner to help in improving the Safety Culture. It comes with the software
 		that can compare and benchmark the improvements as against globally accepted parameters.
 		</span></p>
 		<p><span style="color: #000000;">
@@ -141,7 +141,7 @@
 		Audit though it depends upon the check-list based upon the manufacturing activities it is more of an art and less of a science. So it hugely depends upon the quality and experience of auditor. 
 		</span></p>
 		<p><span style="color: #000000;">
-		All are aware that the Responsible Care is the top notch, globally revered standard of HSE. Eventually our MD Mr. Bukkawar is the lead auditor for Responsible Care for the Indian Chemical Council for more than a decade. Actually he is one of the author of the Guidance Manual of Responsible Care for India. 
+		All are aware that the Responsible Care is the top notch, globally revered standard of HSE. Eventually our MD Mr. Bukkawar was the lead auditor for Responsible Care for the Indian Chemical Council for more than a decade. Actually he is one of the author of the Guidance Manual of Responsible Care for India. 
 		</span></p>
 		<p><span style="color: #000000;">
 		We therefore have top-notch panel of experts in Safety, Occupational Health and Environment and Responsible Care.
