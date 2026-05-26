@@ -169,7 +169,7 @@
 	</div>
 
 	<!-- Image Column -->
-	<div style="flex:0 0 35%; min-width:300px; position:sticky; top:100px;">
+	<div style="flex:0 0 35%; min-width:300px; position:sticky; top:28px;">
 		<img src="images/hse_audit.png" alt="HSE Safety Audit" style="width:100%; border-radius:16px; box-shadow: 0 12px 40px rgba(0,0,0,0.12); display:block;">
 		<div style="background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius:12px; padding:24px; margin-top:20px;">
 			<h4 style="color:white; font-family:'Poppins',sans-serif; font-size:16px; margin:0 0 12px;"><i class="fa fa-clipboard" style="color:#10b981; margin-right:8px;"></i>Schedule an Audit</h4>
