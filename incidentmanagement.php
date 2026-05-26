@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -137,8 +137,8 @@
 		<p><strong><span style="color: #013953;">
 		Being an enterprise package, it will be on your server. Runs on intranet, like any ERP or MRP package.
 		</span></strong></p>
-		<p>
-		<div class="responsive-table"><table width="100%" border="1" align="right" cellpadding="0" cellspacing="0" bordercolor="#568F5F" class="schedule_fa">
+		<div class="responsive-table">
+		<table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#568F5F" class="schedule_fa">
 		<tbody><tr>
 		  <td colspan="3" valign="top"><div align="center"><strong class="click_1">DASHBOARD</strong></div></td>
 		</tr>
@@ -148,7 +148,8 @@
 		  <td width="16%" valign="top"><div align="center"><strong>Escalation Alerts </strong></div></td>
 		  </tr>
         </tbody></table>
-		</p>
+		</table>
+		</div>
 		<br>
 		<br>
 		

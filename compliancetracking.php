@@ -147,13 +147,14 @@
 		<li><strong><span style="color: #013953;">Works as a "Document Depository"</span></strong></li>
 		<li><strong><span style="color: #013953;">Can comply Any Act in Any Language</span></strong></li>
 		<li><strong><span style="color: #013953;">Saves around 300 to 1000 man-days.</span></strong></li>
-		<li><strong><span style="color: #013953;">Takes care of internal compliances such as</span></strong></li>
-		<ul>
-		<li><span style="color: #013953;">Safety Belt</li>
-		<li><span style="color: #013953;">Contracts Renewal</li>
-		<li><span style="color: #013953;">Patents & Trade Marks</li>
-		<li><span style="color: #013953;">Calibration</li>
-		</ul>
+		<li><strong><span style="color: #013953;">Takes care of internal compliances such as</span></strong>
+			<ul>
+				<li><span style="color: #013953;">Safety Belt</span></li>
+				<li><span style="color: #013953;">Contracts Renewal</span></li>
+				<li><span style="color: #013953;">Patents &amp; Trade Marks</span></li>
+				<li><span style="color: #013953;">Calibration</span></li>
+			</ul>
+		</li>
 		<li><strong><span style="color: #013953;">User friendly "Planner" for arranging Meetings, Audits, Inspection, etc., and monitoring activities under them</span></strong></li>
 		<li><strong><span style="color: #013953;">Variety of Reports</span></strong></li>
 		<li><strong><span style="color: #013953;">All Information exportable to "Excel"</span></strong></li>

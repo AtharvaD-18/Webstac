@@ -2489,6 +2489,18 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   box-sizing: border-box !important;
 }
 
+/* Prevent legacy sidebar float/display rules from breaking the flex layout. */
+.pkg-sidebar .sidebar,
+.pkg-sidebar .sidebar.sidebar-primary,
+.pkg-sidebar aside.sidebar {
+  float: none !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 28px 16px 16px 16px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
 /* Tablet & mobile: stack to single column */
 @media (max-width: 900px) {
   .pkg-layout {
@@ -2502,6 +2514,12 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   .pkg-sidebar {
     flex: 0 0 100% !important;
     width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .pkg-sidebar .sidebar,
+  .pkg-sidebar .sidebar.sidebar-primary,
+  .pkg-sidebar aside.sidebar {
     padding: 0 !important;
     margin: 0 !important;
   }
