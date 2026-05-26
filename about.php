@@ -131,7 +131,6 @@
 		<p><span style="color: #000000;">
 		On retiring as a Joint Director from Directorate of Industrial Safety & Health, Government of Maharashtra in 2003, 
 		he was invited by the India’s premier association of Chemical Industry, <strong><span style="color: #013953;">Indian Chemical Council (ICC)</span></strong>, as an advisor Safety, Health, Environment and Responsible Care.
-		Today he is a Director, in ICC.
 		</span></p>
 		<p><span style="color: #000000;">
 		He is also free-lance consultant on Responsible Care, Industrial Safety, Emergency Planning, Occupational Health etc., 

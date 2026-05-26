@@ -150,7 +150,7 @@
 		<li><strong><span style="color: #013953;">Takes care of internal compliances such as</span></strong></li>
 		<ul>
 		<li><span style="color: #013953;">Safety Belt</li>
-		<li><span style="color: #013953;">Contracts</li>
+		<li><span style="color: #013953;">Contracts Renewal</li>
 		<li><span style="color: #013953;">Patents & Trade Marks</li>
 		<li><span style="color: #013953;">Calibration</li>
 		</ul>
