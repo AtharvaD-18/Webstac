@@ -2495,7 +2495,8 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 .pkg-sidebar aside.sidebar {
   float: none !important;
   display: block !important;
-  margin: 0 !important;
+  /* Match .modern-card vertical spacing so both columns align */
+  margin: 9px 0 0 0 !important;
   padding: 28px 16px 16px 16px !important;
   width: 100% !important;
   box-sizing: border-box !important;
