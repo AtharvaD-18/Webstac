@@ -104,7 +104,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1920&q=80');">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/sense_hero.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">

@@ -95,6 +95,43 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 0;
 }
 
+/* 3S hero (compliancetracking.php) — show upper part (face) + no dark overlay */
+.page-title-container[style*="images/3s_hero.png"] {
+  /* Mid-frame composition (more professional than top-only) */
+  background-position: center 25% !important;
+}
+.page-title-container[style*="images/3s_hero.png"]::before {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
+/* SEnSE_L hero (sense.php) — same treatment as 3S hero */
+.page-title-container[style*="images/sense_hero.png"] {
+  background-position: center 34% !important;
+}
+.page-title-container[style*="images/sense_hero.png"]::before {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
+/* Legal Assessment hero (legalassessment.php) — same treatment as SEnSE_L hero */
+.page-title-container[style*="images/legal_hero_custom.png"] {
+  background-position: center 37% !important;
+}
+.page-title-container[style*="images/legal_hero_custom.png"]::before {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
+/* BEST hero (BBSSoft.php) — same treatment as Legal Assessment hero */
+.page-title-container[style*="images/best_hero_custom.png"] {
+  background-position: center 40% !important;
+}
+.page-title-container[style*="images/best_hero_custom.png"]::before {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
 .page-title-container .page-title {
   width: 90% !important;
   max-width: none !important;

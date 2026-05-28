@@ -141,7 +141,7 @@
 		Audit though it depends upon the check-list based upon the manufacturing activities it is more of an art and less of a science. So it hugely depends upon the quality and experience of auditor. 
 		</span></p>
 		<p><span style="color: #000000;">
-		All are aware that the Responsible Care is the top notch, globally revered standard of HSE. Eventually our MD Mr. Bukkawar was the lead auditor for Responsible Care for the Indian Chemical Council for more than a decade. Actually he is one of the author of the Guidance Manual of Responsible Care for India. 
+		All are aware that the Responsible Care is the top notch, globally revered standard of HSE. Eventually our MD Mr. Bukkawar c for Responsible Care for the Indian Chemical Council for more than a decade. Actually he is one of the author of the Guidance Manual of Responsible Care for India. 
 		</span></p>
 		<p><span style="color: #000000;">
 		We therefore have top-notch panel of experts in Safety, Occupational Health and Environment and Responsible Care.

@@ -102,7 +102,7 @@
 </header>
 	<div id="sliders-container">
 		</div>
-			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/legal_hero.png');">
+			<div class="page-title-container page-title-container-breadcrumbs page-title-left" style="background-image: url('images/legal_hero_custom.png');">
 		<div class="page-title">
 			<div class="page-title-wrapper">
 				<div class="page-title-captions">
