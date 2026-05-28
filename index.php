@@ -525,7 +525,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <p>Enterprise clients</p>
                         </div>
                         <div class="stat-item">
-                            <h3>10+</h3>
+                            <h3>15+</h3>
                             <p>Years of expertise</p>
                         </div>
                         <div class="stat-item">
@@ -925,7 +925,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <h3>INFOINCI_e</h3>
                     <p>Menu-driven incident management with built-in RCA to track, analyze and prevent recurrence.</p>
-                    <a href="incidentmanagement.php" class="card-read-more">Request Demo &rarr;</a> 
+                    <a href="incidentmanagement.php" class="card-read-more">Learn More &rarr;</a> 
                 </div>
 
                 <div class="feature-card">
