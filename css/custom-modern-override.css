@@ -2346,8 +2346,8 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* --- Mobile nav --- */
-@media (max-width: 800px) {
+/* --- Mobile / tablet nav (iPad landscape + 11–13" laptops) --- */
+@media (max-width: 1200px) {
   /* Hide desktop nav items but keep nav-holder in DOM for JS cloning */
   nav.nav-holder .navigation.menu,
   nav.nav-holder ul.navigation {
@@ -2426,7 +2426,10 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     color: #0272a7 !important;
     font-size: 18px !important;
   }
+}
 
+/* Top contact bar: hide only on small phones (unchanged from original 800px behaviour) */
+@media (max-width: 800px) {
   .top-contact-bar { display: none !important; }
 }
 
@@ -3122,4 +3125,189 @@ a.nav-demo-btn:hover {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
   background-color: #025f8e !important;
+}
+
+/* ==========================================================================
+   TABLET & SMALL LAPTOP (≤1366px) — iPad, 11–17" screens
+   CSS-only; large desktops (>1366px) unchanged
+   ========================================================================== */
+
+/* Stop 100vw carousel bleed causing horizontal scroll on laptops/tablets */
+@media (max-width: 1366px) {
+  html,
+  body,
+  #wrapper {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .fusion-fullwidth.fullwidth-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding-left: clamp(16px, 3vw, 40px) !important;
+    padding-right: clamp(16px, 3vw, 40px) !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* Slightly tighter desktop nav when still visible (1367px+ laptops at ~1380px zoom) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  nav.nav-holder {
+    margin-left: 28px !important;
+  }
+
+  .navigation.menu li a {
+    font-size: 13px !important;
+    padding: 8px 5px !important;
+  }
+
+  .navigation.menu li a.nav-demo-btn {
+    padding: 8px 18px !important;
+    font-size: 12px !important;
+    margin-left: 6px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .page-content-wrap {
+    width: 94% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Service / about pages: stack text + sticky image columns */
+  .page-content-wrap > div[style*="display:flex"] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 24px !important;
+  }
+
+  .page-content-wrap > div[style*="display:flex"] > .modern-card,
+  .page-content-wrap > div[style*="display:flex"] > div[style*="min-width:55%"],
+  .page-content-wrap > div[style*="display:flex"] > div[style*="flex:0 0 35%"],
+  .page-content-wrap > div[style*="display:flex"] > div[style*="min-width:300px"] {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .page-content-wrap div[style*="position:sticky"] {
+    position: static !important;
+    top: auto !important;
+  }
+
+  /* Contact page two-column layout */
+  #main > div[style*="max-width:1160px"] {
+    flex-direction: column !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    gap: 28px !important;
+    box-sizing: border-box !important;
+  }
+
+  #main > div[style*="max-width:1160px"] > div {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* Inner page hero (HSE Audit, packages, etc.) */
+  .page-title-container {
+    padding: 72px clamp(20px, 4vw, 40px) 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  .page-title-container h1,
+  .page-title-container h1.entry-title {
+    font-size: clamp(1.65rem, 4.2vw, 2.6rem) !important;
+    line-height: 1.2 !important;
+    word-break: break-word !important;
+  }
+
+  .page-title-container .breadcrumbs {
+    flex-wrap: wrap !important;
+    max-width: min(100%, 720px) !important;
+  }
+
+  .page-title-container .breadcrumbs li:last-child {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    max-width: 100% !important;
+  }
+
+  /* Home hero: stack before content gets squeezed side-by-side */
+  .hero-grid {
+    flex-wrap: wrap !important;
+    gap: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .hero-content {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .hero-image-card,
+  #heroSlider {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 360px !important;
+    margin-top: 0 !important;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(2rem, 5vw, 2.75rem) !important;
+  }
+
+  .hero-content p {
+    max-width: 100% !important;
+  }
+
+  /* Stats / why-choose grids on service & about pages */
+  .about-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  .about-why-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  /* Package pages: stack main + sidebar a bit earlier on narrow tablets */
+  .pkg-layout {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .pkg-card,
+  .pkg-sidebar {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* iPad portrait & similar: refine hero / page title between 901px–1024px */
+@media (min-width: 901px) and (max-width: 1024px) {
+  .modern-hero {
+    padding: 64px 24px 44px !important;
+  }
+
+  .page-title-container {
+    padding: 64px 24px 40px !important;
+  }
+
+  .blue-contact-banner {
+    padding: 22px clamp(20px, 4vw, 36px) !important;
+    gap: 20px !important;
+  }
 }
