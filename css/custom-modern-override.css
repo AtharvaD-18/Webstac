@@ -322,7 +322,8 @@ h1, h2, h3, h4, h5, h6 {
 
 nav.nav-holder {
   margin-top: 0 !important;
-  margin-left: 50px !important;
+  /* Fluid margin: 8px at 1200px → 50px at 1500px+ */
+  margin-left: clamp(8px, 14vw - 160px, 50px) !important;
   flex: 1 1 auto !important;
   min-width: 0 !important;
   overflow: visible !important;
@@ -342,13 +343,20 @@ nav.nav-holder .navigation.menu {
   display: none;
 }
 
+.navigation.menu li {
+  flex: 0 1 auto !important;
+  min-width: 0 !important;
+}
+
 .navigation.menu li a {
   font-family: 'Inter', sans-serif !important;
-  font-size: 14px !important;
+  /* Fluid font: 11.5px at 1200px → 14px at 1500px */
+  font-size: clamp(11.5px, 0.833vw + 1.5px, 14px) !important;
   font-weight: 500 !important;
   color: var(--text-main) !important;
   transition: all var(--transition-fast);
-  padding: 8px 6px !important;
+  /* Fluid horizontal padding: 2px at 1200px → 6px at 1500px */
+  padding: 8px clamp(2px, 1.333vw - 14px, 6px) !important;
   white-space: nowrap !important;
 }
 
@@ -377,10 +385,13 @@ li:has(.nav-demo-btn) {
   background: #0272a7 !important;
   color: #ffffff !important;
   border-radius: 6px !important;
-  padding: 9px 24px !important;
-  margin-left: 10px !important;
+  /* Fluid padding: 7px 10px at 1200px → 9px 24px at 1500px */
+  padding: clamp(7px, 0.667vw - 1px, 9px) clamp(10px, 4.667vw - 46px, 24px) !important;
+  /* Fluid margin: 4px at 1200px → 10px at 1500px */
+  margin-left: clamp(4px, 2vw - 20px, 10px) !important;
   font-family: 'Inter', sans-serif !important;
-  font-size: 13px !important;
+  /* Fluid font: 11px at 1200px → 13px at 1500px */
+  font-size: clamp(11px, 0.667vw + 3px, 13px) !important;
   font-weight: 600 !important;
   letter-spacing: 0.4px !important;
   text-decoration: none !important;
@@ -391,6 +402,7 @@ li:has(.nav-demo-btn) {
   transition: all 0.25s ease !important;
   white-space: nowrap !important;
   box-shadow: none !important;
+  flex-shrink: 0 !important; /* Button never truncates */
 }
 /* Force white text — overrides any gradient/fill-color bleed */
 nav.nav-holder .navigation.menu li a.nav-demo-btn {
@@ -3183,58 +3195,13 @@ html, body {
   }
 }
 
-/* Large desktop / wide laptop: tighten at 1500px */
-@media (min-width: 1401px) and (max-width: 1500px) {
-  nav.nav-holder {
-    margin-left: 36px !important;
-  }
-
-  .navigation.menu li a {
-    font-size: 13px !important;
-    padding: 8px 6px !important;
-  }
-
-  .navigation.menu li a.nav-demo-btn {
-    padding: 9px 20px !important;
-    font-size: 12.5px !important;
-    margin-left: 8px !important;
-  }
-}
-
-/* Slightly tighter desktop nav (1301–1400px laptops) */
-@media (min-width: 1301px) and (max-width: 1400px) {
-  nav.nav-holder {
-    margin-left: 20px !important;
-  }
-
-  .navigation.menu li a {
-    font-size: 12.5px !important;
-    padding: 8px 4px !important;
-  }
-
-  .navigation.menu li a.nav-demo-btn {
-    padding: 8px 16px !important;
-    font-size: 12px !important;
-    margin-left: 6px !important;
-  }
-}
-
-/* Tight desktop nav (1201–1300px) */
+/* Desktop nav is now fully fluid via clamp() on the base styles.
+   No stepped breakpoints needed — font-size, padding, and margins
+   scale smoothly from 1201px to 1500px+.
+   The following is kept only as a tight-desktop safety net. */
 @media (min-width: 1201px) and (max-width: 1300px) {
-  nav.nav-holder {
-    margin-left: 8px !important;
-  }
-
   .navigation.menu li a {
-    font-size: 11.5px !important;
-    padding: 8px 2px !important;
     letter-spacing: -0.01em !important;
-  }
-
-  .navigation.menu li a.nav-demo-btn {
-    padding: 7px 10px !important;
-    font-size: 11px !important;
-    margin-left: 4px !important;
   }
 }
 
