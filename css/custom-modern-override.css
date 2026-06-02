@@ -292,6 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1500px !important;
   margin: 0 auto !important;
   overflow: visible !important;
+  box-sizing: border-box !important;
 }
 
 .logo {
@@ -322,12 +323,17 @@ h1, h2, h3, h4, h5, h6 {
 nav.nav-holder {
   margin-top: 0 !important;
   margin-left: 50px !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  overflow: visible !important;
 }
 
 /* Scope flex only to the desktop nav — so jQuery can control #mobile-nav */
 nav.nav-holder .navigation.menu {
   display: flex !important;
   align-items: center !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-end !important;
 }
 
 /* Mobile nav clone starts hidden; no !important so jQuery slideToggle works */
@@ -3127,6 +3133,32 @@ a.nav-demo-btn:hover {
   background-color: #025f8e !important;
 }
 
+/* Global safety: prevent horizontal overflow from nav or any element */
+html, body {
+  overflow-x: hidden !important;
+}
+
+/* Sticky header nav — same flex rules as main header nav */
+#header-sticky .sticky-shadow .avada-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  box-sizing: border-box !important;
+}
+#header-sticky nav.nav-holder,
+#sticky-nav.nav-holder {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+#header-sticky .navigation.menu,
+#sticky-nav .navigation.menu {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
 /* ==========================================================================
    TABLET & SMALL LAPTOP (≤1366px) — iPad, 11–17" screens
    CSS-only; large desktops (>1366px) unchanged
@@ -3151,21 +3183,58 @@ a.nav-demo-btn:hover {
   }
 }
 
-/* Slightly tighter desktop nav when still visible (1367px+ laptops at ~1380px zoom) */
-@media (min-width: 1201px) and (max-width: 1400px) {
+/* Large desktop / wide laptop: tighten at 1500px */
+@media (min-width: 1401px) and (max-width: 1500px) {
   nav.nav-holder {
-    margin-left: 28px !important;
+    margin-left: 36px !important;
   }
 
   .navigation.menu li a {
     font-size: 13px !important;
-    padding: 8px 5px !important;
+    padding: 8px 6px !important;
   }
 
   .navigation.menu li a.nav-demo-btn {
-    padding: 8px 18px !important;
+    padding: 9px 20px !important;
+    font-size: 12.5px !important;
+    margin-left: 8px !important;
+  }
+}
+
+/* Slightly tighter desktop nav (1301–1400px laptops) */
+@media (min-width: 1301px) and (max-width: 1400px) {
+  nav.nav-holder {
+    margin-left: 20px !important;
+  }
+
+  .navigation.menu li a {
+    font-size: 12.5px !important;
+    padding: 8px 4px !important;
+  }
+
+  .navigation.menu li a.nav-demo-btn {
+    padding: 8px 16px !important;
     font-size: 12px !important;
     margin-left: 6px !important;
+  }
+}
+
+/* Tight desktop nav (1201–1300px) */
+@media (min-width: 1201px) and (max-width: 1300px) {
+  nav.nav-holder {
+    margin-left: 8px !important;
+  }
+
+  .navigation.menu li a {
+    font-size: 11.5px !important;
+    padding: 8px 2px !important;
+    letter-spacing: -0.01em !important;
+  }
+
+  .navigation.menu li a.nav-demo-btn {
+    padding: 7px 10px !important;
+    font-size: 11px !important;
+    margin-left: 4px !important;
   }
 }
 
