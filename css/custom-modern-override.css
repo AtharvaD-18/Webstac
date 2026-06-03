@@ -2367,6 +2367,16 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 /* --- Mobile / tablet nav (≤ 1200px) --- */
 @media (max-width: 1200px) {
 
+  /* ─── STICKY HEADER: always accessible on scroll ─── */
+  .header-wrapper,
+  .header-v1 {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 99999 !important;
+    background: #ffffff !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  }
+
   /* ─── HIDE desktop navigation completely ─── */
   /* Use every possible selector to beat style.css ID-based rules */
   nav.nav-holder,
@@ -3249,9 +3259,10 @@ a.nav-demo-btn:hover {
   background-color: #025f8e !important;
 }
 
-/* Global safety: prevent horizontal overflow from nav or any element */
+/* Global safety: prevent horizontal overflow from nav or any element.
+   Using 'clip' instead of 'hidden' so position:sticky still works. */
 html, body {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
 }
 
 /* Sticky header nav — same flex rules as main header nav */
@@ -3280,12 +3291,12 @@ html, body {
    CSS-only; large desktops (>1366px) unchanged
    ========================================================================== */
 
-/* Stop 100vw carousel bleed causing horizontal scroll on laptops/tablets */
+/* Stop 100vw carousel bleed causing horizontal scroll on laptops/tablets.\n   Using 'clip' so position:sticky on the mobile header still works. */
 @media (max-width: 1366px) {
   html,
   body,
   #wrapper {
-    overflow-x: hidden !important;
+    overflow-x: clip !important;
     max-width: 100% !important;
   }
 

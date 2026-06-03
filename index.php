@@ -333,7 +333,7 @@ body {
 /* Prevent horizontal overflow + fill full width */
 @media (max-width: 1024px) {
     html, body, #wrapper, #sliders-container {
-        overflow-x: hidden !important;
+        overflow-x: clip !important;
         width: 100% !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
