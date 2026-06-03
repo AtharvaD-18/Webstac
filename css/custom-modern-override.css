@@ -2364,25 +2364,100 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* --- Mobile / tablet nav (iPad landscape + 11–13" laptops) --- */
+/* --- Mobile / tablet nav (≤ 1200px) --- */
 @media (max-width: 1200px) {
-  /* Hide desktop nav items but keep nav-holder in DOM for JS cloning */
+
+  /* ─── HIDE desktop navigation completely ─── */
+  /* Use every possible selector to beat style.css ID-based rules */
+  nav.nav-holder,
+  nav#nav,
+  #nav,
+  nav#sticky-nav,
+  #sticky-nav,
   nav.nav-holder .navigation.menu,
-  nav.nav-holder ul.navigation {
+  nav.nav-holder ul.navigation,
+  #nav .navigation,
+  #nav > ul,
+  nav#nav > ul,
+  .header-wrapper nav.nav-holder,
+  .header-v1 nav.nav-holder,
+  #header nav.nav-holder,
+  #header nav#nav {
     display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    float: none !important;
+    flex: 0 0 0px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
 
-  /* Header row stays flex so margin-left:auto on hamburger pushes it right */
-  #header .avada-row {
+  /* ─── HIDE sticky header entirely on mobile (causes overlap) ─── */
+  #header-sticky,
+  #header-sticky.sticky-header,
+  body #header-sticky.sticky-header,
+  body #header-sticky.sticky-header.sticky {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* ─── HEADER ROW: logo left, hamburger right ─── */
+  #header .avada-row,
+  .header-wrapper .avada-row,
+  .header-v1 .avada-row {
     display: flex !important;
     align-items: center !important;
-    justify-content: flex-start !important;
+    justify-content: space-between !important;
     padding: 8px 16px !important;
     width: 100% !important;
     box-sizing: border-box !important;
+    flex-wrap: nowrap !important;
   }
 
-  /* Show the mobile nav container */
+  /* ─── LOGO: don't float, just flex-align ─── */
+  #header .logo,
+  .header-wrapper .logo {
+    float: none !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* ─── HAMBURGER BUTTON: always visible ─── */
+  .mobile-menu-icons {
+    display: block !important;
+    position: relative !important;
+    z-index: 100002 !important;
+    pointer-events: auto !important;
+    margin-left: auto !important;
+    float: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  .mobile-menu-icons .mobile-menu-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
+    height: 44px !important;
+    border: 2px solid #0272a7 !important;
+    border-radius: 8px !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    background: rgba(2, 114, 167, 0.05) !important;
+  }
+  .mobile-menu-icons .mobile-menu-btn i {
+    color: #0272a7 !important;
+    font-size: 20px !important;
+  }
+
+  /* ─── MOBILE NAV CONTAINER ─── */
   .mobile-nav-holder {
     display: block !important;
     z-index: 100001 !important;
@@ -2390,9 +2465,17 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     pointer-events: auto !important;
     width: 100% !important;
     background: #fff !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    overflow: visible !important;
+    float: none !important;
+    flex: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  /* Style the expanded mobile menu */
+  /* ─── EXPANDED MOBILE MENU (toggle via JS) ─── */
   .mobile-nav-holder #mobile-nav {
     width: 100% !important;
     background: #ffffff !important;
@@ -2402,47 +2485,68 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     list-style: none !important;
   }
 
+  .mobile-nav-holder #mobile-nav li {
+    float: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   .mobile-nav-holder #mobile-nav li a {
     display: block !important;
-    padding: 12px 20px !important;
+    float: none !important;
+    padding: 14px 20px !important;
     border-bottom: 1px solid #f0f0f0 !important;
     color: #0272a7 !important;
     font-family: 'Inter', sans-serif !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 500 !important;
     text-decoration: none !important;
+    height: auto !important;
+    line-height: 1.4 !important;
+    border-top: none !important;
+    white-space: normal !important;
   }
 
-  .mobile-nav-holder #mobile-nav li ul li a {
-    padding-left: 36px !important;
-    font-size: 13px !important;
+  .mobile-nav-holder #mobile-nav li a:hover {
+    background: rgba(2, 114, 167, 0.05) !important;
+    color: #025f8e !important;
+  }
+
+  /* Sub-menu items indented */
+  .mobile-nav-holder #mobile-nav li ul,
+  .mobile-nav-holder #mobile-nav li .sub-menu {
+    display: block !important;
+    position: static !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: auto !important;
+  }
+
+  .mobile-nav-holder #mobile-nav li ul li a,
+  .mobile-nav-holder #mobile-nav .sub-menu li a {
+    padding-left: 40px !important;
+    font-size: 14px !important;
     color: #334155 !important;
     background: #f8fafc !important;
   }
 
-  /* Hamburger button — pushed to far right */
-  .mobile-menu-icons {
-    display: block !important;
-    position: relative !important;
-    z-index: 100002 !important;
-    pointer-events: auto !important;
-    margin-left: auto !important;
-  }
-  .mobile-menu-icons .mobile-menu-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 40px !important;
-    height: 40px !important;
-    border: 2px solid #0272a7 !important;
-    border-radius: 6px !important;
-    pointer-events: auto !important;
-    cursor: pointer !important;
-    text-decoration: none !important;
-  }
-  .mobile-menu-icons .mobile-menu-btn i {
-    color: #0272a7 !important;
-    font-size: 18px !important;
+  /* Request Demo button in mobile menu — make it stand out */
+  .mobile-nav-holder #mobile-nav li a.nav-demo-btn {
+    background: #0272a7 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    text-align: center !important;
+    margin: 8px 16px !important;
+    border-radius: 8px !important;
+    padding: 14px 20px !important;
+    font-weight: 600 !important;
+    border-bottom: none !important;
   }
 }
 
