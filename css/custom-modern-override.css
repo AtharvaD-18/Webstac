@@ -2972,6 +2972,769 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   .modern-features-ticker { max-height: 240px !important; }
 }
 
+/* ==========================================================================
+   MOBILE UI/UX ENHANCEMENT — professional, edge-to-edge layout on phones
+   Only targets ≤768px. Desktop is completely untouched.
+   Principle: Parents go edge-to-edge → cards provide their own padding.
+   ========================================================================== */
+
+@media (max-width: 768px) {
+
+  /* ━━━ LAYOUT RESET: strip all nested padding from parent wrappers ━━━ */
+  .avada-row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  #main {
+    padding: 16px 0 24px !important;
+  }
+
+  #header {
+    padding: 0 !important;
+  }
+
+  .fusion-fullwidth.fullwidth-box {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .page-content-wrap {
+    width: 100% !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ━━━ SECTION HEADINGS: prominent, full-width ━━━ */
+  .fusion-fullwidth h2,
+  .avada-row > h2,
+  .section-radial-bg h2,
+  .post-content h2 {
+    font-size: 1.45rem !important;
+    font-weight: 700 !important;
+    margin: 8px 0 16px !important;
+    padding: 0 16px !important;
+    letter-spacing: -0.3px !important;
+  }
+
+  /* ━━━ FEATURE CARDS: full-bleed, edge-to-edge ━━━ */
+  .features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    padding: 0 12px !important;
+    margin: 16px 0 24px !important;
+  }
+
+  .feature-card {
+    padding: 22px 20px 20px !important;
+    border-radius: 16px !important;
+    max-width: 100% !important;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05) !important;
+    border: 1px solid rgba(2,114,167,0.08) !important;
+  }
+
+  .feature-icon-wrapper {
+    width: 46px !important;
+    height: 46px !important;
+    border-radius: 13px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .feature-card h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 8px !important;
+    line-height: 1.35 !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem !important;
+    line-height: 1.7 !important;
+    color: #475569 !important;
+    margin-bottom: 4px !important;
+  }
+
+  .card-read-more {
+    display: inline-block !important;
+    margin-top: 12px !important;
+    font-size: 0.88rem !important;
+    font-weight: 600 !important;
+    padding: 6px 0 !important;
+    color: #0272a7 !important;
+  }
+
+  /* ━━━ KEY FEATURES TICKER + REQUEST DEMO FORM ━━━ */
+  .modern-features-section {
+    flex-direction: column !important;
+    padding: 0 12px 20px !important;
+    gap: 12px !important;
+  }
+
+  .modern-features-ticker {
+    max-height: 300px !important;
+    padding: 20px 18px !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(2,114,167,0.10) !important;
+  }
+
+  .modern-features-ticker h3 {
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    margin: 0 0 10px !important;
+    padding-bottom: 10px !important;
+    color: #0f172a !important;
+  }
+
+  .modern-features-ticker marquee p {
+    font-size: 13.5px !important;
+    line-height: 1.7 !important;
+    margin-bottom: 10px !important;
+    color: #475569 !important;
+  }
+
+  .modern-features-ticker marquee .yellow_bg_text {
+    font-weight: 600 !important;
+    color: #0272a7 !important;
+  }
+
+  /* ━━━ REQUEST DEMO FORM: premium card ━━━ */
+  .modern-form-card {
+    width: 100% !important;
+    max-height: none !important;
+    padding: 24px 20px 28px !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 24px rgba(2,114,167,0.08), 0 1px 4px rgba(0,0,0,0.04) !important;
+    border: 1px solid rgba(2,114,167,0.10) !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+  }
+
+  .modern-form-card h2 {
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    margin: 0 0 20px !important;
+    color: #0272a7 !important;
+    padding-bottom: 12px !important;
+    border-bottom: 2px solid rgba(2,114,167,0.10) !important;
+  }
+
+  /* Form inputs — 48px touch targets */
+  .modern-form-card input[type="text"],
+  .modern-form-card input[type="email"],
+  .modern-form-card input[type="tel"],
+  .modern-form-card input[type="number"],
+  .modern-form-card textarea,
+  .modern-form-card select {
+    min-height: 48px !important;
+    padding: 13px 16px !important;
+    font-size: 15px !important;
+    font-family: 'Inter', sans-serif !important;
+    border-radius: 12px !important;
+    margin-bottom: 14px !important;
+    border: 1.5px solid #e2e8f0 !important;
+    background: #f8fafc !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    color: #334155 !important;
+    transition: border-color 0.2s, box-shadow 0.2s !important;
+  }
+
+  .modern-form-card input:focus,
+  .modern-form-card textarea:focus,
+  .modern-form-card select:focus {
+    border-color: #0272a7 !important;
+    box-shadow: 0 0 0 3px rgba(2,114,167,0.10) !important;
+    background: #fff !important;
+    outline: none !important;
+  }
+
+  /* Submit button — gradient, prominent */
+  .modern-form-card input[type="submit"],
+  .modern-form-card input[type="button"],
+  .modern-form-card button[type="submit"] {
+    min-height: 50px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    font-family: 'Inter', sans-serif !important;
+    border-radius: 12px !important;
+    width: 100% !important;
+    margin-top: 6px !important;
+    cursor: pointer !important;
+    letter-spacing: 0.3px !important;
+    border: none !important;
+    background: linear-gradient(135deg, #0272a7, #10b981) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 14px rgba(2,114,167,0.25) !important;
+  }
+
+  /* ━━━ SENSEL LOGIN + WHAT WE ARE ━━━ */
+  #senselogin {
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 12px 12px 20px !important;
+  }
+
+  #senselogin > div {
+    flex: unset !important;
+    width: 100% !important;
+    min-width: unset !important;
+    padding: 22px 20px !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+    border: 1px solid rgba(2,114,167,0.08) !important;
+  }
+
+  #senselogin h3 {
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 16px !important;
+  }
+
+  #senselogin input[type="text"],
+  #senselogin input[type="password"] {
+    min-height: 48px !important;
+    padding: 13px 16px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+  }
+
+  #senselogin input[type="button"] {
+    min-height: 50px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+  }
+
+  /* What We Are tab */
+  .fusion-tabs .tab-pane {
+    padding: 18px 16px !important;
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    color: #475569 !important;
+  }
+
+  .fusion-tabs .nav-tabs li a {
+    font-size: 13px !important;
+    padding: 12px 14px !important;
+    font-weight: 600 !important;
+  }
+
+  /* ━━━ MODERN CARDS: near edge-to-edge ━━━ */
+  .modern-card {
+    padding: 24px 20px 24px 22px !important;
+    margin: 12px 12px !important;
+    border-radius: 14px !important;
+    width: calc(100% - 24px) !important;
+    box-sizing: border-box !important;
+    border-left-width: 4px !important;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04) !important;
+  }
+
+  .modern-card h1 {
+    font-size: 1.35rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 16px !important;
+    font-weight: 700 !important;
+  }
+
+  .modern-card h2 {
+    font-size: 1.15rem !important;
+    margin-bottom: 12px !important;
+    font-weight: 700 !important;
+  }
+
+  .modern-card h3 {
+    font-size: 1.05rem !important;
+    margin-bottom: 10px !important;
+    font-weight: 700 !important;
+  }
+
+  .modern-card p,
+  .modern-card li {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    color: #475569 !important;
+  }
+
+  .modern-card ul {
+    padding-left: 2px !important;
+  }
+
+  .modern-card ul li {
+    padding-left: 20px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* ━━━ SEPARATORS: minimal ━━━ */
+  .fusion-separator {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    border: none !important;
+  }
+  .fusion-separator .icon-wrapper {
+    display: none !important;
+  }
+
+  /* ━━━ OUR CLIENTS CAROUSEL ━━━ */
+  .es-carousel .image {
+    padding: 10px 6px !important;
+  }
+  .es-carousel .image img {
+    max-height: 48px !important;
+    width: auto !important;
+  }
+  .es-carousel-wrapper {
+    padding: 0 12px !important;
+  }
+
+  /* ━━━ PACKAGE PAGE LAYOUT ━━━ */
+  .pkg-layout {
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 0 !important;
+  }
+  .pkg-card, .pkg-sidebar {
+    width: 100% !important;
+    flex: unset !important;
+  }
+
+  .sidebar.sidebar-primary,
+  .pkg-sidebar aside {
+    padding: 0 12px !important;
+  }
+
+  /* ━━━ BLUE CTA BANNER ━━━ */
+  .blue-contact-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 14px !important;
+    padding: 24px 20px !important;
+    border-radius: 16px !important;
+    margin: 12px 12px !important;
+  }
+
+  .blue-contact-banner h3 {
+    font-size: 1.1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .blue-contact-banner a {
+    min-height: 46px !important;
+    padding: 12px 28px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* ━━━ IFRAMES / VIDEOS ━━━ */
+  .modern-card iframe[src*="youtube"],
+  .modern-card iframe {
+    width: 100% !important;
+    border-radius: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  /* ━━━ FOOTER ━━━ */
+  .fusion-footer-widget-area {
+    padding: 24px 16px !important;
+  }
+
+  .fusion-footer-widget-area .fusion-column {
+    width: 100% !important;
+    padding: 0 0 16px !important;
+  }
+
+  .fusion-copyright-content {
+    padding: 14px 16px !important;
+    font-size: 12px !important;
+  }
+
+  /* ━━━ PAGE TITLE BAR ━━━ */
+  .page-title-container {
+    padding: 48px 16px 28px !important;
+  }
+
+  .page-title-container h1 {
+    font-size: 1.6rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .page-title-container .breadcrumbs {
+    font-size: 12px !important;
+  }
+
+  /* ━━━ CONTACT PAGE FORMS ━━━ */
+  .wpcf7 input[type="text"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 textarea,
+  .wpcf7 select {
+    min-height: 48px !important;
+    padding: 13px 16px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .wpcf7 input[type="submit"] {
+    min-height: 50px !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+  }
+}
+
+/* ━━━ EXTRA SMALL PHONES (≤ 420px) ━━━ */
+@media (max-width: 420px) {
+  .features-grid {
+    padding: 0 8px !important;
+    gap: 10px !important;
+  }
+
+  .feature-card {
+    padding: 20px 16px 18px !important;
+  }
+
+  .modern-form-card {
+    padding: 22px 16px 24px !important;
+  }
+
+  .modern-features-section {
+    padding: 0 8px 16px !important;
+  }
+
+  #senselogin {
+    padding: 10px 8px 16px !important;
+  }
+
+  #senselogin > div {
+    padding: 20px 16px !important;
+  }
+
+  .modern-card {
+    padding: 20px 16px 20px 20px !important;
+    margin: 10px 8px !important;
+    width: calc(100% - 16px) !important;
+  }
+
+  .blue-contact-banner {
+    margin: 10px 8px !important;
+    padding: 22px 16px !important;
+  }
+
+  .modern-features-ticker {
+    padding: 18px 14px !important;
+  }
+
+  .fusion-fullwidth h2,
+  .avada-row > h2,
+  .section-radial-bg h2 {
+    font-size: 1.3rem !important;
+    padding: 0 12px !important;
+  }
+}
+
+
+
+
+
+
+  .feature-card {
+    padding: 24px 20px !important;
+    border-radius: 14px !important;
+    max-width: 100% !important;
+  }
+
+  .feature-card h3 {
+    font-size: 1.15rem !important;
+    margin-bottom: 10px !important;
+    line-height: 1.35 !important;
+  }
+
+  .feature-card p {
+    font-size: 0.92rem !important;
+    line-height: 1.7 !important;
+    color: #475569 !important;
+  }
+
+  .feature-icon-wrapper {
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 12px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .card-read-more {
+    display: inline-block !important;
+    margin-top: 14px !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    padding: 8px 0 !important;
+  }
+
+  /* ── Section headings: bigger, more breath ── */
+  .fusion-fullwidth h2,
+  .avada-row > h2,
+  .section-radial-bg h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 20px !important;
+    padding: 0 14px !important;
+  }
+
+  /* ── Key Features ticker + Request Demo form ── */
+  .modern-features-section {
+    flex-direction: column !important;
+    padding: 0 14px 24px !important;
+    gap: 16px !important;
+  }
+
+  .modern-features-ticker {
+    max-height: 280px !important;
+    padding: 20px !important;
+    border-radius: 14px !important;
+  }
+
+  .modern-features-ticker h3 {
+    font-size: 1rem !important;
+    margin: 0 0 10px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .modern-features-ticker marquee p {
+    font-size: 13.5px !important;
+    line-height: 1.65 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .modern-form-card {
+    width: 100% !important;
+    max-height: none !important;
+    padding: 24px 20px !important;
+    border-radius: 14px !important;
+    box-shadow: 0 6px 28px rgba(0,0,0,0.07) !important;
+    overflow: visible !important;
+  }
+
+  .modern-form-card h2 {
+    font-size: 1.2rem !important;
+    margin: 0 0 18px !important;
+  }
+
+  /* Form inputs: larger touch targets (44px min), better spacing */
+  .modern-form-card input[type="text"],
+  .modern-form-card input[type="email"],
+  .modern-form-card input[type="tel"],
+  .modern-form-card input[type="number"],
+  .modern-form-card textarea,
+  .modern-form-card select {
+    min-height: 46px !important;
+    padding: 12px 16px !important;
+    font-size: 15px !important;
+    border-radius: 10px !important;
+    margin-bottom: 12px !important;
+    border: 1.5px solid #e2e8f0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .modern-form-card input:focus,
+  .modern-form-card textarea:focus,
+  .modern-form-card select:focus {
+    border-color: #0272a7 !important;
+    box-shadow: 0 0 0 3px rgba(2,114,167,0.1) !important;
+    outline: none !important;
+  }
+
+  /* Submit button: prominent, full-width on mobile */
+  .modern-form-card input[type="submit"],
+  .modern-form-card input[type="button"],
+  .modern-form-card button[type="submit"] {
+    min-height: 48px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    margin-top: 4px !important;
+    cursor: pointer !important;
+  }
+
+  /* ── SEnSEL Login + What We Are section ── */
+  #senselogin {
+    flex-direction: column !important;
+    gap: 16px !important;
+    padding: 16px 14px 24px !important;
+  }
+
+  #senselogin > div {
+    flex: unset !important;
+    width: 100% !important;
+    min-width: unset !important;
+    padding: 22px 18px !important;
+    border-radius: 14px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Login form inputs inside SEnSEL */
+  #senselogin input[type="text"],
+  #senselogin input[type="password"] {
+    min-height: 46px !important;
+    padding: 12px 16px !important;
+    font-size: 15px !important;
+    border-radius: 10px !important;
+  }
+
+  #senselogin input[type="button"] {
+    min-height: 48px !important;
+    font-size: 15px !important;
+    border-radius: 10px !important;
+  }
+
+  /* What We Are tab content */
+  .fusion-tabs .tab-pane {
+    padding: 16px 12px !important;
+    font-size: 14px !important;
+    line-height: 1.75 !important;
+  }
+
+  .fusion-tabs .nav-tabs li a {
+    font-size: 13px !important;
+    padding: 10px 12px !important;
+  }
+
+  /* ── Modern cards: use more width, breathe more ── */
+  .modern-card {
+    padding: 22px 18px 22px 22px !important;
+    margin: 16px 6px !important;
+    border-radius: 12px !important;
+    width: calc(100% - 12px) !important;
+    box-sizing: border-box !important;
+  }
+
+  .modern-card h1 {
+    font-size: 1.35rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .modern-card h2 {
+    font-size: 1.15rem !important;
+    margin-bottom: 12px !important;
+  }
+
+  .modern-card p, .modern-card li {
+    font-size: 14px !important;
+    line-height: 1.75 !important;
+  }
+
+  /* ── Separators: reduce vertical space ── */
+  .fusion-separator {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+  }
+  .fusion-separator .icon-wrapper {
+    display: none !important;
+  }
+
+  /* ── Client logo carousel: slightly taller ── */
+  .es-carousel .image {
+    padding: 12px 8px !important;
+  }
+  .es-carousel .image img {
+    max-height: 50px !important;
+    width: auto !important;
+  }
+
+  /* ── Page content wrap: use full width ── */
+  .page-content-wrap {
+    width: 100% !important;
+    padding: 0 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ── Package page layout: stack sidebar below ── */
+  .pkg-layout {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .pkg-card, .pkg-sidebar {
+    width: 100% !important;
+    flex: unset !important;
+  }
+
+  /* ── Blue CTA banner ── */
+  .blue-contact-banner {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 16px !important;
+    padding: 24px 20px !important;
+    border-radius: 14px !important;
+    margin: 16px 14px !important;
+  }
+
+  .blue-contact-banner h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .blue-contact-banner a {
+    min-height: 44px !important;
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+/* ── Extra small phones (≤ 420px) ── */
+@media (max-width: 420px) {
+  .avada-row {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  .features-grid {
+    padding: 0 10px !important;
+  }
+
+  .feature-card {
+    padding: 22px 16px !important;
+  }
+
+  .modern-form-card {
+    padding: 20px 16px !important;
+  }
+
+  .modern-features-section {
+    padding: 0 10px 20px !important;
+  }
+
+  #senselogin {
+    padding: 12px 10px 20px !important;
+  }
+
+  #senselogin > div {
+    padding: 20px 14px !important;
+  }
+
+  .modern-card {
+    padding: 20px 14px 20px 18px !important;
+    margin: 14px 4px !important;
+  }
+
+  .blue-contact-banner {
+    margin: 12px 10px !important;
+    padding: 20px 16px !important;
+  }
+}
+
 /* Client logo carousel cards — very subtle so logos stay readable */
 .es-carousel .image {
   background: linear-gradient(145deg, rgba(219, 234, 254, 0.35) 0%, rgba(240, 249, 255, 0.25) 55%, rgba(224, 242, 254, 0.30) 100%) !important;
