@@ -1,4 +1,4 @@
-/* 
+﻿/* 
    Modern UI Override CSS - Lovable.dev Theme
    This file applies modern aesthetics (dark/emerald hero, sleek cards) 
    and fixes all z-index/overlap issues.
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 0;
 }
 
-/* 3S hero (compliancetracking.php) — show upper part (face) + no dark overlay */
+/* 3S hero (compliancetracking.php) â€” show upper part (face) + no dark overlay */
 .page-title-container[style*="images/3s_hero.png"] {
   /* Mid-frame composition (more professional than top-only) */
   background-position: center 25% !important;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0 !important;
 }
 
-/* SEnSE_L hero (sense.php) — same treatment as 3S hero */
+/* SEnSE_L hero (sense.php) â€” same treatment as 3S hero */
 .page-title-container[style*="images/sense_hero.png"] {
   background-position: center 34% !important;
 }
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0 !important;
 }
 
-/* Legal Assessment hero (legalassessment.php) — same treatment as SEnSE_L hero */
+/* Legal Assessment hero (legalassessment.php) â€” same treatment as SEnSE_L hero */
 .page-title-container[style*="images/legal_hero_custom.png"] {
   background-position: center 37% !important;
 }
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0 !important;
 }
 
-/* BEST hero (BBSSoft.php) — same treatment as Legal Assessment hero */
+/* BEST hero (BBSSoft.php) â€” same treatment as Legal Assessment hero */
 .page-title-container[style*="images/best_hero_custom.png"] {
   background-position: center 40% !important;
 }
@@ -322,14 +322,14 @@ h1, h2, h3, h4, h5, h6 {
 
 nav.nav-holder {
   margin-top: 0 !important;
-  /* Fluid margin: 8px at 1200px → 50px at 1500px+ */
+  /* Fluid margin: 8px at 1200px â†’ 50px at 1500px+ */
   margin-left: clamp(8px, 14vw - 160px, 50px) !important;
   flex: 1 1 auto !important;
   min-width: 0 !important;
   overflow: visible !important;
 }
 
-/* Scope flex only to the desktop nav — so jQuery can control #mobile-nav */
+/* Scope flex only to the desktop nav â€” so jQuery can control #mobile-nav */
 nav.nav-holder .navigation.menu {
   display: flex !important;
   align-items: center !important;
@@ -350,12 +350,12 @@ nav.nav-holder .navigation.menu {
 
 .navigation.menu li a {
   font-family: 'Inter', sans-serif !important;
-  /* Fluid font: 11.5px at 1200px → 14px at 1500px */
+  /* Fluid font: 11.5px at 1200px â†’ 14px at 1500px */
   font-size: clamp(11.5px, 0.833vw + 1.5px, 14px) !important;
   font-weight: 500 !important;
   color: var(--text-main) !important;
   transition: all var(--transition-fast);
-  /* Fluid horizontal padding: 2px at 1200px → 6px at 1500px */
+  /* Fluid horizontal padding: 2px at 1200px â†’ 6px at 1500px */
   padding: 8px clamp(2px, 1.333vw - 14px, 6px) !important;
   white-space: nowrap !important;
 }
@@ -385,12 +385,12 @@ li:has(.nav-demo-btn) {
   background: #0272a7 !important;
   color: #ffffff !important;
   border-radius: 6px !important;
-  /* Fluid padding: 7px 10px at 1200px → 9px 24px at 1500px */
+  /* Fluid padding: 7px 10px at 1200px â†’ 9px 24px at 1500px */
   padding: clamp(7px, 0.667vw - 1px, 9px) clamp(10px, 4.667vw - 46px, 24px) !important;
-  /* Fluid margin: 4px at 1200px → 10px at 1500px */
+  /* Fluid margin: 4px at 1200px â†’ 10px at 1500px */
   margin-left: clamp(4px, 2vw - 20px, 10px) !important;
   font-family: 'Inter', sans-serif !important;
-  /* Fluid font: 11px at 1200px → 13px at 1500px */
+  /* Fluid font: 11px at 1200px â†’ 13px at 1500px */
   font-size: clamp(11px, 0.667vw + 3px, 13px) !important;
   font-weight: 600 !important;
   letter-spacing: 0.4px !important;
@@ -404,7 +404,7 @@ li:has(.nav-demo-btn) {
   box-shadow: none !important;
   flex-shrink: 0 !important; /* Button never truncates */
 }
-/* Force white text — overrides any gradient/fill-color bleed */
+/* Force white text â€” overrides any gradient/fill-color bleed */
 nav.nav-holder .navigation.menu li a.nav-demo-btn {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
@@ -550,7 +550,7 @@ nav.nav-holder .navigation.menu li a.nav-demo-btn {
 }
 
 .hero-image-overlay ul li::before {
-  content: '•';
+  content: 'â€¢';
   color: var(--color-brand-green);
   font-size: 1.5rem;
   margin-right: 8px;
@@ -673,7 +673,7 @@ nav.nav-holder .navigation.menu li a.nav-demo-btn {
 }
 
 /* ==========================================================================
-   VISUAL RICHNESS ENHANCEMENTS — Tints, Micro-animations, Polish
+   VISUAL RICHNESS ENHANCEMENTS â€” Tints, Micro-animations, Polish
    ========================================================================== */
 
 /* --- Subtle warm tint on main content wrapper --- */
@@ -1028,7 +1028,7 @@ iframe[src*="youtube"]:hover {
 }
 
 /* ==========================================================================
-   DECORATIVE FILLS — Background washes, blobs, accents for white spaces
+   DECORATIVE FILLS â€” Background washes, blobs, accents for white spaces
    ========================================================================== */
 
 /* --- Body: replace dot pattern with a richer layered background --- */
@@ -1329,7 +1329,7 @@ aside ul[style*="list-style:none"] li {
 }
 
 /* ==========================================================================
-   STANDOUT EFFECTS — Animated gradients, glows, premium interactions
+   STANDOUT EFFECTS â€” Animated gradients, glows, premium interactions
    ========================================================================== */
 
 /* --- Animated gradient text on hero heading highlight --- */
@@ -1534,7 +1534,7 @@ a[style*="background:#10b981"]:hover {
 }
 
 /* ==========================================================================
-   COMPREHENSIVE POLISH v2 — Tints, Bigger Logos, Tight Sections, Forms
+   COMPREHENSIVE POLISH v2 â€” Tints, Bigger Logos, Tight Sections, Forms
    Applied: all pages via CSS; no behavioural changes.
    ========================================================================== */
 
@@ -1577,7 +1577,7 @@ a[style*="background:#10b981"]:hover {
   z-index: 1 !important;
 }
 
-/* Tint for the clients carousel section (no background-color set — uses body) */
+/* Tint for the clients carousel section (no background-color set â€” uses body) */
 .fusion-clients-slider {
   background: transparent !important;
 }
@@ -1585,7 +1585,7 @@ a[style*="background:#10b981"]:hover {
   background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 40%, #f5fbf8 100%) !important;
 }
 
-/* --- 4. Client logo cards — bigger, white card, lift on hover --- */
+/* --- 4. Client logo cards â€” bigger, white card, lift on hover --- */
 .clients-carousel .es-carousel li,
 .es-carousel-wrapper.fusion-carousel-small .es-carousel ul li {
   width: 220px !important;
@@ -1618,7 +1618,7 @@ a[style*="background:#10b981"]:hover {
   object-fit: contain !important;
 }
 
-/* --- 5. SEnSEL login section — stretch both cards to equal height --- */
+/* --- 5. SEnSEL login section â€” stretch both cards to equal height --- */
 #senselogin {
   display: flex !important;
   align-items: stretch !important;  /* stretch = equal height for direct children */
@@ -1694,7 +1694,7 @@ a[style*="background:#10b981"]:hover {
   padding: 16px !important;
 }
 
-/* --- 6. "Our Packages" / "Our Services" headings — centred + gradient underline --- */
+/* --- 6. "Our Packages" / "Our Services" headings â€” centred + gradient underline --- */
 .section-radial-bg .avada-row > h1 {
   position: relative !important;
   display: block !important;
@@ -1729,7 +1729,7 @@ a[style*="background:#10b981"]:hover {
 }
 .card-read-more:hover { color: #10b981 !important; border-bottom: none !important; }
 
-/* --- 8. Request Demo / Enquiry Form — modern professional inputs --- */
+/* --- 8. Request Demo / Enquiry Form â€” modern professional inputs --- */
 #frmenquiry h2 a {
   color: #0f172a !important;
   font-family: 'Poppins', sans-serif !important;
@@ -1793,14 +1793,14 @@ marquee {
   line-height: 1.95 !important;
 }
 
-/* --- 10. Modern flex layout — features ticker + form card, equal height --- */
+/* --- 10. Modern flex layout â€” features ticker + form card, equal height --- */
 .modern-features-section {
   display: flex !important;
   gap: 28px !important;
   padding: 10px 24px 30px !important;
   max-width: 1100px !important;
   margin: 0 auto !important;
-  align-items: stretch !important;  /* equal height — both cards grow to tallest */
+  align-items: stretch !important;  /* equal height â€” both cards grow to tallest */
   flex-wrap: nowrap !important;
 }
 .modern-features-ticker {
@@ -1843,7 +1843,7 @@ marquee {
   border: 1px solid rgba(0,0,0,0.05) !important;
   display: flex !important;
   flex-direction: column !important;
-  max-height: 440px !important;  /* match ticker cap — equal height */
+  max-height: 440px !important;  /* match ticker cap â€” equal height */
   overflow: hidden !important;
 }
 .modern-form-card form {
@@ -1856,7 +1856,7 @@ marquee {
   .modern-form-card { width: 100% !important; }
 }
 
-/* --- 11. "Our Clients" heading — centred (rules merged above) --- */
+/* --- 11. "Our Clients" heading â€” centred (rules merged above) --- */
 
 /* --- Carousel navigation arrows: styled --- */
 .es-nav span {
@@ -2028,7 +2028,7 @@ a.to-top:hover {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18) !important;
 }
 
-/* Legacy float sidebar rules removed — packages now use pkg-card/pkg-sidebar flex classes */
+/* Legacy float sidebar rules removed â€” packages now use pkg-card/pkg-sidebar flex classes */
 
 /* Sidebar aside: top padding matches modern-card padding so button aligns with heading */
 .sidebar.sidebar-primary {
@@ -2087,7 +2087,7 @@ a.to-top:hover {
 }
 
 /* ==========================================================================
-   CONTACT PAGE INFO CARD — force text colors over global overrides
+   CONTACT PAGE INFO CARD â€” force text colors over global overrides
    ========================================================================== */
 
 #main div[style*="linear-gradient(160deg"] h2,
@@ -2101,7 +2101,7 @@ a.to-top:hover {
 }
 
 /* ==========================================================================
-   REDESIGNED CTA BANNER — modern full-width strip
+   REDESIGNED CTA BANNER â€” modern full-width strip
    ========================================================================== */
 
 /* Reset container to block, full-width */
@@ -2161,7 +2161,7 @@ a.to-top:hover {
   animation: none !important;
 }
 
-/* Heading — clean, uppercase with subtle glow */
+/* Heading â€” clean, uppercase with subtle glow */
 .blue-contact-banner h4 {
   color: white !important;
   margin: 0 !important;
@@ -2220,10 +2220,10 @@ a.to-top:hover {
 }
 
 /* ==========================================================================
-   BACKGROUND CONTINUITY — subtle brand-tinted fills for white-space gaps
+   BACKGROUND CONTINUITY â€” subtle brand-tinted fills for white-space gaps
    ========================================================================== */
 
-/* Body: richer fixed background — low-opacity blue/green ellipses over a
+/* Body: richer fixed background â€” low-opacity blue/green ellipses over a
    cool-grey base. Increases from the previous ~4% to ~6-7% opacity so the
    tint is perceptible without being garish. */
 body {
@@ -2249,7 +2249,7 @@ body {
   ) !important;
 }
 
-/* Reduce the 60 px top/bottom gap in #main to a modest 28 px —
+/* Reduce the 60 px top/bottom gap in #main to a modest 28 px â€”
    those large gaps are the most visible plain-white stretches. */
 #main,
 div[id="main"] {
@@ -2266,7 +2266,7 @@ div[id="main"] {
 }
 
 /* Expand the radial glow overlay to cover the full section height
-   (was capped at 700 px — both "Packages" + "Services" cards needed more). */
+   (was capped at 700 px â€” both "Packages" + "Services" cards needed more). */
 .section-radial-bg::before {
   height: 100% !important;
   max-width: 100% !important;
@@ -2280,10 +2280,10 @@ div[id="main"] {
 .grecaptcha-badge { display: none !important; }
 
 /* ==========================================================================
-   LIGHT BLUE TINT — fill remaining white-space areas to match modern-card
+   LIGHT BLUE TINT â€” fill remaining white-space areas to match modern-card
    ========================================================================== */
 
-/* Feature cards (Our Packages / Our Services on index.php) — exclude the dark highlighted card */
+/* Feature cards (Our Packages / Our Services on index.php) â€” exclude the dark highlighted card */
 .feature-card:not(.feature-card-highlighted) {
   background: linear-gradient(145deg, rgba(219, 234, 254, 0.50) 0%, rgba(240, 249, 255, 0.40) 55%, rgba(224, 242, 254, 0.45) 100%) !important;
 }
@@ -2313,7 +2313,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 }
 
 /* ==========================================================================
-   RESPONSIVE — Full site, all breakpoints
+   RESPONSIVE â€” Full site, all breakpoints
    ========================================================================== */
 
 /* --- Prevent horizontal scroll + fill full width on all mobile/tablet sizes --- */
@@ -2364,10 +2364,10 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* --- Mobile / tablet nav (≤ 1200px) --- */
+/* --- Mobile / tablet nav (â‰¤ 1200px) --- */
 @media (max-width: 1200px) {
 
-  /* ─── STICKY HEADER: always accessible on scroll ─── */
+  /* â”€â”€â”€ STICKY HEADER: always accessible on scroll â”€â”€â”€ */
   .header-wrapper,
   .header-v1 {
     position: sticky !important;
@@ -2377,7 +2377,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
   }
 
-  /* ─── HIDE desktop navigation completely ─── */
+  /* â”€â”€â”€ HIDE desktop navigation completely â”€â”€â”€ */
   /* Use every possible selector to beat style.css ID-based rules */
   nav.nav-holder,
   nav#nav,
@@ -2406,7 +2406,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     pointer-events: none !important;
   }
 
-  /* ─── HIDE sticky header entirely on mobile (causes overlap) ─── */
+  /* â”€â”€â”€ HIDE sticky header entirely on mobile (causes overlap) â”€â”€â”€ */
   #header-sticky,
   #header-sticky.sticky-header,
   body #header-sticky.sticky-header,
@@ -2415,7 +2415,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     visibility: hidden !important;
   }
 
-  /* ─── HEADER ROW: logo left, hamburger right ─── */
+  /* â”€â”€â”€ HEADER ROW: logo left, hamburger right â”€â”€â”€ */
   #header .avada-row,
   .header-wrapper .avada-row,
   .header-v1 .avada-row {
@@ -2428,7 +2428,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     flex-wrap: nowrap !important;
   }
 
-  /* ─── LOGO: don't float, just flex-align ─── */
+  /* â”€â”€â”€ LOGO: don't float, just flex-align â”€â”€â”€ */
   #header .logo,
   .header-wrapper .logo {
     float: none !important;
@@ -2436,7 +2436,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     margin: 0 !important;
   }
 
-  /* ─── HAMBURGER BUTTON: always visible ─── */
+  /* â”€â”€â”€ HAMBURGER BUTTON: always visible â”€â”€â”€ */
   .mobile-menu-icons {
     display: block !important;
     position: relative !important;
@@ -2467,7 +2467,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     font-size: 20px !important;
   }
 
-  /* ─── MOBILE NAV CONTAINER ─── */
+  /* â”€â”€â”€ MOBILE NAV CONTAINER â”€â”€â”€ */
   .mobile-nav-holder {
     display: block !important;
     z-index: 100001 !important;
@@ -2485,7 +2485,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     padding: 0 !important;
   }
 
-  /* ─── EXPANDED MOBILE MENU (toggle via JS) ─── */
+  /* â”€â”€â”€ EXPANDED MOBILE MENU (toggle via JS) â”€â”€â”€ */
   .mobile-nav-holder #mobile-nav {
     width: 100% !important;
     background: #ffffff !important;
@@ -2546,7 +2546,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     background: #f8fafc !important;
   }
 
-  /* Request Demo button in mobile menu — make it stand out */
+  /* Request Demo button in mobile menu â€” make it stand out */
   .mobile-nav-holder #mobile-nav li a.nav-demo-btn {
     background: #0272a7 !important;
     color: #ffffff !important;
@@ -2565,14 +2565,14 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   .top-contact-bar { display: none !important; }
 }
 
-/* --- Tablet landscape: ≤ 1024px --- */
+/* --- Tablet landscape: â‰¤ 1024px --- */
 @media (max-width: 1024px) {
   .modern-hero { padding: 70px 24px 50px !important; }
   .hero-content h1 { font-size: 2.8rem !important; }
   .hero-grid { gap: 30px !important; }
 }
 
-/* --- Tablet portrait / large mobile: ≤ 992px --- */
+/* --- Tablet portrait / large mobile: â‰¤ 992px --- */
 @media (max-width: 992px) {
   .modern-hero { padding: 56px 20px 40px !important; }
 
@@ -2601,7 +2601,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 }
 
 /* ==========================================================================
-   TESTIMONIAL IFRAMES — desktop unchanged (400×250), mobile responsive
+   TESTIMONIAL IFRAMES â€” desktop unchanged (400Ã—250), mobile responsive
    ========================================================================== */
 @media (max-width: 768px) {
   .modern-card iframe[src*="youtube"] {
@@ -2614,11 +2614,11 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 }
 
 /* ==========================================================================
-   SITE-WIDE RESPONSIVE — comprehensive, deployment-ready rules
+   SITE-WIDE RESPONSIVE â€” comprehensive, deployment-ready rules
    Applied via semantic classes added to every content page
    ========================================================================== */
 
-/* ── Content wrapper (width:90%) ── */
+/* â”€â”€ Content wrapper (width:90%) â”€â”€ */
 .page-content-wrap {
   box-sizing: border-box !important;
   max-width: 100% !important;
@@ -2640,7 +2640,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* ── Package pages layout (sense, BBSSoft, compliancetracking, incidentmanagement) ── */
+/* â”€â”€ Package pages layout (sense, BBSSoft, compliancetracking, incidentmanagement) â”€â”€ */
 /* pkg-card = the main modern-card; pkg-sidebar = the 40% sidebar */
 
 /* Desktop: flex row, card takes remaining space, sidebar is fixed 37% */
@@ -2702,14 +2702,14 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* ── Modern-card: consistent padding & border across ALL pages ── */
+/* â”€â”€ Modern-card: consistent padding & border across ALL pages â”€â”€ */
 .modern-card {
   /* Ensure border-left gap is the same everywhere */
   padding-left: 32px !important;
 }
 
 /* ==========================================================================
-   MODERN-CARD — responsive proportions across all pages
+   MODERN-CARD â€” responsive proportions across all pages
    ========================================================================== */
 
 /* Tablet */
@@ -2723,7 +2723,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   .modern-card h2 { font-size: 1.3rem !important; }
   .modern-card h3 { font-size: 1.1rem !important; }
   .modern-card p, .modern-card li { font-size: 14px !important; line-height: 1.7 !important; }
-  /* Left accent border stays clean — just reduce width */
+  /* Left accent border stays clean â€” just reduce width */
   .modern-card { border-left-width: 3px !important; }
 }
 
@@ -2734,7 +2734,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     margin: 14px 0 !important;
     border-radius: 10px !important;
     border-left-width: 3px !important;
-    /* Remove overflow:hidden on mobile — it clips text. Card shine animation not needed on mobile */
+    /* Remove overflow:hidden on mobile â€” it clips text. Card shine animation not needed on mobile */
     overflow: visible !important;
     /* Ensure text wraps and never overflows */
     word-break: break-word !important;
@@ -2768,7 +2768,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   .modern-card p, .modern-card li { font-size: 13px !important; }
 }
 
-/* --- Stats & Why-Choose grids — tablet --- */
+/* --- Stats & Why-Choose grids â€” tablet --- */
 @media (max-width: 900px) {
   .about-stats-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -2780,7 +2780,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* --- Mobile: ≤ 768px --- */
+/* --- Mobile: â‰¤ 768px --- */
 @media (max-width: 768px) {
   /* Page title + breadcrumb */
   .page-title-container {
@@ -2793,7 +2793,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     word-break: break-word !important;
     margin-bottom: 12px !important;
   }
-  /* Drop the white pill on mobile — use a flat transparent breadcrumb */
+  /* Drop the white pill on mobile â€” use a flat transparent breadcrumb */
   .page-title-container .breadcrumbs {
     display: inline-flex !important;
     flex-wrap: nowrap !important;
@@ -2837,7 +2837,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     box-sizing: border-box !important;
   }
 
-  /* Top contact bar — hide email, keep phone + LinkedIn centred */
+  /* Top contact bar â€” hide email, keep phone + LinkedIn centred */
   .top-contact-bar > div > div:nth-child(2) { display: none !important; }
   .top-contact-bar > div { padding: 0 16px !important; justify-content: center !important; }
 
@@ -2850,7 +2850,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   #heroSlider { height: 300px !important; }
   .hero-slide-name { font-size: 1.3rem !important; }
 
-  /* Feature cards — override the 32% max-width set via inline style */
+  /* Feature cards â€” override the 32% max-width set via inline style */
   .feature-card {
     max-width: 100% !important;
     flex: 1 1 100% !important;
@@ -2864,7 +2864,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
   .feature-card-highlighted { transform: scale(1) !important; }
 
-  /* SEnSEL login section — stack cards vertically */
+  /* SEnSEL login section â€” stack cards vertically */
   #senselogin {
     flex-direction: column !important;
     gap: 16px !important;
@@ -2901,7 +2901,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 
 }
 
-/* --- Stats & Why-Choose grids — small mobile --- */
+/* --- Stats & Why-Choose grids â€” small mobile --- */
 @media (max-width: 576px) {
   .about-stats-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -2929,7 +2929,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* --- Small mobile: ≤ 576px --- */
+/* --- Small mobile: â‰¤ 576px --- */
 @media (max-width: 576px) {
   /* Hide top contact bar entirely */
   .top-contact-bar { display: none !important; }
@@ -2973,14 +2973,14 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 }
 
 /* ==========================================================================
-   MOBILE UI/UX ENHANCEMENT — professional, edge-to-edge layout on phones
-   Only targets ≤768px. Desktop is completely untouched.
-   Principle: Parents go edge-to-edge → cards provide their own padding.
+   MOBILE UI/UX ENHANCEMENT â€” professional, edge-to-edge layout on phones
+   Only targets â‰¤768px. Desktop is completely untouched.
+   Principle: Parents go edge-to-edge â†’ cards provide their own padding.
    ========================================================================== */
 
 @media (max-width: 768px) {
 
-  /* ━━━ LAYOUT RESET: strip all nested padding from parent wrappers ━━━ */
+  /* â”â”â” LAYOUT RESET: strip all nested padding from parent wrappers â”â”â” */
   .avada-row {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -3006,7 +3006,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     box-sizing: border-box !important;
   }
 
-  /* ━━━ SECTION HEADINGS: prominent, full-width ━━━ */
+  /* â”â”â” SECTION HEADINGS: prominent, full-width â”â”â” */
   .fusion-fullwidth h2,
   .avada-row > h2,
   .section-radial-bg h2,
@@ -3018,7 +3018,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     letter-spacing: -0.3px !important;
   }
 
-  /* ━━━ FEATURE CARDS: full-bleed, edge-to-edge ━━━ */
+  /* â”â”â” FEATURE CARDS: full-bleed, edge-to-edge â”â”â” */
   .features-grid {
     grid-template-columns: 1fr !important;
     gap: 12px !important;
@@ -3065,7 +3065,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     color: #0272a7 !important;
   }
 
-  /* ━━━ KEY FEATURES TICKER + REQUEST DEMO FORM ━━━ */
+  /* â”â”â” KEY FEATURES TICKER + REQUEST DEMO FORM â”â”â” */
   .modern-features-section {
     flex-direction: column !important;
     padding: 0 12px 20px !important;
@@ -3099,7 +3099,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     color: #0272a7 !important;
   }
 
-  /* ━━━ REQUEST DEMO FORM: premium card ━━━ */
+  /* â”â”â” REQUEST DEMO FORM: premium card â”â”â” */
   .modern-form-card {
     width: 100% !important;
     max-height: none !important;
@@ -3120,7 +3120,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     border-bottom: 2px solid rgba(2,114,167,0.10) !important;
   }
 
-  /* Form inputs — 48px touch targets */
+  /* Form inputs â€” 48px touch targets */
   .modern-form-card input[type="text"],
   .modern-form-card input[type="email"],
   .modern-form-card input[type="tel"],
@@ -3150,7 +3150,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     outline: none !important;
   }
 
-  /* Submit button — gradient, prominent */
+  /* Submit button â€” gradient, prominent */
   .modern-form-card input[type="submit"],
   .modern-form-card input[type="button"],
   .modern-form-card button[type="submit"] {
@@ -3169,7 +3169,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     box-shadow: 0 4px 14px rgba(2,114,167,0.25) !important;
   }
 
-  /* ━━━ SENSEL LOGIN + WHAT WE ARE ━━━ */
+  /* â”â”â” SENSEL LOGIN + WHAT WE ARE â”â”â” */
   #senselogin {
     flex-direction: column !important;
     gap: 12px !important;
@@ -3221,7 +3221,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     font-weight: 600 !important;
   }
 
-  /* ━━━ MODERN CARDS: near edge-to-edge ━━━ */
+  /* â”â”â” MODERN CARDS: near edge-to-edge â”â”â” */
   .modern-card {
     padding: 24px 20px 24px 22px !important;
     margin: 12px 12px !important;
@@ -3267,7 +3267,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     margin-bottom: 8px !important;
   }
 
-  /* ━━━ SEPARATORS: minimal ━━━ */
+  /* â”â”â” SEPARATORS: minimal â”â”â” */
   .fusion-separator {
     margin-top: 4px !important;
     margin-bottom: 4px !important;
@@ -3277,7 +3277,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     display: none !important;
   }
 
-  /* ━━━ OUR CLIENTS CAROUSEL ━━━ */
+  /* â”â”â” OUR CLIENTS CAROUSEL â”â”â” */
   .es-carousel .image {
     padding: 10px 6px !important;
   }
@@ -3289,7 +3289,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     padding: 0 12px !important;
   }
 
-  /* ━━━ PACKAGE PAGE LAYOUT ━━━ */
+  /* â”â”â” PACKAGE PAGE LAYOUT â”â”â” */
   .pkg-layout {
     flex-direction: column !important;
     gap: 12px !important;
@@ -3305,7 +3305,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     padding: 0 12px !important;
   }
 
-  /* ━━━ BLUE CTA BANNER ━━━ */
+  /* â”â”â” BLUE CTA BANNER â”â”â” */
   .blue-contact-banner {
     flex-direction: column !important;
     text-align: center !important;
@@ -3331,7 +3331,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     justify-content: center !important;
   }
 
-  /* ━━━ IFRAMES / VIDEOS ━━━ */
+  /* â”â”â” IFRAMES / VIDEOS â”â”â” */
   .modern-card iframe[src*="youtube"],
   .modern-card iframe {
     width: 100% !important;
@@ -3339,7 +3339,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     margin-bottom: 12px !important;
   }
 
-  /* ━━━ FOOTER ━━━ */
+  /* â”â”â” FOOTER â”â”â” */
   .fusion-footer-widget-area {
     padding: 24px 16px !important;
   }
@@ -3354,7 +3354,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     font-size: 12px !important;
   }
 
-  /* ━━━ PAGE TITLE BAR ━━━ */
+  /* â”â”â” PAGE TITLE BAR â”â”â” */
   .page-title-container {
     padding: 48px 16px 28px !important;
   }
@@ -3368,7 +3368,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     font-size: 12px !important;
   }
 
-  /* ━━━ CONTACT PAGE FORMS ━━━ */
+  /* â”â”â” CONTACT PAGE FORMS â”â”â” */
   .wpcf7 input[type="text"],
   .wpcf7 input[type="email"],
   .wpcf7 input[type="tel"],
@@ -3391,7 +3391,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-/* ━━━ EXTRA SMALL PHONES (≤ 420px) ━━━ */
+/* â”â”â” EXTRA SMALL PHONES (â‰¤ 420px) â”â”â” */
 @media (max-width: 420px) {
   .features-grid {
     padding: 0 8px !important;
@@ -3441,307 +3441,13 @@ div[style*="border: 1.5px solid #e2e8f0"] {
   }
 }
 
-
-
-
-
-
-  .feature-card {
-    padding: 24px 20px !important;
-    border-radius: 14px !important;
-    max-width: 100% !important;
-  }
-
-  .feature-card h3 {
-    font-size: 1.15rem !important;
-    margin-bottom: 10px !important;
-    line-height: 1.35 !important;
-  }
-
-  .feature-card p {
-    font-size: 0.92rem !important;
-    line-height: 1.7 !important;
-    color: #475569 !important;
-  }
-
-  .feature-icon-wrapper {
-    width: 44px !important;
-    height: 44px !important;
-    border-radius: 12px !important;
-    margin-bottom: 16px !important;
-  }
-
-  .card-read-more {
-    display: inline-block !important;
-    margin-top: 14px !important;
-    font-size: 0.9rem !important;
-    font-weight: 600 !important;
-    padding: 8px 0 !important;
-  }
-
-  /* ── Section headings: bigger, more breath ── */
-  .fusion-fullwidth h2,
-  .avada-row > h2,
-  .section-radial-bg h2 {
-    font-size: 1.5rem !important;
-    margin-bottom: 20px !important;
-    padding: 0 14px !important;
-  }
-
-  /* ── Key Features ticker + Request Demo form ── */
-  .modern-features-section {
-    flex-direction: column !important;
-    padding: 0 14px 24px !important;
-    gap: 16px !important;
-  }
-
-  .modern-features-ticker {
-    max-height: 280px !important;
-    padding: 20px !important;
-    border-radius: 14px !important;
-  }
-
-  .modern-features-ticker h3 {
-    font-size: 1rem !important;
-    margin: 0 0 10px !important;
-    padding-bottom: 8px !important;
-  }
-
-  .modern-features-ticker marquee p {
-    font-size: 13.5px !important;
-    line-height: 1.65 !important;
-    margin-bottom: 10px !important;
-  }
-
-  .modern-form-card {
-    width: 100% !important;
-    max-height: none !important;
-    padding: 24px 20px !important;
-    border-radius: 14px !important;
-    box-shadow: 0 6px 28px rgba(0,0,0,0.07) !important;
-    overflow: visible !important;
-  }
-
-  .modern-form-card h2 {
-    font-size: 1.2rem !important;
-    margin: 0 0 18px !important;
-  }
-
-  /* Form inputs: larger touch targets (44px min), better spacing */
-  .modern-form-card input[type="text"],
-  .modern-form-card input[type="email"],
-  .modern-form-card input[type="tel"],
-  .modern-form-card input[type="number"],
-  .modern-form-card textarea,
-  .modern-form-card select {
-    min-height: 46px !important;
-    padding: 12px 16px !important;
-    font-size: 15px !important;
-    border-radius: 10px !important;
-    margin-bottom: 12px !important;
-    border: 1.5px solid #e2e8f0 !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-  }
-
-  .modern-form-card input:focus,
-  .modern-form-card textarea:focus,
-  .modern-form-card select:focus {
-    border-color: #0272a7 !important;
-    box-shadow: 0 0 0 3px rgba(2,114,167,0.1) !important;
-    outline: none !important;
-  }
-
-  /* Submit button: prominent, full-width on mobile */
-  .modern-form-card input[type="submit"],
-  .modern-form-card input[type="button"],
-  .modern-form-card button[type="submit"] {
-    min-height: 48px !important;
-    font-size: 15px !important;
-    font-weight: 600 !important;
-    border-radius: 10px !important;
-    width: 100% !important;
-    margin-top: 4px !important;
-    cursor: pointer !important;
-  }
-
-  /* ── SEnSEL Login + What We Are section ── */
-  #senselogin {
-    flex-direction: column !important;
-    gap: 16px !important;
-    padding: 16px 14px 24px !important;
-  }
-
-  #senselogin > div {
-    flex: unset !important;
-    width: 100% !important;
-    min-width: unset !important;
-    padding: 22px 18px !important;
-    border-radius: 14px !important;
-    box-sizing: border-box !important;
-  }
-
-  /* Login form inputs inside SEnSEL */
-  #senselogin input[type="text"],
-  #senselogin input[type="password"] {
-    min-height: 46px !important;
-    padding: 12px 16px !important;
-    font-size: 15px !important;
-    border-radius: 10px !important;
-  }
-
-  #senselogin input[type="button"] {
-    min-height: 48px !important;
-    font-size: 15px !important;
-    border-radius: 10px !important;
-  }
-
-  /* What We Are tab content */
-  .fusion-tabs .tab-pane {
-    padding: 16px 12px !important;
-    font-size: 14px !important;
-    line-height: 1.75 !important;
-  }
-
-  .fusion-tabs .nav-tabs li a {
-    font-size: 13px !important;
-    padding: 10px 12px !important;
-  }
-
-  /* ── Modern cards: use more width, breathe more ── */
-  .modern-card {
-    padding: 22px 18px 22px 22px !important;
-    margin: 16px 6px !important;
-    border-radius: 12px !important;
-    width: calc(100% - 12px) !important;
-    box-sizing: border-box !important;
-  }
-
-  .modern-card h1 {
-    font-size: 1.35rem !important;
-    line-height: 1.3 !important;
-    margin-bottom: 14px !important;
-  }
-
-  .modern-card h2 {
-    font-size: 1.15rem !important;
-    margin-bottom: 12px !important;
-  }
-
-  .modern-card p, .modern-card li {
-    font-size: 14px !important;
-    line-height: 1.75 !important;
-  }
-
-  /* ── Separators: reduce vertical space ── */
-  .fusion-separator {
-    margin-top: 8px !important;
-    margin-bottom: 8px !important;
-  }
-  .fusion-separator .icon-wrapper {
-    display: none !important;
-  }
-
-  /* ── Client logo carousel: slightly taller ── */
-  .es-carousel .image {
-    padding: 12px 8px !important;
-  }
-  .es-carousel .image img {
-    max-height: 50px !important;
-    width: auto !important;
-  }
-
-  /* ── Page content wrap: use full width ── */
-  .page-content-wrap {
-    width: 100% !important;
-    padding: 0 12px !important;
-    box-sizing: border-box !important;
-  }
-
-  /* ── Package page layout: stack sidebar below ── */
-  .pkg-layout {
-    flex-direction: column !important;
-    gap: 16px !important;
-  }
-  .pkg-card, .pkg-sidebar {
-    width: 100% !important;
-    flex: unset !important;
-  }
-
-  /* ── Blue CTA banner ── */
-  .blue-contact-banner {
-    flex-direction: column !important;
-    text-align: center !important;
-    gap: 16px !important;
-    padding: 24px 20px !important;
-    border-radius: 14px !important;
-    margin: 16px 14px !important;
-  }
-
-  .blue-contact-banner h3 {
-    font-size: 1.1rem !important;
-  }
-
-  .blue-contact-banner a {
-    min-height: 44px !important;
-    padding: 12px 24px !important;
-    font-size: 14px !important;
-    border-radius: 10px !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-}
-
-/* ── Extra small phones (≤ 420px) ── */
-@media (max-width: 420px) {
-  .avada-row {
-    padding-left: 6px !important;
-    padding-right: 6px !important;
-  }
-
-  .features-grid {
-    padding: 0 10px !important;
-  }
-
-  .feature-card {
-    padding: 22px 16px !important;
-  }
-
-  .modern-form-card {
-    padding: 20px 16px !important;
-  }
-
-  .modern-features-section {
-    padding: 0 10px 20px !important;
-  }
-
-  #senselogin {
-    padding: 12px 10px 20px !important;
-  }
-
-  #senselogin > div {
-    padding: 20px 14px !important;
-  }
-
-  .modern-card {
-    padding: 20px 14px 20px 18px !important;
-    margin: 14px 4px !important;
-  }
-
-  .blue-contact-banner {
-    margin: 12px 10px !important;
-    padding: 20px 16px !important;
-  }
-}
-
-/* Client logo carousel cards — very subtle so logos stay readable */
+/* Client logo carousel cards â€” very subtle so logos stay readable */
 .es-carousel .image {
   background: linear-gradient(145deg, rgba(219, 234, 254, 0.35) 0%, rgba(240, 249, 255, 0.25) 55%, rgba(224, 242, 254, 0.30) 100%) !important;
 }
 
 /* ==========================================================================
-   TYPOGRAPHY SYSTEM — consistent, bold, readable across all pages
+   TYPOGRAPHY SYSTEM â€” consistent, bold, readable across all pages
    ========================================================================== */
 
 /* Global heading weight bump: all h tags bold */
@@ -3817,7 +3523,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px !important;
 }
 
-/* Strong inside list items — clearly bold, dark */
+/* Strong inside list items â€” clearly bold, dark */
 .modern-card ul li strong,
 .modern-card ul li strong span,
 .modern-card ol li strong,
@@ -3863,10 +3569,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
-   FONT SIZE FIXES — override all under-sized inline font-size declarations
+   FONT SIZE FIXES â€” override all under-sized inline font-size declarations
    ========================================================================== */
 
-/* Sticky nav + all nav links — 14px keeps them readable without overflowing */
+/* Sticky nav + all nav links â€” 14px keeps them readable without overflowing */
 #sticky-nav li a,
 .sticky-header .navigation.menu li a,
 .navigation.menu li a {
@@ -3906,7 +3612,7 @@ span[style*="font-size:12px"] {
 }
 
 /* ============================================================
-   SECTION LABELS — <p><strong> inside modern-card
+   SECTION LABELS â€” <p><strong> inside modern-card
    e.g. "Main features -", "Complete solution for..."
    ============================================================ */
 .modern-card p > strong,
@@ -3994,13 +3700,13 @@ select {
   border-collapse: collapse !important;
 }
 
-/* 7. Hero paragraph text contrast fix (subtle: #cbd5e1 → #e2e8f0) */
+/* 7. Hero paragraph text contrast fix (subtle: #cbd5e1 â†’ #e2e8f0) */
 .hero-content p {
   color: #e2e8f0 !important;
 }
 
 /* ============================================================
-   REQUEST DEMO BUTTON — absolute final override
+   REQUEST DEMO BUTTON â€” absolute final override
    modern-theme.css sets  a { color: #0056b3 !important }
    which makes blue-text invisible on blue background.
    This rule has maximum specificity + last source position.
@@ -4028,7 +3734,7 @@ html, body {
   overflow-x: clip !important;
 }
 
-/* Sticky header nav — same flex rules as main header nav */
+/* Sticky header nav â€” same flex rules as main header nav */
 #header-sticky .sticky-shadow .avada-row {
   display: flex !important;
   align-items: center !important;
@@ -4050,7 +3756,7 @@ html, body {
 }
 
 /* ==========================================================================
-   TABLET & SMALL LAPTOP (≤1366px) — iPad, 11–17" screens
+   TABLET & SMALL LAPTOP (â‰¤1366px) â€” iPad, 11â€“17" screens
    CSS-only; large desktops (>1366px) unchanged
    ========================================================================== */
 
@@ -4074,7 +3780,7 @@ html, body {
 }
 
 /* Desktop nav is now fully fluid via clamp() on the base styles.
-   No stepped breakpoints needed — font-size, padding, and margins
+   No stepped breakpoints needed â€” font-size, padding, and margins
    scale smoothly from 1201px to 1500px+.
    The following is kept only as a tight-desktop safety net. */
 @media (min-width: 1201px) and (max-width: 1300px) {
@@ -4210,7 +3916,7 @@ html, body {
   }
 }
 
-/* iPad portrait & similar: refine hero / page title between 901px–1024px */
+/* iPad portrait & similar: refine hero / page title between 901pxâ€“1024px */
 @media (min-width: 901px) and (max-width: 1024px) {
   .modern-hero {
     padding: 64px 24px 44px !important;
