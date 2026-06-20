@@ -1,4 +1,4 @@
-﻿/* 
+/* 
    Modern UI Override CSS - Lovable.dev Theme
    This file applies modern aesthetics (dark/emerald hero, sleek cards) 
    and fixes all z-index/overlap issues.
@@ -1044,11 +1044,15 @@ body {
 }
 
 /* --- Floating decorative blob behind content (top-right) --- */
+.clearfix {
+  overflow: clip !important;
+  overflow: hidden !important;
+}
 .clearfix::before {
   content: "" !important;
   position: absolute !important;
   top: -60px !important;
-  right: -80px !important;
+  right: 0 !important;
   width: 300px !important;
   height: 300px !important;
   background: radial-gradient(circle, rgba(16, 185, 129, 0.06) 0%, transparent 70%) !important;
@@ -1062,7 +1066,7 @@ body {
   content: "" !important;
   position: absolute !important;
   bottom: -40px !important;
-  left: -60px !important;
+  left: 0 !important;
   width: 250px !important;
   height: 250px !important;
   background: radial-gradient(circle, rgba(2, 114, 167, 0.05) 0%, transparent 70%) !important;
@@ -3729,9 +3733,13 @@ a.nav-demo-btn:hover {
 }
 
 /* Global safety: prevent horizontal overflow from nav or any element.
-   Using 'clip' instead of 'hidden' so position:sticky still works. */
-html, body {
+   Using both 'clip' and 'hidden' for maximum browser compatibility.
+   'clip' preserves position:sticky; 'hidden' is the fallback. */
+html {
   overflow-x: clip !important;
+}
+body {
+  overflow-x: hidden !important;
 }
 
 /* Sticky header nav â€” same flex rules as main header nav */
