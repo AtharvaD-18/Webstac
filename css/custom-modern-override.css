@@ -3225,10 +3225,10 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     font-weight: 600 !important;
   }
 
-  /* â”â”â” MODERN CARDS: near edge-to-edge â”â”â” */
+  /* â” â” â”  MODERN CARDS: near edge-to-edge â” â” â”  */
   .modern-card {
     padding: 24px 20px 24px 22px !important;
-    margin: 12px 12px !important;
+    margin: 12px auto !important;
     border-radius: 14px !important;
     width: calc(100% - 24px) !important;
     box-sizing: border-box !important;
@@ -3271,7 +3271,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     margin-bottom: 8px !important;
   }
 
-  /* â”â”â” SEPARATORS: minimal â”â”â” */
+  /* â” â” â”  SEPARATORS: minimal â” â” â”  */
   .fusion-separator {
     margin-top: 4px !important;
     margin-bottom: 4px !important;
@@ -3281,7 +3281,7 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     display: none !important;
   }
 
-  /* â”â”â” OUR CLIENTS CAROUSEL â”â”â” */
+  /* â” â” â”  OUR CLIENTS CAROUSEL â” â” â”  */
   .es-carousel .image {
     padding: 10px 6px !important;
   }
@@ -3316,7 +3316,8 @@ div[style*="border: 1.5px solid #e2e8f0"] {
     gap: 14px !important;
     padding: 24px 20px !important;
     border-radius: 16px !important;
-    margin: 12px 12px !important;
+    margin: 12px auto !important;
+    width: calc(100% - 24px) !important;
   }
 
   .blue-contact-banner h3 {
@@ -3424,13 +3425,14 @@ div[style*="border: 1.5px solid #e2e8f0"] {
 
   .modern-card {
     padding: 20px 16px 20px 20px !important;
-    margin: 10px 8px !important;
+    margin: 10px auto !important;
     width: calc(100% - 16px) !important;
   }
 
   .blue-contact-banner {
-    margin: 10px 8px !important;
+    margin: 10px auto !important;
     padding: 22px 16px !important;
+    width: calc(100% - 16px) !important;
   }
 
   .modern-features-ticker {
