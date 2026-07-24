@@ -3,8 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Safety Legislation | SHE Assessment : Webstac Software Pvt Ltd </title>
-<meta name="keywords" itemprop="keywords" content="Emergency Planning Factories" />
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'Webstac\'s Legal Assessment service evaluates your organization\'s compliance against applicable EHS legislation, helping you identify and close regulatory gaps, including emergency planning under Factories law.';
+$page_keywords = 'legal assessment EHS, SHE legal compliance assessment, safety legislation audit, emergency planning factories';
+$canonical_url = 'https://www.webstac.in/legalassessment.php';
+$og_title = 'Legal Assessment | SHE Assessment: Webstac Software';
+include_once('include/head_links.php');
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>

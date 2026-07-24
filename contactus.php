@@ -31,7 +31,12 @@
 
 		gtag('config', 'AW-11006925921');
 	</script>
-	<?php include_once ('include/head_links.php');
+	<?php
+	$page_description = 'Get in touch with Webstac Software for EHS, safety, and statutory compliance management software solutions. Contact our team for a demo or consultation.';
+	$page_keywords = 'contact Webstac Software, EHS software demo, compliance software consultation';
+	$canonical_url = 'https://www.webstac.in/contactus.php';
+	$og_title = 'Contact Us | Webstac Software Pvt Ltd';
+	include_once ('include/head_links.php');
 	if (isset ($_GET['flag'])) {
 		$flag = $_GET['flag'];
 	}

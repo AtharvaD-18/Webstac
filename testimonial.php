@@ -2,9 +2,14 @@
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Testimonial</title>
-<meta name="description" content="Read client testimonials from industry leaders like Lanxess, Reliance and Tata Power about Webstac HSE compliance and Responsible Care consultancy services." />
-<?php include_once('include/head_links.php') ?>  
+<title>Client Testimonials | Webstac Software Pvt Ltd</title>
+<?php
+$page_description = 'Read client testimonials from industry leaders like Lanxess, Reliance and Tata Power about Webstac HSE compliance and Responsible Care consultancy services.';
+$page_keywords = 'Webstac testimonials, client reviews EHS software, compliance software testimonials';
+$canonical_url = 'https://www.webstac.in/testimonial.php';
+$og_title = 'Client Testimonials | Webstac Software Pvt Ltd';
+include_once('include/head_links.php');
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>

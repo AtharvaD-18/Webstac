@@ -3,7 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Safety Compliance Audit Management | EHS Audit consultancy: Webstac Software Pvt Ltd</title>
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'Webstac\'s HSE Audit software helps organizations conduct structured safety audits, track corrective actions, and improve safety culture, backed by expert EHS audit consultancy.';
+$page_keywords = 'HSE audit software, safety audit management software, EHS audit consultancy, safety culture improvement, audit compliance tracking';
+$canonical_url = 'https://www.webstac.in/hseaudit.php';
+$og_title = 'Safety Compliance Audit Management | EHS Audit Consultancy: Webstac Software';
+include_once('include/head_links.php');
+?>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

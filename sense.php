@@ -3,9 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Environment health and safety legal updates in India | Legal EHS update on mobile app | EHS rulebook : Webstac Software Pvt Ltd </title>
-<meta name="description" itemprop="description" content=" An online Encyclopedia on Safety & Environment Laws, around 60+ and running into 50,000+ pages. Satisfies all doubts and queries by 1000+ FAQs in simplest English. Create Legal Compliance Register in jiffy. Expertise of HSE professionals at its best. " />
-<meta name="keywords" itemprop="keywords" content=" SEnSE Legal,guide for safety and environment, safety culture management system " />
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'SEnSE Legal is an online encyclopedia on Safety & Environment Laws in India, covering 60+ laws and 50,000+ pages. Get 1000+ FAQs, a legal compliance register, and expert HSE guidance in simple English.';
+$page_keywords = 'EHS legal updates India, SEnSE legal, safety legislation tracker, environment law compliance, legal EHS rulebook app, safety culture management system';
+$canonical_url = 'https://www.webstac.in/sense.php';
+$og_title = 'SEnSE (Safety and Environment Super Encyclopaedia) Legal | Webstac Software';
+include_once('include/head_links.php');
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>

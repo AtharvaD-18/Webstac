@@ -7,59 +7,73 @@
 
 <url>
   <loc>https://www.webstac.in/index.php</loc>
-  <lastmod>2018-11-16</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-07-24</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/about.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/incidentmanagement.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/sense.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/compliancetracking.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.webstac.in/BBSSoft.php</loc>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/responsiblecare.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.webstac.in/Responsiblecareglimpses.php</loc>
+  <lastmod>2026-07-24</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
   <loc>https://www.webstac.in/hseaudit.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/legalassessment.php</loc>
-  <lastmod>2018-11-16</lastmod>
+  <lastmod>2026-07-24</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.webstac.in/happenings.php</loc>
+  <lastmod>2026-07-24</lastmod>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/images/WebstacBrochure.pdf</loc>
   <lastmod>2018-07-11T16:11:30+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/testimonial.php</loc>
-  <lastmod>2018-11-16</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-07-24</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://www.webstac.in/contactus.php</loc>
-  <lastmod>2018-11-16</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-07-24</lastmod>
+  <priority>0.70</priority>
 </url>
-
 
 </urlset>

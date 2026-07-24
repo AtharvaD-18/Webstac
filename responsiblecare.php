@@ -3,9 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Responsible Care Consultancy| Leading consultant in RC : Webstac Software Pvt Ltd</title>
-<meta name="description" itemprop="description" content="Webstac is most sucessful pioneer Responsible care consultant in india.Most reputed names from the industry are already using our best RC cosultancy services." />
-<meta name="keywords" itemprop="keywords" content="consultant for RC in India,Responsible Care In India" />
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'Webstac is a pioneering Responsible Care consultant in India. Most reputed names from the chemical and process industry already use our expert RC consultancy services.';
+$page_keywords = 'Responsible Care consultancy, Responsible Care India, chemical industry safety consultancy, consultant for RC in India';
+$canonical_url = 'https://www.webstac.in/responsiblecare.php';
+$og_title = 'Responsible Care Consultancy | Leading Consultant in RC: Webstac Software';
+include_once('include/head_links.php');
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>

@@ -5,7 +5,13 @@
 <title>Statutory Compliance | Regulatory Compliance | Total Compliance Management System : Webstac Software Pvt Ltd </title>
 <meta name="description" itemprop="description" content=" Generic tool for compliances, legal and beyond. Generates additional checkpoints, around 109, to improve safety culture. Prompts and monitors compliances, from them, and also from audit or inspections, etc. What’s more, can plan them all " />
 <meta name="keywords" itemprop="keywords" content=" safety management software,compliance tracking software, Opertaional compliance " />
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = '3S (Safety Support System) by Webstac is a statutory and regulatory compliance tracking software that helps enterprises manage total compliance obligations efficiently.';
+$page_keywords = 'statutory compliance software, regulatory compliance tracking, compliance management system, total compliance management, 3S safety support system';
+$canonical_url = 'https://www.webstac.in/compliancetracking.php';
+$og_title = 'Statutory Compliance | Regulatory Compliance | Total Compliance Management System: Webstac Software';
+include_once('include/head_links.php');
+?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

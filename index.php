@@ -8,11 +8,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NCPZ4D8');</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>SHE Compliance,OSH Code Management,Compliance Management Software,Safety Audit India </title>
-<meta name="description" itemprop="description" content="Webstac is web based statutory compliance software tools for all the laws in any language. It is in the market for decade.  Most reputed names from the industry are already using Webstac Softwares." />
-
-<meta name="keywords" itemprop="keywords" content="consultant for RC in India,Compliance Monitoring Software,Safety compliance Audit" />
 <meta name="google-site-verification" content="grW5r4Bg4vbLKCj5qn7M56VhvuDq18qnU4Y37szHHMc" />
-<?php include_once('include/head_links.php'); ?>
+<meta name="google-site-verification" content="Q6qzlTXG3iFKGFsgm04fJsDK-Kf0WP7lKharDpJbRmA" />
+<?php
+$page_description = 'Webstac is a web-based statutory compliance software for all applicable laws, in any language. Trusted by leading enterprises across India for 15+ years for EHS, safety audit, and compliance management.';
+$page_keywords = 'statutory compliance software, compliance monitoring software, safety compliance audit, EHS compliance management, OSH code compliance, consultant for RC in India';
+$canonical_url = 'https://www.webstac.in/';
+$og_title = 'Webstac Software | EHS & Statutory Compliance Management';
+include_once('include/head_links.php');
+?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

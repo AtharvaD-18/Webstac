@@ -2,12 +2,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
-<meta name="description" itemprop="description" content="" />
-<meta name="keywords" itemprop="keywords" content="" />
-<link rel="canonical" href="https://www.webstac.in" />
-<meta property="og:title" content="Webstac Software" />
+<?php
+$page_description = isset($page_description) ? $page_description : 'Webstac Software provides EHS, statutory compliance, safety audit, and incident management software solutions for enterprises across India.';
+$page_keywords = isset($page_keywords) ? $page_keywords : 'EHS software, statutory compliance software, safety audit software, compliance management India';
+$canonical_url = isset($canonical_url) ? $canonical_url : 'https://www.webstac.in/';
+$og_title = isset($og_title) ? $og_title : 'Webstac Software';
+?>
+<meta name="description" itemprop="description" content="<?php echo htmlspecialchars($page_description); ?>" />
+<meta name="keywords" itemprop="keywords" content="<?php echo htmlspecialchars($page_keywords); ?>" />
+<link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
+<meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.webstac.in" />
+<meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>" />
 <meta property="og:image" content="images/webstac-logo.png" />
 <meta property="og:site_name" content="Webstac Software" />
 

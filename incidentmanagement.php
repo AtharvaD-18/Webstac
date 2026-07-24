@@ -3,9 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Incident[EHS] Management Software | Safety Incident Response Software | Accident Prevention Software: Webstac Software Pvt Ltd </title>
-<meta name="description" itemprop="description" content=" Menu Driven Root Cause Analysis tool for the range of accidents, from near miss to major. Tracks & prompts compliances under CAPA. Configured to FA & State Factories Rules. Classification as per BIS: 3786 for TREND ANALYSIS " />
-<meta name="keywords" itemprop="keywords" content=" Root Cause Analysis, Classification of Accidents, Incident Investigation Software " />
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'Infoinci by Webstac is a menu-driven Root Cause Analysis and incident management software covering near-miss to major accidents, CAPA tracking, and BIS 3786 classification for trend analysis.';
+$page_keywords = 'incident management software, EHS incident reporting, accident prevention software, safety incident response software, root cause analysis, incident investigation software';
+$canonical_url = 'https://www.webstac.in/incidentmanagement.php';
+$og_title = 'Infoinci - Incident[EHS] Management Software | Webstac Software';
+include_once('include/head_links.php');
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>

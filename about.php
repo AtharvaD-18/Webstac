@@ -3,7 +3,13 @@
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>About Us | Webstac Software Pvt Ltd</title>
-<?php include_once('include/head_links.php') ?>  
+<?php
+$page_description = 'Learn about Webstac Software Pvt Ltd, a trusted provider of EHS and statutory compliance management software with 15+ years of expertise serving enterprises across India.';
+$page_keywords = 'about Webstac Software, EHS software company India, compliance software provider, safety software company';
+$canonical_url = 'https://www.webstac.in/about.php';
+$og_title = 'About Us | Webstac Software Pvt Ltd';
+include_once('include/head_links.php');
+?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

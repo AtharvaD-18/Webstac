@@ -2,10 +2,14 @@
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Statutory Compliance | Regulatory Compliance | Total Compliance Management System : Webstac Software Pvt Ltd </title>
-<meta name="description" itemprop="description" content=" Generic tool for compliances, legal and beyond. Generates additional checkpoints, around 109, to improve safety culture. Prompts and monitors compliances, from them, and also from audit or inspections, etc. What’s more, can plan them all " />
-<meta name="keywords" itemprop="keywords" content=" safety management software,compliance tracking software, Opertaional compliance " />
-<?php include_once('include/head_links.php') ?>  
+<title>BEST (Behaviour Ensuring Safety with Tracker) | Behaviour Based Safety Software : Webstac Software Pvt Ltd</title>
+<?php
+$page_description = 'BEST (Behaviour Ensuring Safety with Tracker) by Webstac is a behaviour-based safety software with 109+ checkpoints to prompt, monitor, and plan compliances from audits, inspections, and more, improving overall safety culture.';
+$page_keywords = 'behaviour based safety software, BBS software, safety behaviour tracker, safety management software, compliance tracking software, operational compliance';
+$canonical_url = 'https://www.webstac.in/BBSSoft.php';
+$og_title = 'BEST - Behaviour Ensuring Safety with Tracker | Webstac Software';
+include_once('include/head_links.php');
+?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

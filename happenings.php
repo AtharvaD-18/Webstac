@@ -3,8 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Happening at Webstac | Webstac Software Pvt Ltd</title>
-<meta name="description" content="Latest news, events and happenings at Webstac Software – stay updated on our HSE compliance workshops, seminars and industry activities." />
-<?php include_once('include/head_links.php') ?>
+<?php
+$page_description = 'Latest news, events and happenings at Webstac Software – stay updated on our HSE compliance workshops, seminars and industry activities.';
+$page_keywords = 'Webstac news, EHS events India, safety compliance workshops, HSE seminars';
+$canonical_url = 'https://www.webstac.in/happenings.php';
+$og_title = 'Happening at Webstac | Webstac Software Pvt Ltd';
+include_once('include/head_links.php');
+?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
