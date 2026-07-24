@@ -17,6 +17,22 @@ $og_title = isset($og_title) ? $og_title : 'Webstac Software';
 <meta property="og:image" content="images/webstac-logo.png" />
 <meta property="og:site_name" content="Webstac Software" />
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Webstac Software Pvt Ltd",
+  "url": "https://www.webstac.in/",
+  "logo": "https://www.webstac.in/images/webstac-logo.png",
+  "description": "Webstac Software provides EHS, statutory compliance, safety audit, incident management, and Responsible Care consultancy software solutions for enterprises across India.",
+  "email": "contact@webstac.in",
+  "telephone": "+91-81086-64360",
+  "sameAs": [
+    "https://www.linkedin.com/company/webstac-software-private-limited/"
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">

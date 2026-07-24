@@ -10,6 +10,38 @@ $canonical_url = 'https://www.webstac.in/responsiblecare.php';
 $og_title = 'Responsible Care Consultancy | Leading Consultant in RC: Webstac Software';
 include_once('include/head_links.php');
 ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Responsible Care consultancy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Responsible Care is a global chemical industry initiative for safe management of chemicals, covering 6 codes: Top Management Commitment & Action (CSR included), Process Safety, Employee Health & Safety, Pollution Prevention, Emergency Response, Distribution, Product Safety & Stewardship, and Security. A Responsible Care consultant helps chemical and process industry companies implement and maintain these standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who provides Responsible Care consultancy in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Webstac Software Pvt Ltd is a specialized Responsible Care consultant in India, founded by Mr. Vijay Bukkawar, who served as an advisor and Ex-Director at the Indian Chemical Council (ICC) on Safety, Health, Environment and Responsible Care. Webstac's clients include Hikal, Sudarshan, Lanxess, Clariant, Deepak Nitrite, DCM Shriram, and other leading chemical industry names."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Webstac's Responsible Care consultancy include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Webstac's Responsible Care consultancy covers all 6 Responsible Care codes, plus guidance on table-top exercises for mock drills, accident investigation, and industrial hygiene surveys (qualitative and quantitative), supported by a panel of nationally known specialists on Emergency Planning and Occupational Health."
+      }
+    }
+  ]
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006925921"></script>
 <script>
@@ -195,104 +227,104 @@ include_once('include/head_links.php');
 
 	<div class="fusion-fullwidth fullwidth-box" style="background-attachment:scroll;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:0px;padding-right:0px;padding-top:10px;">
 	<div class="avada-row">
-	<h1><span style="color: #0272a7;"><strong style="padding-top: 20px;">Our Clients </strong></span></h1>
+	<h2><span style="color: #0272a7;"><strong style="padding-top: 20px;">Our Clients </strong></span></h2>
 	<div class="fusion-clients-slider clientslider-container picture-size-auto">
 	<div class="es-carousel-wrapper fusion-carousel-small clients-carousel">
 	<div class="es-carousel"><ul>
-	<li><div class="image"><img src="images/Alembic.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AlfaLaval.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Allkyl.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Astec.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Aurobindo.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BASF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Chevron.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Clariant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Coromandel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Croda.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DFPCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dow.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DSCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/emc.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Excel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Firmenich.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/heubach.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hikal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hincol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/HP.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Huntsman.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/ILFS.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/India_Glycols_Ltd.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Johnson_Matthey.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Kansai.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Karam.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/L&T.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lanxess.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Laxmi_Organic.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lubrizol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahindra.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nagarjuna.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Nocil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novartis.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/NPL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Oronite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Owens_Corning.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Privi_Organics.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rallis_India.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/RCF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rhodia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SI_Group.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Siemens.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SRF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Styrolution.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudarshan.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sudchemie.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Perkins.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sulzer.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tagros.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tata_Power.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Technova.jpg" alt="" /></div></li>
+	<li><div class="image"><img src="images/Alembic.jpg" alt="Alembic logo" /></div></li>
+<li><div class="image"><img src="images/AlfaLaval.jpg" alt="Alfa Laval logo" /></div></li>
+<li><div class="image"><img src="images/Allkyl.jpg" alt="Allkyl logo" /></div></li>
+<li><div class="image"><img src="images/Astec.jpg" alt="Astec logo" /></div></li>
+<li><div class="image"><img src="images/Aurobindo.jpg" alt="Aurobindo logo" /></div></li>
+<li><div class="image"><img src="images/BASF.jpg" alt="BASF logo" /></div></li>
+<li><div class="image"><img src="images/Chevron.jpg" alt="Chevron logo" /></div></li>
+<li><div class="image"><img src="images/Clariant.jpg" alt="Clariant logo" /></div></li>
+<li><div class="image"><img src="images/Coromandel.jpg" alt="Coromandel logo" /></div></li>
+<li><div class="image"><img src="images/Croda.jpg" alt="Croda logo" /></div></li>
+<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="Deepak Nitrite logo" /></div></li>
+<li><div class="image"><img src="images/DFPCL.jpg" alt="DFPCL logo" /></div></li>
+<li><div class="image"><img src="images/Dow.jpg" alt="Dow logo" /></div></li>
+<li><div class="image"><img src="images/DSCL.jpg" alt="DSCL logo" /></div></li>
+<li><div class="image"><img src="images/emc.jpg" alt="emc logo" /></div></li>
+<li><div class="image"><img src="images/Excel.jpg" alt="Excel logo" /></div></li>
+<li><div class="image"><img src="images/Firmenich.jpg" alt="Firmenich logo" /></div></li>
+<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="Forbes Marshall logo" /></div></li>
+<li><div class="image"><img src="images/heubach.jpg" alt="heubach logo" /></div></li>
+<li><div class="image"><img src="images/Hikal.jpg" alt="Hikal logo" /></div></li>
+<li><div class="image"><img src="images/Hincol.jpg" alt="Hincol logo" /></div></li>
+<li><div class="image"><img src="images/HP.jpg" alt="HP logo" /></div></li>
+<li><div class="image"><img src="images/Huntsman.jpg" alt="Huntsman logo" /></div></li>
+<li><div class="image"><img src="images/ILFS.jpg" alt="ILFS logo" /></div></li>
+<li><div class="image"><img src="images/India_Glycols_Ltd.jpg" alt="India Glycols Ltd logo" /></div></li>
+<li><div class="image"><img src="images/Johnson_Matthey.jpg" alt="Johnson Matthey logo" /></div></li>
+<li><div class="image"><img src="images/Kansai.jpg" alt="Kansai logo" /></div></li>
+<li><div class="image"><img src="images/Karam.jpg" alt="Karam logo" /></div></li>
+<li><div class="image"><img src="images/L&T.jpg" alt="L&T logo" /></div></li>
+<li><div class="image"><img src="images/Lanxess.jpg" alt="Lanxess logo" /></div></li>
+<li><div class="image"><img src="images/Laxmi_Organic.jpg" alt="Laxmi Organic logo" /></div></li>
+<li><div class="image"><img src="images/Lubrizol.jpg" alt="Lubrizol logo" /></div></li>
+<li><div class="image"><img src="images/Mahindra.jpg" alt="Mahindra logo" /></div></li>
+<li><div class="image"><img src="images/Nagarjuna.jpg" alt="Nagarjuna logo" /></div></li>
+<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="Navin Fluorine logo" /></div></li>
+<li><div class="image"><img src="images/Nocil.jpg" alt="Nocil logo" /></div></li>
+<li><div class="image"><img src="images/Novartis.jpg" alt="Novartis logo" /></div></li>
+<li><div class="image"><img src="images/NPL.jpg" alt="NPL logo" /></div></li>
+<li><div class="image"><img src="images/Oronite.jpg" alt="Oronite logo" /></div></li>
+<li><div class="image"><img src="images/Owens_Corning.jpg" alt="Owens Corning logo" /></div></li>
+<li><div class="image"><img src="images/Privi_Organics.jpg" alt="Privi Organics logo" /></div></li>
+<li><div class="image"><img src="images/Rallis_India.jpg" alt="Rallis India logo" /></div></li>
+<li><div class="image"><img src="images/RCF.jpg" alt="RCF logo" /></div></li>
+<li><div class="image"><img src="images/Rhodia.jpg" alt="Rhodia logo" /></div></li>
+<li><div class="image"><img src="images/SI_Group.jpg" alt="SI Group logo" /></div></li>
+<li><div class="image"><img src="images/Siemens.jpg" alt="Siemens logo" /></div></li>
+<li><div class="image"><img src="images/SRF.jpg" alt="SRF logo" /></div></li>
+<li><div class="image"><img src="images/Styrolution.jpg" alt="Styrolution logo" /></div></li>
+<li><div class="image"><img src="images/Sudarshan.jpg" alt="Sudarshan logo" /></div></li>
+<li><div class="image"><img src="images/Sudchemie.jpg" alt="Sudchemie logo" /></div></li>
+<li><div class="image"><img src="images/Perkins.jpg" alt="Perkins logo" /></div></li>
+<li><div class="image"><img src="images/Sulzer.jpg" alt="Sulzer logo" /></div></li>
+<li><div class="image"><img src="images/Tagros.jpg" alt="Tagros logo" /></div></li>
+<li><div class="image"><img src="images/Tata_Power.jpg" alt="Tata Power logo" /></div></li>
+<li><div class="image"><img src="images/Technova.jpg" alt="Technova logo" /></div></li>
 <li><div class="image"><img src="images/Transparent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/United.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Watson.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Anshul.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Indofil.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Fosroc.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Man_Trucks.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jindal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Sigma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Abbott.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Poclain.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Smartchemtechnologies.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Inventia.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Apcotex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/colourtex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dharamsi_Morarji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Jubliant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/megafine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Shiva_Pharma.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BKT.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Divislab.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Paushak.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Covestro.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/cl12.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Zoetis.png" alt="" /></div></li>
-<li><div class="image"><img src="images/virajprofile.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/sequent.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Novomet.png" alt="" /></div></li>
-<li><div class="image"><img src="images/Meghmani.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Masterbuilders.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahanagargas.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/LTHeavyEng.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/JFEShoji.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/godrejIndustries.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Finolex.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/epsilon.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DCMShriram.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Cardolite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AsianPaints.jpg" alt="" /></div></li>
+<li><div class="image"><img src="images/United.jpg" alt="United logo" /></div></li>
+<li><div class="image"><img src="images/Watson.jpg" alt="Watson logo" /></div></li>
+<li><div class="image"><img src="images/Anshul.jpg" alt="Anshul logo" /></div></li>
+<li><div class="image"><img src="images/Indofil.jpg" alt="Indofil logo" /></div></li>
+<li><div class="image"><img src="images/Fosroc.jpg" alt="Fosroc logo" /></div></li>
+<li><div class="image"><img src="images/Man_Trucks.jpg" alt="Man Trucks logo" /></div></li>
+<li><div class="image"><img src="images/Jindal.jpg" alt="Jindal logo" /></div></li>
+<li><div class="image"><img src="images/Sigma.jpg" alt="Sigma logo" /></div></li>
+<li><div class="image"><img src="images/Abbott.jpg" alt="Abbott logo" /></div></li>
+<li><div class="image"><img src="images/Poclain.jpg" alt="Poclain logo" /></div></li>
+<li><div class="image"><img src="images/Smartchemtechnologies.jpg" alt="Smartchemtechnologies logo" /></div></li>
+<li><div class="image"><img src="images/Inventia.jpg" alt="Inventia logo" /></div></li>
+<li><div class="image"><img src="images/Apcotex.jpg" alt="Apcotex logo" /></div></li>
+<li><div class="image"><img src="images/colourtex.jpg" alt="colourtex logo" /></div></li>
+<li><div class="image"><img src="images/Dharamsi_Morarji.jpg" alt="Dharamsi Morarji logo" /></div></li>
+<li><div class="image"><img src="images/Jubliant.jpg" alt="Jubliant logo" /></div></li>
+<li><div class="image"><img src="images/megafine.jpg" alt="megafine logo" /></div></li>
+<li><div class="image"><img src="images/Shiva_Pharma.jpg" alt="Shiva Pharma logo" /></div></li>
+<li><div class="image"><img src="images/BKT.jpg" alt="BKT logo" /></div></li>
+<li><div class="image"><img src="images/Divislab.jpg" alt="Divislab logo" /></div></li>
+<li><div class="image"><img src="images/Paushak.jpg" alt="Paushak logo" /></div></li>
+<li><div class="image"><img src="images/Covestro.jpg" alt="Covestro logo" /></div></li>
+<li><div class="image"><img src="images/cl12.jpg" alt="Client logo" /></div></li>
+<li><div class="image"><img src="images/Zoetis.png" alt="Zoetis logo" /></div></li>
+<li><div class="image"><img src="images/virajprofile.jpg" alt="virajprofile logo" /></div></li>
+<li><div class="image"><img src="images/sequent.jpg" alt="sequent logo" /></div></li>
+<li><div class="image"><img src="images/Novomet.png" alt="Novomet logo" /></div></li>
+<li><div class="image"><img src="images/Meghmani.jpg" alt="Meghmani logo" /></div></li>
+<li><div class="image"><img src="images/Masterbuilders.jpg" alt="Masterbuilders logo" /></div></li>
+<li><div class="image"><img src="images/Mahanagargas.jpg" alt="Mahanagargas logo" /></div></li>
+<li><div class="image"><img src="images/LTHeavyEng.jpg" alt="LTHeavy Eng logo" /></div></li>
+<li><div class="image"><img src="images/JFEShoji.jpg" alt="JFEShoji logo" /></div></li>
+<li><div class="image"><img src="images/godrejIndustries.jpg" alt="godrej Industries logo" /></div></li>
+<li><div class="image"><img src="images/Finolex.jpg" alt="Finolex logo" /></div></li>
+<li><div class="image"><img src="images/epsilon.jpg" alt="epsilon logo" /></div></li>
+<li><div class="image"><img src="images/DCMShriram.jpg" alt="DCMShriram logo" /></div></li>
+<li><div class="image"><img src="images/Cardolite.jpg" alt="Cardolite logo" /></div></li>
+<li><div class="image"><img src="images/AsianPaints.jpg" alt="Asian Paints logo" /></div></li>
 	</ul>
 	</div><div class="es-nav">
 	<span class="es-nav-prev"></span>

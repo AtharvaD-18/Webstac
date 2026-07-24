@@ -126,7 +126,7 @@ include_once('include/head_links.php');
 
 	<div class="modern-card" style="width:100%; box-sizing: border-box;">
 
-		<h1><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Latest Happening at Webstac –</span></h1>
+		<h2><span style="color: #0094be; font-size: 28px; font-family: Humnst777 BlkCn BT;">Latest Happening at Webstac –</span></h2>
 
 		<div class="fusion-separator fusion-full-width-sep sep-single" style="border-color:#020202;margin-top:10px;">
   <span class="icon-wrapper" style="border-color:#020202;">
@@ -195,39 +195,39 @@ include_once('include/head_links.php');
 
 	<div class="fusion-fullwidth fullwidth-box" style="background-attachment:scroll;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:0px;padding-right:0px;padding-top:10px;">
 	<div class="avada-row">
-	<h1><span style="color: #0272a7;"><strong style="padding-top: 20px;">Our Clients </strong></span></h1>
+	<h2><span style="color: #0272a7;"><strong style="padding-top: 20px;">Our Clients </strong></span></h2>
 	<div class="fusion-clients-slider clientslider-container picture-size-auto">
 	<div class="es-carousel-wrapper fusion-carousel-small clients-carousel">
 	<div class="es-carousel"><ul>
-	<li><div class="image"><img src="images/Alembic.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AlfaLaval.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Allkyl.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Astec.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Aurobindo.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/BASF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Chevron.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Clariant.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Coromandel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Croda.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DFPCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Dow.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/DSCL.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Excel.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Firmenich.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Hikal.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Huntsman.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lanxess.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Lubrizol.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Mahindra.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Rallis_India.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/RCF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Siemens.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/SRF.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/Tata_Power.jpg" alt="" /></div></li>
-<li><div class="image"><img src="images/AsianPaints.jpg" alt="" /></div></li>
+	<li><div class="image"><img src="images/Alembic.jpg" alt="Alembic logo" /></div></li>
+<li><div class="image"><img src="images/AlfaLaval.jpg" alt="Alfa Laval logo" /></div></li>
+<li><div class="image"><img src="images/Allkyl.jpg" alt="Allkyl logo" /></div></li>
+<li><div class="image"><img src="images/Astec.jpg" alt="Astec logo" /></div></li>
+<li><div class="image"><img src="images/Aurobindo.jpg" alt="Aurobindo logo" /></div></li>
+<li><div class="image"><img src="images/BASF.jpg" alt="BASF logo" /></div></li>
+<li><div class="image"><img src="images/Chevron.jpg" alt="Chevron logo" /></div></li>
+<li><div class="image"><img src="images/Clariant.jpg" alt="Clariant logo" /></div></li>
+<li><div class="image"><img src="images/Coromandel.jpg" alt="Coromandel logo" /></div></li>
+<li><div class="image"><img src="images/Croda.jpg" alt="Croda logo" /></div></li>
+<li><div class="image"><img src="images/Deepak_Nitrite.jpg" alt="Deepak Nitrite logo" /></div></li>
+<li><div class="image"><img src="images/DFPCL.jpg" alt="DFPCL logo" /></div></li>
+<li><div class="image"><img src="images/Dow.jpg" alt="Dow logo" /></div></li>
+<li><div class="image"><img src="images/DSCL.jpg" alt="DSCL logo" /></div></li>
+<li><div class="image"><img src="images/Excel.jpg" alt="Excel logo" /></div></li>
+<li><div class="image"><img src="images/Firmenich.jpg" alt="Firmenich logo" /></div></li>
+<li><div class="image"><img src="images/Forbes_Marshall.jpg" alt="Forbes Marshall logo" /></div></li>
+<li><div class="image"><img src="images/Hikal.jpg" alt="Hikal logo" /></div></li>
+<li><div class="image"><img src="images/Huntsman.jpg" alt="Huntsman logo" /></div></li>
+<li><div class="image"><img src="images/Lanxess.jpg" alt="Lanxess logo" /></div></li>
+<li><div class="image"><img src="images/Lubrizol.jpg" alt="Lubrizol logo" /></div></li>
+<li><div class="image"><img src="images/Mahindra.jpg" alt="Mahindra logo" /></div></li>
+<li><div class="image"><img src="images/Navin_Fluorine.jpg" alt="Navin Fluorine logo" /></div></li>
+<li><div class="image"><img src="images/Rallis_India.jpg" alt="Rallis India logo" /></div></li>
+<li><div class="image"><img src="images/RCF.jpg" alt="RCF logo" /></div></li>
+<li><div class="image"><img src="images/Siemens.jpg" alt="Siemens logo" /></div></li>
+<li><div class="image"><img src="images/SRF.jpg" alt="SRF logo" /></div></li>
+<li><div class="image"><img src="images/Tata_Power.jpg" alt="Tata Power logo" /></div></li>
+<li><div class="image"><img src="images/AsianPaints.jpg" alt="Asian Paints logo" /></div></li>
 	</ul>
 	</div><div class="es-nav">
 	<span class="es-nav-prev"></span>
